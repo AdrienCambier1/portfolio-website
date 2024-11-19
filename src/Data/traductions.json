@@ -43,7 +43,8 @@
     "À propos du piano": "À propos du piano",
     "Comment j'apprends": "Comment j'apprends",
     "Quelques pièces apprises": "Quelques pièces apprises",
-    "Difficulté": "Difficulté"
+    "Difficulté": "Difficulté",
+    "Retour à l'accueil": "Retour à l'accueil"
   },
   "en": {
     "Développeur web (En cours de formation)": "Web developer (In training)",
@@ -89,6 +90,7 @@
     "À propos du piano": "About the piano",
     "Comment j'apprends": "How I learn",
     "Quelques pièces apprises": "Some pieces learned",
-    "Difficulté": "Difficulty"
+    "Difficulté": "Difficulty",
+    "Retour à l'accueil": "Back to home"
   }
 }

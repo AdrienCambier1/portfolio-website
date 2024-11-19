@@ -85,7 +85,7 @@ export default function Project() {
             Le projet que vous recherchez n'existe pas pour le moment.
           </p>
           <Link className="beige-button" to="/">
-            Retour à l'accueil
+            {traductions[selectedLanguage as "fr" | "en"]["Retour à l'accueil"]}
           </Link>
         </section>
       </>

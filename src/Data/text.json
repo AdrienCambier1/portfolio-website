@@ -1,0 +1,104 @@
+{
+  "about": {
+    "1": {
+      "fr": "Je m'appelle Adrien Cambier et je suis passionné par le développement et plus particulièrement créer des sites webs et des applications.",
+      "en": "My name is Adrien Cambier and I'm passionate about development, especially creating websites and applications."
+    },
+    "2": {
+      "fr": "Actuellement étudiant en informatique au sein du campus Ynov à Sophia Antipolis, je recherche une alternance pour l'année 2024-2025 dans le domaine du développement d'interfaces web et d'applications, afin de mettre en pratique mes compétences et contribuer à des projets innovants.",
+      "en": "Currently studying computer science at the Ynov campus in Sophia Antipolis, I'm looking for a work-study position for the year 2024-2025 in the field of web interface and application development, in order to put my skills into practice and contribute to innovative projects."
+    },
+    "3": {
+      "fr": "Bonne visite à vous sur ma page Web !",
+      "en": "Enjoy your visit to my Web page!"
+    }
+  },
+  "background": {
+    "1": {
+      "fr": "Suite à l'obtention de mon DUT, j'ai décidé de poursuivre ma 3ème année au sein du campus Ynov qui proposait une formation plus orientée développement. Cette formation s'inscrit dans la suite logique de mon parcours en tant que développeur.",
+      "en": "After obtaining my DUT, I decided to continue my 3rd year at the Ynov campus, which offered a more development-oriented course. This course was a logical continuation of my career as a developer."
+    },
+    "2": {
+      "fr": "J'ai choisi la formation DUT R&T car elle offre un parcours orienté informatique et sécurité ainsi qu'une grande perspective d'avenir dans le marché du travail. L'informatique est un domaine grandissant et la demande est toujours plus forte.",
+      "en": "I chose the DUT R&T course because it offers an IT and security-oriented career path as well as great prospects in the job market. IT is a growing field and the demand is ever increasing."
+    },
+    "3": {
+      "fr": "Le Lycée Léonard de Vinci situé à Antibes est un lycée spécialisé dans la filière STI2D. J'ai choisi d'effectuer mon cursus scolaire dans cet établissement car il offrait le choix de la spécialité architecture et construction qui m'intriguait grandement.",
+      "en": "The Lycée Léonard de Vinci in Antibes specializes in STI2D. I chose to do my schooling there because it offered the choice of the architecture and construction specialization, which intrigued me greatly."
+    }
+  },
+  "portfolio": {
+    "1": {
+      "fr": "Voici ma rubrique Portfolio regroupant les récents projets réalisés durant mes études, pour consulter davantage, cliquez sur le bouton ci-dessous.",
+      "en": "Here's my Portfolio section, featuring recent projects I've completed during my studies. To view more, click on the button below."
+    },
+    "2": {
+      "fr": "Voici tous les projets que j'ai pu réaliser reflétant toutes les compétences que j'ai pu acquérir durant mes années d'études. Vous pouvez consulter la plupart de mes réalisations triées par année ainsi que par thème ci-dessous.",
+      "en": "Here are all the projects I've completed, reflecting the skills I acquired during my years of study. You can view most of my projects sorted by year and theme below."
+    }
+  },
+  "hobbies": {
+    "1": {
+      "fr": "Le piano est un instrument qui me passionne depuis mon enfance. Je joue souvent des pièces d'Animenz qui sont des arrangements de musiques car il utilise beaucoup de techniques classiques et me permet de m'améliorer toujours plus au piano vu la difficulté des pièces, représentant ainsi pour moi un véritable challenge.",
+      "en": "The piano is an instrument that has fascinated me since childhood. I often play Animenz pieces, which are arrangements of music, because he uses a lot of classical techniques and allows me to get better and better at the piano, given the difficulty of the pieces, which is a real challenge for me."
+    },
+    "2": {
+      "fr": "J'aime beaucoup voyager et découvrir de nouvelles cultures. J'ai voyagé dans de nombreux pays d'Europe et d'Asie mais le pays qui m'a le plus marqué c'est la Thaïlande. En effet, j'y vais tous les ans et là-bas, on retrouve une atmosphère paisible et calme vraiment différente de ce qu'on à l'habitude en Europe.",
+      "en": "I love traveling and discovering new cultures. I've traveled to many countries in Europe and Asia, but the country that has made the biggest impression on me is Thailand. I go there every year, and there's a peaceful, calm atmosphere that's very different from what we're used to in Europe."
+    },
+    "3": {
+      "fr": "Les jeux vidéos me permettent de décontracter et de me plonger dans un tout autre univers. J'aime les jeux où l'on peut faire preuve de créativité comme Minecraft qui est selon moi l'un des jeux bacs à sable les plus abouti à ce jour. C'est également cette passion des jeux qui m'a poussé à m'intéresser au domaine de l'informatique.",
+      "en": "Video games allow me to relax and immerse myself in a whole new world. I love games where you can be creative, like Minecraft, which I think is one of the most accomplished sandbox games to date. It's also this passion for games that got me interested in computer science."
+    }
+  },
+  "piano": {
+    "1": {
+      "fr": "Lorsque j'ai commencé le piano, la première chanson que j'ai appris était la Turkish March de Mozart. Etant donné que c'était la première fois que je jouais du piano, j'avais beaucoup de mal. Cependant, j'ai vite compris comment cet instrument fonctionnait grâce à ma grand-mère qui était professeur de piano. À force de la voir jouer, j'ai fini par mémoriser le placement des mains et ainsi j'ai commencé à apprendre mes premiers morceaux de musique. La musique classique m'a permis d'acquérir de grandes bases en piano et m'a permis de faire un bond en avant vers des chansons beaucoup plus techniques.",
+      "en": "When I started piano, the first song I learned was Mozart's Turkish March. As it was the first time I'd played the piano, I found it very difficult. However, I soon understood how the instrument worked thanks to my grandmother, who was a piano teacher. By watching her play, I was able to memorize the placement of my hands, and so I began to learn my first pieces of music. Classical music gave me a great grounding in piano and enabled me to make a quantum leap towards much more technical songs."
+    },
+    "2": {
+      "fr": "Après la musique classique, j'ai découvert un arranger de musique nommé \"Animenz\" qui arrange des musiques d'animés en utilisant beaucoup de techniques classiques et parfois du Jazz. J'étais vraiment impressionné par son niveau qui était au dessus de tout ce que j'imaginais. Ainsi j'ai commencé à apprendre sa plus célèbre pièce \"Unravel\" qui est certainement jusqu'à aujourd'hui, la pièce au piano la plus difficile que j'ai pu apprendre.",
+      "en": "After classical music, I discovered a music arranger called \"Animenz\" who arranges anime music using a lot of classical techniques and sometimes jazz. I was really impressed by his level, which was beyond anything I'd imagined. So I started to learn his most famous piece, \"Unravel\", which to this day is probably the most difficult piano piece I've ever learned."
+    },
+    "3": {
+      "fr": "Étant donné que je n'ai pas étudié la musique en conservatoire comme la plupart des passionnés de piano, j'ai dû apprendre à lire la musique sans le solfège. Heureusement, il éxiste beaucoup de vidéos sur youtube qui font défiler les notes de façon à pouvoir visualiser les chansons, on appel cela des \"Synthesia\".",
+      "en": "Since I didn't study music at a conservatory like most piano enthusiasts, I had to learn to read music without solfeggio. Fortunately, there are a lot of videos on youtube that scroll the notes so that you can visualize the songs, called \"Synthesia\"."
+    }
+  },
+  "travels": {
+    "1": {
+      "fr": "Qui n'a jamais aimé voyager et découvrir de nouvelles cultures à l'autre bout du monde ? Je fais partie de ces gens qui ont un gout pour l'aventure et la nouveauté. Jusqu'à aujourd'hui, j'ai eu l'occasion de voyager dans de nombreux pays aussi bien en Europe qu'en Asie et au Moyen-Orient. Vous pouvez retrouver certaines de mes photographies que j'ai eu l'occasion de faire durant mon voyage en Thaïlande sur mon compte Instagram.",
+      "en": "Who hasn't loved traveling and discovering new cultures on the other side of the world? I'm one of those people with a taste for adventure and novelty. To date, I've had the opportunity to travel to many countries in Europe, Asia and the Middle East. You can find some of the photographs I took during my trip to Thailand on my Instagram account."
+    },
+    "2": {
+      "fr": "Voici une liste de certains pays que j'ai eu l'occasion de visiter.",
+      "en": "Here's a list of some of the countries I've visited."
+    },
+    "3": {
+      "fr": "Étant moitié Thaïlandais, il est normal que j'aille souvent visiter la Thaïlande, qui est le pays parmi tous mes voyages qui m'a le plus marqué. D'autant plus que ces nombreux voyages m'ont permis d'apprendre la langue thaï. Durant mes voyages là-bas, j'ai eu l'occasion de découvrir toutes sortes de paysages, en passant par les plages ensoleillées de Phuket, les montagnes de la baie de Phang Nga, et aussi les merveilleux temples présents dans la totalité du pays.",
+      "en": "Being half Thai, it's only natural that I often visit Thailand, which is the country that has had the greatest impact on me of all my travels. All the more so as these many trips have enabled me to learn the Thai language. During my travels there, I've had the opportunity to discover all kinds of landscapes, from the sunny beaches of Phuket to the mountains of Phang Nga Bay, and also the marvellous temples found throughout the country."
+    },
+    "4": {
+      "fr": "Ce pays est très récent, et on le comprend vite lorsque l'on atterrit pour la première fois à l'aéroport de Dubaï, qui est parmi les plus grands et modernes au monde. Les constructions là-bas sont d'un tout autre niveau que ce que l'on peut retrouver chez nous ; tout est plus grand : routes, ponts, stations de trains, bâtiments... Ce pays est parfait pour ceux qui apprécient le luxe et la modernité.",
+      "en": "This is a very new country, and you quickly realize this when you land for the first time at Dubai airport, which is one of the largest and most modern in the world. Construction there is on a completely different level to what you'd find at home; everything is bigger: roads, bridges, train stations, buildings... This country is perfect for those who appreciate luxury and modernity."
+    },
+    "5": {
+      "fr": "La France ne fait pas partie des pays les plus visités au monde pour rien. On y retrouve tout : des plages, des montagnes, des champs de fleurs, des villes modernes et historiques. Je me rends compte de la chance que j'ai de pouvoir vivre en France. La Côte d'Azur est un endroit magnifique où l'on retrouve de nombreuses villes médiévales, des champs à perte de vue avec une vue sur les montagnes au loin. C'est vraiment le genre de paysage dont je ne me lasse jamais.",
+      "en": "France isn't one of the world's most visited countries for nothing. It has everything: beaches, mountains, fields of flowers, modern and historic cities. I realize how lucky I am to live in France. The Côte d'Azur is a beautiful place, with its many medieval towns, endless fields and distant mountain views. It's the kind of landscape I never tire of."
+    },
+    "6": {
+      "fr": "L'Italie est le deuxième pays qui m'a le plus marqué, et j'ai eu l'occasion à plusieurs reprises de visiter ce pays. Comme la France, elle possède une riche culture avec de belles villes historiques et des paysages à couper le souffle. La ville qui m'a le plus marqué est sans nul doute Venise, avec ses canaux et ses ruelles. Parmi toutes les villes que j'ai eu l'occasion de visiter, Venise est la plus belle ville car elle regorge de monuments historiques et elle est unique en son genre vu que très peu de villes dans le monde sont construites sur l'eau.",
+      "en": "Italy is the second country that has made the biggest impression on me, and I've had the opportunity to visit it on several occasions. Like France, it has a rich culture, with beautiful historic cities and breathtaking landscapes. The city that impressed me most was undoubtedly Venice, with its canals and narrow streets. Of all the cities I've had the opportunity to visit, Venice is the most beautiful, as it's brimming with historic monuments and is unique in that very few cities in the world are built on water."
+    }
+  },
+  "videogames": {
+    "1": {
+      "fr": "J'aime beaucoup les jeux vidéos où la créativité prend tout son sens. Le jeu Minecraft en est le parfait exemple car il est très complet. On peut réaliser des constructions, créer des systèmes éléctroniques, faire de l'exploration, combattre etc... mais ce que j'aime le plus c'est la construction. J'aime Minecraft pour son côté relaxant et artistique et j'ai ce côté nostalgique à chaque fois que j'y joue car c'est le premier jeu vidéo que j'ai découvert.",
+      "en": "I love video games where creativity comes into its own. Minecraft is a perfect example, because it's so complete. You can build things, create electronic systems, explore, fight etc... but what I like most is building. I love Minecraft for its relaxing and artistic side, and I get nostalgic every time I play it because it was the first video game I discovered."
+    },
+    "2": {
+      "fr": "J'apprécie grandement les jeux d'explorations. L'avantage de ce genre de jeu, c'est que l'on peut y jouer un peu tous les jours sans avoir à être grandement investi. Je n'aime pas les jeux compétitifs tel que Fortinte ou Cs Go car il faut s'entraîner tous les jours afin d'entretenir un bon niveau pour progresser. Quand j'ai le temps, dans les transports en commun ou durant mes temps libres, je joue souvent à Genshin Impact car la réalisation artistique du jeu est juste époustouflante (graphisme, musique, lore etc...), d'autant plus que c'est un jeu où l'on peut jouer à son rythme.",
+      "en": "I really enjoy exploration games. The advantage of this type of game is that you can play a little every day without having to invest a lot of time. I don't like competitive games such as Fortinte or Cs Go, because you have to train every day to maintain a good level in order to progress. When I have the time, on public transport or in my free time, I often play Genshin Impact because the artistic realization of the game is just breathtaking (graphics, music, lore etc...), especially as it's a game you can play at your own pace."
+    }
+  }
+}

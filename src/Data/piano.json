@@ -1,0 +1,44 @@
+{
+  "songs": [
+    {
+      "title": "Unravel - Tokyo Ghoul OP",
+      "artist": "Animenz",
+      "difficulty": {
+        "fr": "Très difficile",
+        "en": "Very hard"
+      },
+      "image": "https://www.2051.fr/wp-content/uploads/2021/08/1627892814_Les-fans-de-Tokyo-Ghoul-demandent-un-nouvel-anime-a.jpg",
+      "links": "https://www.youtube.com/watch?v=sEQf5lcnj_o"
+    },
+    {
+      "title": "Blue Bird - Naruto Shippuuden OP3",
+      "artist": "Animenz",
+      "difficulty": {
+        "fr": "Difficile",
+        "en": "Hard"
+      },
+      "image": "https://p325k7wa.twic.pics/high/naruto/naruto-suns-revolution/00-page-setup/nsr_game-thumbnail.jpg?twic=v1/resize=760/step=10/quality=80",
+      "links": "https://www.youtube.com/watch?v=FTrJ-J_lsr0"
+    },
+    {
+      "title": "We are! - One Piece OP1",
+      "artist": "Animenz",
+      "difficulty": {
+        "fr": "Très difficile",
+        "en": "Very hard"
+      },
+      "image": "https://www.melty.fr/wp-content/uploads/meltyfr/2022/05/default_2022-04-08_ce971658-5c86-4352-ac97-fc4279874215.jpeg",
+      "links": "https://www.youtube.com/watch?v=_iHe7-RhP1I"
+    },
+    {
+      "title": "Merry-Go-Round of Life - Howl's Moving Castle",
+      "artist": "Animenz",
+      "difficulty": {
+        "fr": "Difficile",
+        "en": "Hard"
+      },
+      "image": "https://counteract.co/wp-content/uploads/2020/04/Howls-Moving-Castle-film-header.jpg",
+      "links": "https://www.youtube.com/watch?v=lB4PRX737-0"
+    }
+  ]
+}

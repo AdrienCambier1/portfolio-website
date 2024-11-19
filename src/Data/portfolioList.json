@@ -1,0 +1,208 @@
+{
+  "projects": {
+    "2023": [
+      {
+        "id": "2023-1",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Html - Css",
+          "en": "Html - Css"
+        },
+        "title": {
+          "fr": "Création d'une page frontend",
+          "en": "Creation of a Frontend Page"
+        },
+        "description": {
+          "fr": "J'ai créé un site web sur mes passions avec mon binôme afin d'apprendre le développement web.",
+          "en": "I created a website about my passions with my partner to learn web development."
+        },
+        "class": "info"
+      },
+      {
+        "id": "2023-2",
+        "category": {
+          "fr": "Réseaux",
+          "en": "Net"
+        },
+        "technologies": {
+          "fr": "Packet Tracer",
+          "en": "Packet Tracer"
+        },
+        "title": {
+          "fr": "Simulation d'un Réseau Lan",
+          "en": "LAN Network Simulation"
+        },
+        "description": {
+          "fr": "J'ai conçu un petit réseau local interconnecté pour une entreprise.",
+          "en": "I designed a small interconnected local network for a company."
+        },
+        "class": "network"
+      },
+      {
+        "id": "2023-3",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Python - Web",
+          "en": "Python - Web"
+        },
+        "title": {
+          "fr": "Projet Sniffer Ethernet avec Thales",
+          "en": "Ethernet Sniffer Project with Thales"
+        },
+        "description": {
+          "fr": "J'ai réalisé un extracteur de trames ainsi qu'une page Web.",
+          "en": "I created a frame extractor and a web page."
+        },
+        "class": "info"
+      },
+      {
+        "id": "2023-4",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Html - Css - Javascript",
+          "en": "Html - Css - Javascript"
+        },
+        "title": {
+          "fr": "Réalisation d'un Portfolio",
+          "en": "Creation of a Portfolio"
+        },
+        "description": {
+          "fr": "J'ai créé un site web permettant d'afficher mes compétences en ligne.",
+          "en": "I created a website to display my skills online."
+        },
+        "class": "info"
+      }
+    ],
+    "2024": [
+      {
+        "id": "2024-1",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Html - Css - Javascript",
+          "en": "Html - Css - Javascript"
+        },
+        "title": {
+          "fr": "Conception d'un site Restaurant",
+          "en": "Restaurant Website Design"
+        },
+        "description": {
+          "fr": "J'ai créé un prototype de site web pour un restaurant dans le but de m'entraîner.",
+          "en": "I created a website prototype for a restaurant to practice."
+        },
+        "class": "info"
+      },
+      {
+        "id": "2024-2",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Android Studio - Xml - Java",
+          "en": "Android Studio - Xml - Java"
+        },
+        "title": {
+          "fr": "Création d'une application Android",
+          "en": "Android Application Development"
+        },
+        "description": {
+          "fr": "J'ai créé une application android permettant d'afficher des trames et d'interagir avec.",
+          "en": "I created an Android app that displays frames and allows interaction."
+        },
+        "class": "info"
+      },
+      {
+        "id": "2024-3",
+        "category": {
+          "fr": "Cyber",
+          "en": "Cyber"
+        },
+        "technologies": {
+          "fr": "Linux - Réseau - Docker",
+          "en": "Linux - Network - Docker"
+        },
+        "title": {
+          "fr": "Réaliser un test d'intrusion",
+          "en": "Perform a Penetration Test"
+        },
+        "description": {
+          "fr": "J'ai créé un réseau virtuel avec docker et effectué une cyberattaque dessus.",
+          "en": "I created a virtual network with Docker and carried out a cyberattack on it."
+        },
+        "class": "cyber"
+      },
+      {
+        "id": "2024-4",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Joomla - Php - Css",
+          "en": "Joomla - Php - Css"
+        },
+        "title": {
+          "fr": "Migration d'un site web intranet",
+          "en": "Migration of an Intranet Website"
+        },
+        "description": {
+          "fr": "J'ai effectué une refonte du site web intranet de la mairie de Mouans-Sartoux.",
+          "en": "I performed a redesign of the Mouans-Sartoux municipality's intranet website."
+        },
+        "class": "info"
+      },
+      {
+        "id": "2024-5",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Html - Css - Javascript - Python",
+          "en": "Html - Css - Javascript - Python"
+        },
+        "title": {
+          "fr": "Création d'un assistant alimenté avec l'IA",
+          "en": "Creation of an AI-powered Assistant"
+        },
+        "description": {
+          "fr": "J'ai développé un assistant doté d'une intelligence pour aider les employés dans leurs tâches.",
+          "en": "I developed an AI-powered assistant to help employees with their tasks."
+        },
+        "class": "info"
+      },
+      {
+        "id": "2024-6",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Wordpress - Css",
+          "en": "Wordpress - Css"
+        },
+        "title": {
+          "fr": "Réalisation d'une charte graphique",
+          "en": "Creation of a Graphic Charter"
+        },
+        "description": {
+          "fr": "J'ai créé un nouveau style pour le site web de la mairie de Mouans-Sartoux.",
+          "en": "I created a new style for the Mouans-Sartoux municipality's website."
+        },
+        "class": "info"
+      }
+    ]
+  }
+}

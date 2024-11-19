@@ -1,0 +1,241 @@
+{
+  "projects": {
+    "2023-1": {
+      "title": {
+        "fr": "Création d'une page frontend",
+        "en": "Creation of a Frontend Page"
+      },
+      "banner": "Computer",
+      "description": {
+        "fr": "En binôme, nous avons entrepris la création d'un site web consacré à nos passions, et ma partie était dédiée au piano. Ce projet nous a permis d'acquérir les bases du langage HTML et CSS pour élaborer un modèle de site web. Vous trouverez ci-dessous un lien vers des images de mon travail.",
+        "en": "In pairs, we undertook the creation of a website dedicated to our passions, and my part was focused on piano. This project allowed us to acquire the basics of HTML and CSS to create a website template. Below you will find a link to images of my work."
+      },
+      "skills": {
+        "fr": "Html - Css - Design",
+        "en": "Html - Css - Design"
+      },
+      "gallery": "WebsiteImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Voir le Code",
+            "en": "View Code"
+          },
+          "link": "https://github.com/Adrien-Cambier/Music-Website"
+        }
+      ]
+    },
+    "2023-2": {
+      "title": {
+        "fr": "Simulation d'un réseau LAN",
+        "en": "LAN Network Simulation"
+      },
+      "banner": "Wires",
+      "description": {
+        "fr": "Le projet consistait à réaliser un réseau local pour une petite entreprise sur le logiciel Packet Tracer. La topologie globale est constituée de 4 sous-parties :\n- Un réseau interne destiné aux employés\n- Un serveur DNS et DHCP accessible uniquement au réseau interne\n- Un serveur DMZ accessible depuis l'extérieur et le réseau interne\n- Un serveur externe permettant de simuler les machines en dehors du LAN\n\nCes 4 sous-parties sont toutes reliées à un firewall qui s'occupe de gérer le trafic des paquets en fonction de la source. Ce projet m'a permis de me familiariser avec Packet Tracer ainsi que les différents protocoles de routage vus. Vous trouverez ci-joint un rapport rédigé expliquant en détail les étapes du projet.",
+        "en": "The project involved creating a local network for a small business using Packet Tracer software. The overall topology consists of 4 parts:\n- An internal network for employees\n- A DNS and DHCP server accessible only to the internal network\n- A DMZ server accessible from both the outside and the internal network\n- An external server simulating machines outside the LAN\n\nAll 4 parts are connected to a firewall that manages packet traffic based on the source. This project allowed me to familiarize myself with Packet Tracer as well as various routing protocols. Attached is a report detailing the steps of the project."
+      },
+      "skills": {
+        "fr": "Rédaction - Cisco - VLAN - NAT Dynamique - ACL",
+        "en": "Writing - Cisco - VLAN - Dynamic NAT - ACL"
+      },
+      "gallery": "NetworkImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Rapport Projet",
+            "en": "Project Report"
+          },
+          "link": "undefined"
+        }
+      ]
+    },
+    "2023-3": {
+      "title": {
+        "fr": "Projet Sniffer Ethernet avec Thales",
+        "en": "Ethernet Sniffer Project with Thales"
+      },
+      "banner": "Satellite",
+      "description": {
+        "fr": "En équipe, nous avons entrepris la conception d'un extracteur de trames binaires provenant d'un module spatial. L'outil que nous avons développé s'appelle le \"Sniffer Ethernet\". À l'aide d'un programme Python, chaque enregistrement extrait était converti avant d'être envoyé vers une base de données. Cette base de données agit comme une passerelle entre l'interface Web et l'extracteur Python.\n\nÀ l'aide de requêtes MySQL, nous affichons chaque enregistrement sur la page, offrant la possibilité de les trier en fonction de leur date et de leur taille en octets. De plus, l'interface permet d'interagir avec ces enregistrements en les supprimant ou en modifiant leur nom. Ce projet a constitué une expérience enrichissante qui m'a permis d'acquérir de précieuses compétences en développement.",
+        "en": "As a team, we designed a binary frame extractor from a space module. The tool we developed is called \"Ethernet Sniffer\". Using a Python program, each extracted record was converted before being sent to a database. This database acts as a bridge between the web interface and the Python extractor.\n\nUsing MySQL queries, we display each record on the page, allowing them to be sorted by date and size in bytes. Additionally, the interface allows interaction with these records by deleting or renaming them. This project was a valuable experience that helped me gain important development skills."
+      },
+      "skills": {
+        "fr": "Python - Php - SQL/mySQL - Rédaction - Html5 - Css3",
+        "en": "Python - Php - SQL/mySQL - Writing - Html5 - Css3"
+      },
+      "gallery": "SnifferImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Code Github",
+            "en": "Github Code"
+          },
+          "link": "https://github.com/Adrien-Cambier/Thales-Website"
+        }
+      ]
+    },
+    "2023-4": {
+      "title": {
+        "fr": "Réalisation d'un Portfolio",
+        "en": "Creation of a Portfolio"
+      },
+      "banner": "Showcase",
+      "description": {
+        "fr": "Dans le cadre de notre formation, nous avons été amenés à concevoir un site Web portfolio destiné à présenter nos compétences, ambitions, et passions. J'avais initialement créé une première version du site qui suscitait ma fierté. Cependant, avec le temps, le design ne reflétait plus totalement ma vision. C'est pourquoi j'ai pris la décision de coder une deuxième version du site, actuellement en ligne, afin de présenter une image plus moderne et représentative de ma personnalité.\n\nCette expérience a été particulièrement enrichissante, renforçant ma maîtrise du développement de sites responsives.",
+        "en": "As part of our training, we were tasked with designing a portfolio website to present our skills, ambitions, and passions. I initially created a first version of the site that I was proud of. However, over time, the design no longer fully reflected my vision. This is why I decided to code a second version of the site, currently online, to present a more modern and representative image of my personality.\n\nThis experience was particularly rewarding, strengthening my expertise in developing responsive websites."
+      },
+      "skills": {
+        "fr": "Design - Javascript - Html5 - Css3",
+        "en": "Design - Javascript - Html5 - Css3"
+      },
+      "gallery": "PortfolioImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Code Github",
+            "en": "Github Code"
+          },
+          "link": "https://github.com/Adrien-Cambier/Adrien-Cambier.github.io/"
+        },
+        {
+          "name": {
+            "fr": "Mon ancien site",
+            "en": "My Old Site"
+          },
+          "link": "https://adrien-cambier.github.io/"
+        }
+      ]
+    },
+    "2024-1": {
+      "title": {
+        "fr": "Conception d'un site Restaurant",
+        "en": "Restaurant Website Design"
+      },
+      "banner": "Restaurant",
+      "description": {
+        "fr": "Dans le cadre d'un projet personnel axé sur le renforcement de mes compétences en développement web, j'ai entrepris la création d'un site dédié à un restaurant, mettant ainsi en pratique la conception de pages responsive. Bien que le site demeure sobre dans sa conception, je ressens une grande satisfaction en considérant ce projet comme une démonstration de ma capacité à élaborer un template pour un site web.\n\nJe vous encourage à découvrir ce projet qui reflète ma compréhension des principes du design web et mon engagement continu pour améliorer mes compétences dans ce domaine. Ce travail constitue un exemple concret de mon expérience en développement web et démontre ma volonté de maintenir des normes de qualité élevées dans mes réalisations.",
+        "en": "As part of a personal project aimed at strengthening my web development skills, I created a website dedicated to a restaurant, applying responsive page design. Although the website is simple in its design, I take great satisfaction in considering this project as a demonstration of my ability to create a web template.\n\nI encourage you to explore this project, which reflects my understanding of web design principles and my ongoing commitment to improve my skills in this field. This work is a concrete example of my experience in web development and demonstrates my determination to maintain high-quality standards in my work."
+      },
+      "skills": {
+        "fr": "Design - Javascript - Html5 - Css3",
+        "en": "Design - Javascript - Html5 - Css3"
+      },
+      "gallery": "RestaurantImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Code Github",
+            "en": "Github Code"
+          },
+          "link": "https://github.com/Cambier-Adrien/restaurant_website"
+        },
+        {
+          "name": {
+            "fr": "Mon site réalisé",
+            "en": "My Created Site"
+          },
+          "link": "https://restaurant-website-phi-jet.vercel.app/"
+        }
+      ]
+    },
+    "2024-2": {
+      "title": {
+        "fr": "Création d'une application Android",
+        "en": "Android Application Development"
+      },
+      "banner": "Android",
+      "description": {
+        "fr": "Au sein d'un projet collaboratif, nous avons développé une application Android visant à visualiser des trames Wireshark. Notre approche implique la génération d'un fichier à partir de Wireshark, suivi de son traitement par un extracteur Java dédié à la traduction des données en format JSON. Ces informations sont ensuite transmises à une page web, permettant à l'application Android de les afficher de manière efficace.\n\nCe projet a une valeur particulière pour moi, car il m'a permis de me familiariser avec le développement d'applications Android, un domaine qui m'attire profondément. De plus, cette expérience a considérablement renforcé ma compréhension du langage Java. Je suis heureux de partager cette réalisation, illustrant ma capacité à aborder des projets complexes et mon engagement continu à approfondir mes compétences techniques.",
+        "en": "In a collaborative project, we developed an Android application to visualize Wireshark frames. Our approach involves generating a file from Wireshark, which is then processed by a Java extractor dedicated to translating the data into JSON format. This information is then sent to a web page, allowing the Android application to display it effectively.\n\nThis project is particularly valuable to me as it allowed me to familiarize myself with Android application development, a field I am deeply interested in. Moreover, this experience significantly strengthened my understanding of Java. I am happy to share this achievement, demonstrating my ability to tackle complex projects and my ongoing commitment to deepen my technical skills."
+      },
+      "skills": {
+        "fr": "Design - Java - Android Studio - Xml - Php",
+        "en": "Design - Java - Android Studio - Xml - Php"
+      },
+      "gallery": "AndroidImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Code Github",
+            "en": "Github Code"
+          },
+          "link": "https://github.com/Cambier-Adrien/LAMAJ"
+        }
+      ]
+    },
+    "2024-3": {
+      "title": {
+        "fr": "Réaliser un test d'intrusion",
+        "en": "Perform a Penetration Test"
+      },
+      "banner": "Cyber",
+      "description": {
+        "fr": "Au sein d'un projet de groupe, j'ai eu l'opportunité de collaborer avec M. Fécard, un expert renommé en cybersécurité, pour acquérir une expertise approfondie dans la réalisation de tests d'intrusion sur des infrastructures. Au cours de cette collaboration, j'ai développé mes compétences en mettant en place une infrastructure réseau numérique à l'aide de Docker-Compose, tout en assimilant les fondamentaux du pentest et les méthodologies nécessaires à une évaluation exhaustive de la sécurité.\n\nCette expérience m'a conféré une compréhension approfondie des principes fondamentaux de la cybersécurité, me permettant d'identifier et d'exploiter des vulnérabilités tout en respectant rigoureusement les normes de sécurité en vigueur.",
+        "en": "In a group project, I had the opportunity to collaborate with Mr. Fécard, a renowned cybersecurity expert, to gain in-depth expertise in performing penetration tests on infrastructures. During this collaboration, I developed my skills by setting up a digital network infrastructure using Docker-Compose, while learning the fundamentals of pentesting and the methodologies required for a comprehensive security evaluation.\n\nThis experience gave me a deep understanding of fundamental cybersecurity principles, enabling me to identify and exploit vulnerabilities while rigorously adhering to current security standards."
+      },
+      "skills": {
+        "fr": "Linux - Docker Compose - Metasploit",
+        "en": "Linux - Docker Compose - Metasploit"
+      },
+      "gallery": "PentestImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Rapport Projet",
+            "en": "Project Report"
+          },
+          "link": "undefined"
+        }
+      ]
+    },
+    "2024-4": {
+      "title": {
+        "fr": "Migration d'un site web intranet",
+        "en": "Migration of an Intranet Website"
+      },
+      "banner": "Migration",
+      "description": {
+        "fr": "Au sein du service informatique de la mairie de Mouans-Sartoux, j'ai eu l'occasion d'effectuer une migration du site web intranet de la Mairie développé avec le CMS Joomla. J'ai également dû effectuer une revalorisation du code faisant fonctionner l'annuaire interne étant donné que le code php était obsolète. L'annuaire est un outil permettant aux différents employés d'accéder aux Tel et Mail des différents services et employés.\n\nCette expérience m'a permis de découvrir le CMS Joomla et de comprendre les besoins d'un site web intranet afin de réaliser une interface adaptée tout en approfondissant mes compétences en développement php.",
+        "en": "Within the IT department of the Mouans-Sartoux municipality, I had the opportunity to migrate the municipal intranet website, developed using the Joomla CMS. I also had to update the PHP code powering the internal directory, as the existing code was outdated. The directory is a tool that allows employees to access phone numbers and emails of various departments and employees.\n\nThis experience allowed me to discover the Joomla CMS and understand the needs of an intranet website to create an adapted interface while deepening my PHP development skills."
+      },
+      "skills": {
+        "fr": "Joomla - Php - Css",
+        "en": "Joomla - Php - Css"
+      },
+      "gallery": "IntranetImages"
+    },
+    "2024-5": {
+      "title": {
+        "fr": "Création d'un assistant alimenté avec l'IA",
+        "en": "Creation of an AI-powered Assistant"
+      },
+      "banner": "Ia",
+      "description": {
+        "fr": "Au sein du service informatique de la mairie de Mouans-Sartoux, j'ai eu l'occasion de travailler sur le développement d'un agent conversationnel basé sur l'intelligence artificielle. J'ai donc pour cela développé une interface et codé le programme permettant d'effectuer des requêtes auprès d'OpenAI qui permettra de générer les réponses.\n\nCette expérience m'a permis d'améliorer mes compétences en développement d'interfaces et de découvrir l'utilisation de l'IA.",
+        "en": "Within the IT department of the Mouans-Sartoux municipality, I had the opportunity to work on the development of a conversational agent based on artificial intelligence. For this, I developed an interface and coded the program to send queries to OpenAI, which generates the responses.\n\nThis experience helped me improve my interface development skills and discover the use of AI."
+      },
+      "skills": {
+        "fr": "Html - Css - Javascript - Python - Design",
+        "en": "Html - Css - Javascript - Python - Design"
+      },
+      "gallery": "ChatgptImages"
+    },
+    "2024-6": {
+      "title": {
+        "fr": "Réalisation d'une charte graphique",
+        "en": "Creation of a Graphic Charter"
+      },
+      "banner": "Wordpress",
+      "description": {
+        "fr": "Au sein du service informatique de la mairie de Mouans-Sartoux, j'ai eu l'occasion de travailler la nouvelle version du site web de la ville qui avait besoin d'une refonte graphique complète au vu de son style ancien et de son ergonomie peu confortable. J'ai donc pour cela utilisé la bibliothèque Wordpress Divi Elegant qui permet de créer des interfaces web de manière plus visuelle.\n\nCette expérience m'a permis de mieux comprendre le web design et de découvrir le CMS WordPress, outil que j'utiliserai pour développer des sites web de type blog.",
+        "en": "Within the IT department of the Mouans-Sartoux municipality, I had the opportunity to work on the new version of the city's website, which needed a complete graphic overhaul due to its old style and uncomfortable ergonomics. To achieve this, I used the WordPress Divi Elegant library, which allows creating web interfaces in a more visual manner.\n\nThis experience helped me gain a better understanding of web design and discover the WordPress CMS, a tool I will use to develop blog-type websites."
+      },
+      "skills": {
+        "fr": "Wordpress - Css - Design - Rédaction",
+        "en": "Wordpress - Css - Design - Writing"
+      },
+      "gallery": "ExtranetImages"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+export { default as Sniffer1 } from "./Sniffer1.PNG";
+export { default as Sniffer2 } from "./Sniffer2.PNG";
+export { default as Sniffer3 } from "./Sniffer3.PNG";
+export { default as Sniffer4 } from "./Sniffer4.PNG";
+export { default as Sniffer5 } from "./Sniffer5.PNG";
+export { default as Sniffer6 } from "./Sniffer6.PNG";
+export { default as Sniffer7 } from "./Sniffer7.PNG";
+export { default as Sniffer8 } from "./Sniffer8.PNG";
+export { default as Sniffer9 } from "./Sniffer9.PNG";

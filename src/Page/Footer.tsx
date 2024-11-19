@@ -29,16 +29,19 @@ export default function Footer() {
       <div className="name-footer">
         <p className="title-footer">Adrien Cambier</p>
         <nav className="social-links">
-          <Link to="">
+          <Link to="/Adrien Cambier CV.pdf" target="_blank">
             <img className="social-media" src={Cv} />
           </Link>
-          <Link to="https://github.com/Cambier-Adrien/">
+          <Link to="https://github.com/Cambier-Adrien/" target="_blank">
             <img className="social-media" src={Github} />
           </Link>
-          <Link to="https://www.instagram.com/adri1.cr/">
+          <Link to="https://www.instagram.com/adri1.cr/" target="_blank">
             <img className="social-media" src={Instagram} />
           </Link>
-          <Link to="https://www.linkedin.com/in/adrien-cambier-0820b127b/">
+          <Link
+            to="https://www.linkedin.com/in/adrien-cambier-0820b127b/"
+            target="_blank"
+          >
             <img className="social-media" src={Linkedin} />
           </Link>
         </nav>

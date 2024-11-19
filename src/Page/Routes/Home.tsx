@@ -84,7 +84,11 @@ export default function Home() {
           <br />
           {text.about[3][selectedLanguage as "fr" | "en"]}
         </p>
-        <Link className="beige-button" to="">
+        <Link
+          className="beige-button"
+          to="/Adrien Cambier CV.pdf"
+          target="_blank"
+        >
           {traductions[selectedLanguage as "fr" | "en"]["Consultez mon CV"]}
         </Link>
       </section>

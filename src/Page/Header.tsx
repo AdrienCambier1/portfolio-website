@@ -11,9 +11,13 @@ export default function Header() {
   const { selectedLanguage } = useContext(LanguageContext);
 
   useEffect(() => {
-    menu
-      ? (document.body.style.overflowY = "hidden")
-      : document.body.style.removeProperty("overflow-y");
+    if (menu) {
+      document.body.style.overflowY = "hidden";
+      document.documentElement.style.overflowY = "hidden";
+    } else {
+      document.body.style.removeProperty("overflow-y");
+      document.documentElement.style.removeProperty("overflow-y");
+    }
   }, [menu]);
 
   return (

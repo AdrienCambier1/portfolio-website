@@ -28,7 +28,7 @@ import Migration from "../../Images/joomla.jpg";
 import Ia from "../../Images/ia.jpg";
 import Wordpress from "../../Images/wordpress.png";
 import portfolioList from "../../Data/portfolioList.json";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { LanguageContext } from "../../Contexts";
 import traductions from "../../Data/traductions.json";
 import text from "../../Data/text.json";
@@ -67,6 +67,12 @@ export default function Home() {
   };
 
   const list: PortfolioList = portfolioList;
+  const selectedProjects = [
+    list.projects[2024][0],
+    list.projects[2024][1],
+    list.projects[2024][2],
+    list.projects[2024][3],
+  ];
 
   return (
     <>
@@ -163,7 +169,7 @@ export default function Home() {
           {traductions[selectedLanguage as "fr" | "en"]["Mes projets"]}
         </Link>
         <div className="grid-container">
-          {list.projects[2024].slice(0, 4).map((project, index) => (
+          {selectedProjects.map((project, index) => (
             <WhiteCard
               key={index}
               image={portfolioImages[project.id]}

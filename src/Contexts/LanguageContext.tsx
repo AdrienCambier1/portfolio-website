@@ -9,7 +9,7 @@ interface LanguageProviderProps {
   children: ReactNode;
 }
 
-export const LanguageContext = createContext<LanguageContextProps>(undefined!);
+export const LanguageContext = createContext({} as LanguageContextProps);
 
 export const LanguageProvider = ({ children }: LanguageProviderProps) => {
   const initialLanguage = localStorage.getItem("language") || "fr";

@@ -27,8 +27,11 @@ import Cyber from "../../Images/cyber.jpg";
 import Migration from "../../Images/joomla.jpg";
 import Ia from "../../Images/ia.jpg";
 import Wordpress from "../../Images/wordpress.png";
+import Pokemon from "../../Images/pokemon.jpg";
+import HarryPotter from "../../Images/HarryPotter.png";
+import Music from "../../Images/music.jpg";
 import portfolioList from "../../Data/portfolioList.json";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { LanguageContext } from "../../Contexts";
 import traductions from "../../Data/traductions.json";
 import text from "../../Data/text.json";
@@ -64,14 +67,17 @@ export default function Home() {
     "2024-4": Migration,
     "2024-5": Ia,
     "2024-6": Wordpress,
+    "2025-1": Pokemon,
+    "2025-2": HarryPotter,
+    "2025-3": Music,
   };
 
   const list: PortfolioList = portfolioList;
   const selectedProjects = [
     list.projects[2024][0],
-    list.projects[2024][1],
-    list.projects[2024][2],
-    list.projects[2024][3],
+    list.projects[2025][0],
+    list.projects[2025][1],
+    list.projects[2025][2],
   ];
 
   return (

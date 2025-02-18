@@ -11,6 +11,9 @@ import Cyber from "../../Images/cyber.jpg";
 import Migration from "../../Images/joomla.jpg";
 import Ia from "../../Images/ia.jpg";
 import Wordpress from "../../Images/wordpress.png";
+import Pokemon from "../../Images/pokemon.jpg";
+import HarryPotter from "../../Images/HarryPotter.png";
+import Music from "../../Images/music.jpg";
 import portfolioProjects from "../../Data/portfolioProjects.json";
 import * as AndroidImages from "../../Images/Android";
 import * as ChatgptImages from "../../Images/Chatgpt";
@@ -22,6 +25,9 @@ import * as RestaurantImages from "../../Images/Restaurant";
 import * as SnifferImages from "../../Images/Sniffer";
 import * as WebsiteImages from "../../Images/Website";
 import * as IntranetImages from "../../Images/Intranet";
+import * as PokemonImages from "../../Images/Pokemon";
+import * as HarryPotterImages from "../../Images/HarryPotter";
+import * as MusicImages from "../../Images/Music";
 import { useContext } from "react";
 import { LanguageContext } from "../../Contexts";
 import traductions from "../../Data/traductions.json";
@@ -53,16 +59,19 @@ export default function Project() {
   const { projectId } = useParams<{ projectId: string }>();
 
   const images: Record<string, any> = {
-    Computer: Computer,
-    Wires: Wires,
-    Satellite: Satellite,
-    Showcase: Showcase,
-    Restaurant: Restaurant,
-    Android: Android,
-    Cyber: Cyber,
-    Migration: Migration,
-    Ia: Ia,
-    Wordpress: Wordpress,
+    Computer,
+    Wires,
+    Satellite,
+    Showcase,
+    Restaurant,
+    Android,
+    Cyber,
+    Migration,
+    Ia,
+    Wordpress,
+    Pokemon,
+    HarryPotter,
+    Music,
     AndroidImages,
     ChatgptImages,
     ExtranetImages,
@@ -73,6 +82,9 @@ export default function Project() {
     RestaurantImages,
     SnifferImages,
     WebsiteImages,
+    PokemonImages,
+    HarryPotterImages,
+    MusicImages,
   };
 
   if (!projectId || !(projectId in portfolioProjects.projects)) {

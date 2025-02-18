@@ -236,6 +236,102 @@
         "en": "Wordpress - Css - Design - Writing"
       },
       "gallery": "ExtranetImages"
+    },
+    "2025-1": {
+      "title": {
+        "fr": "Développement d'un pokedex en ligne",
+        "en": "Development of an online pokedex"
+      },
+      "banner": "Pokemon",
+      "description": {
+        "fr": "Dans le cadre de mon apprentissage de React, j’ai dû développer un projet de Pokédex en ligne. Cette expérience m’a permis de découvrir le fonctionnement du framework, d’approfondir mes compétences en JavaScript et d’améliorer mes notions de design. J’ai également exploré Tailwind CSS, un framework puissant et efficace qui facilite la création d’interfaces modernes et élégantes.",
+        "en": "As part of my React apprenticeship, I had to develop an online Pokedex project. This experience allowed me to discover how the framework works, deepen my JavaScript skills and improve my design concepts. I also explored Tailwind CSS, a powerful and efficient framework that makes it easy to create modern and elegant interfaces."
+      },
+      "skills": {
+        "fr": "React - Javascript - Tailwindcss - Design",
+        "en": "React - Javascript - Tailwindcss - Design"
+      },
+      "gallery": "PokemonImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Code Github",
+            "en": "Github Code"
+          },
+          "link": "https://github.com/Cambier-Adrien/pokedex"
+        },
+        {
+          "name": {
+            "fr": "Mon site réalisé",
+            "en": "My Created Site"
+          },
+          "link": "https://pokedex-umber-kappa.vercel.app/"
+        }
+      ]
+    },
+    "2025-2": {
+      "title": {
+        "fr": "Développement d'un site de cartes Harry Potter",
+        "en": "Development of a Harry Potter cards site"
+      },
+      "banner": "HarryPotter",
+      "description": {
+        "fr": "Dans le cadre de mon apprentissage d’Angular, j’ai développé une liste de cartes Harry Potter avec des filtres interactifs. Ce premier projet m’a permis de découvrir le framework et de me familiariser avec ses fonctionnalités différentes de React.",
+        "en": "As part of my Angular apprenticeship, I developed a list of Harry Potter cards with interactive filters. This first project allowed me to discover the framework and familiarise myself with its different features from React."
+      },
+      "skills": {
+        "fr": "Angular - Typescript - Tailwindcss - Design",
+        "en": "Angular - Typescript - Tailwindcss - Design"
+      },
+      "gallery": "HarryPotterImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Code Github",
+            "en": "Github Code"
+          },
+          "link": "https://github.com/Cambier-Adrien/ng-card-list"
+        },
+        {
+          "name": {
+            "fr": "Mon site réalisé",
+            "en": "My Created Site"
+          },
+          "link": "https://ng-card-list.vercel.app/"
+        }
+      ]
+    },
+    "2025-3": {
+      "title": {
+        "fr": "Développement d'un site d'albums de musique",
+        "en": "Development of a music album website"
+      },
+      "banner": "Music",
+      "description": {
+        "fr": "Pour approfondir mes compétences en Angular, j'ai collaboré avec un binôme pour développer un site web axé sur la musique. Ce projet permet de filtrer des informations, d'ajouter des éléments aux favoris et de les intégrer à un panier pour simuler un processus d'achat. Nous avons choisi d'utiliser l'API de Spotify pour récupérer les données musicales, ce qui a ajouté une dimension réaliste et interactive au projet.\n\nCe travail m'a permis de renforcer ma maîtrise du framework Angular, notamment en gérant des requêtes API externes tout en respectant les bonnes pratiques web, comme l'implémentation de loaders pour améliorer l'expérience utilisateur.",
+        "en": "To deepen my Angular skills, I worked with a partner to develop a website focused on music. This project allows you to filter information, add items to favourites and integrate them into a basket to simulate a purchasing process. We chose to use Spotify's API to retrieve the music data, which added a realistic and interactive dimension to the project.\n\nThis work enabled me to strengthen my mastery of the Angular framework, in particular by managing external API requests while respecting web best practices, such as implementing loaders to improve the user experience."
+      },
+      "skills": {
+        "fr": "Angular - Typescript - Tailwindcss - Design",
+        "en": "Angular - Typescript - Tailwindcss - Design"
+      },
+      "gallery": "MusicImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Code Github",
+            "en": "Github Code"
+          },
+          "link": "https://github.com/Cambier-Adrien/ng-music-platform"
+        },
+        {
+          "name": {
+            "fr": "Mon site réalisé",
+            "en": "My Created Site"
+          },
+          "link": "https://ng-music-platform.vercel.app/"
+        }
+      ]
     }
   }
 }

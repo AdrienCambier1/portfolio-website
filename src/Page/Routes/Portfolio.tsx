@@ -40,6 +40,10 @@ export default function Porfolio() {
   const { selectedLanguage } = useContext(LanguageContext);
 
   const yearOptions: Record<string, { fr: string; en: string }> = {
+    2025: {
+      fr: "2025",
+      en: "2025",
+    },
     2024: {
       fr: "2024",
       en: "2024",

@@ -203,6 +203,68 @@
         },
         "class": "info"
       }
+    ],
+    "2025": [
+      {
+        "id": "2025-1",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "React - Javascript - Tailwindcss",
+          "en": "React - Javascript - Tailwindcss"
+        },
+        "title": {
+          "fr": "Développement d'un pokedex en ligne",
+          "en": "Development of an online pokedex"
+        },
+        "description": {
+          "fr": "J'ai créé un site web permettant de consulter les informations sur les pokemons.",
+          "en": "I've created a website where you can consult information about pokemons."
+        },
+        "class": "info"
+      },
+      {
+        "id": "2025-2",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Angular - Typescript - Tailwindcss - Design",
+          "en": "Angular - Typescript - Tailwindcss - Design"
+        },
+        "title": {
+          "fr": "Développement d'un site de cartes Harry Potter",
+          "en": "Development of a Harry Potter cards site"
+        },
+        "description": {
+          "fr": "J'ai créé un site web de cartes permettant d'afficher les personnages de Harry Potter.",
+          "en": "I've created a website of cards displaying Harry Potter characters."
+        },
+        "class": "info"
+      },
+      {
+        "id": "2025-3",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Angular - Typescript - Tailwindcss - Design",
+          "en": "Angular - Typescript - Tailwindcss - Design"
+        },
+        "title": {
+          "fr": "Développement d'un site d'albums de musique",
+          "en": "Development of a music album website"
+        },
+        "description": {
+          "fr": "J'ai créé un site web d'albums de musique avec un système de favoris et de panier d'achat.",
+          "en": "I've created a music album website with a favourites and shopping cart system."
+        },
+        "class": "info"
+      }
     ]
   }
 }

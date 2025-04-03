@@ -327,8 +327,11 @@ a:hover .skills-title {
 .grid .textarea {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   text-align: left;
   padding: 1rem;
+  box-sizing: border-box;
 }
 .grid-date,
 .grid-text {

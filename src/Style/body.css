@@ -118,6 +118,7 @@ h1 {
   font-weight: 500;
   color: white;
   margin: 1rem;
+  line-height: 1.5rem;
 }
 a:hover .skills-title {
   text-decoration: underline;

@@ -108,7 +108,7 @@ export default function Home() {
         <SkillSection
           image={Coding}
           title={traductions[selectedLanguage as "fr" | "en"]["Codage"]}
-          content="Html - Css - Python - Php - Javascript - Java - Xml"
+          content="HTML, CSS (Tailwindcss), Javascript (React, Angular), Typscript, PHP (Symfony), Python (Flask, Django), Java, C#, Javascript (Node.js)"
           link="/portfolio"
         />
         <SkillSection

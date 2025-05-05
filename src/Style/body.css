@@ -221,6 +221,8 @@ a:hover .skills-title {
   font-family: Montserrat;
   position: relative;
   box-sizing: border-box;
+  outline: none;
+  padding: 0.5rem;
 }
 .mail textarea {
   width: 100%;
@@ -232,6 +234,8 @@ a:hover .skills-title {
   font-size: 1rem;
   font-family: Montserrat;
   box-sizing: border-box;
+  outline: none;
+  padding: 0.5rem;
 }
 .contact-text {
   color: white;

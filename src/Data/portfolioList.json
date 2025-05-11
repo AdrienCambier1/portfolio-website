@@ -264,6 +264,46 @@
           "en": "I've created a music album website with a favourites and shopping cart system."
         },
         "class": "info"
+      },
+      {
+        "id": "2025-4",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "React - Tailwindcss - Design - Express.js - PostegreSQL",
+          "en": "React - Tailwindcss - Design - Express.js - PostegreSQL"
+        },
+        "title": {
+          "fr": "Développement d'un blog de sensibilisation à la cybersécurité",
+          "en": "Development of a cybersecurity awareness blog"
+        },
+        "description": {
+          "fr": "En cours de développement...",
+          "en": "In development..."
+        },
+        "class": "info"
+      },
+      {
+        "id": "2025-5",
+        "category": {
+          "fr": "Info",
+          "en": "IT"
+        },
+        "technologies": {
+          "fr": "Next.js - Tailwindcss - Design - Spring Boot - PostegreSQL",
+          "en": "Next.js - Tailwindcss - Design - Spring Boot - PostegreSQL"
+        },
+        "title": {
+          "fr": "Développement d'un site web de gestion d'événements",
+          "en": "Development of an event management website"
+        },
+        "description": {
+          "fr": "En cours de développement...",
+          "en": "In development..."
+        },
+        "class": "info"
       }
     ]
   }

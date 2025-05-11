@@ -332,6 +332,84 @@
           "link": "https://ng-music-platform.vercel.app/"
         }
       ]
+    },
+    "2025-4": {
+      "title": {
+        "fr": "Développement d'un blog de sensibilisation à la cybersécurité",
+        "en": "Development of a cybersecurity awareness blog"
+      },
+      "banner": "Blog",
+      "description": {
+        "fr": "En cours de développement...",
+        "en": "In development..."
+      },
+      "skills": {
+        "fr": "React - Tailwindcss - Design - Express.js - PostegreSQL",
+        "en": "React - Tailwindcss - Design - Express.js - PostegreSQL"
+      },
+      "gallery": "BlogImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Code Frontend",
+            "en": "Frontend Code"
+          },
+          "link": "https://github.com/Cambier-Adrien/netsafe_center"
+        },
+        {
+          "name": {
+            "fr": "Code Backend",
+            "en": "Backend Code"
+          },
+          "link": "https://github.com/David-Good-Enough/netsafe_center_backend"
+        },
+        {
+          "name": {
+            "fr": "Mon site réalisé",
+            "en": "My Created Site"
+          },
+          "link": "https://netsafe-center.vercel.app/"
+        }
+      ]
+    },
+    "2025-5": {
+      "title": {
+        "fr": "Développement d'un site web de gestion d'événements",
+        "en": "Development of an event management website"
+      },
+      "banner": "Event",
+      "description": {
+        "fr": "En cours de développement...",
+        "en": "In development..."
+      },
+      "skills": {
+        "fr": "Next.js - Tailwindcss - Design - Spring Boot - PostegreSQL",
+        "en": "Next.js - Tailwindcss - Design - Spring Boot - PostegreSQL"
+      },
+      "gallery": "EventImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Code Frontend",
+            "en": "Frontend Code"
+          },
+          "link": "https://github.com/Cambier-Adrien/veevent"
+        },
+        {
+          "name": {
+            "fr": "Code Backend",
+            "en": "Backend Code"
+          },
+          "link": "https://github.com/Quantix06/apifilrouge"
+        },
+        {
+          "name": {
+            "fr": "Mon site réalisé",
+            "en": "My Created Site"
+          },
+          "link": "https://veevent.vercel.app/"
+        }
+      ]
     }
   }
 }

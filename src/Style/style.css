@@ -13,12 +13,10 @@ html {
   padding: 0;
   overflow-x: hidden;
   overflow-y: auto;
+  scroll-behavior: smooth;
 }
 a,
 ul {
   text-decoration: none;
   color: inherit;
-}
-body {
-  @apply scroll-smooth;
 }

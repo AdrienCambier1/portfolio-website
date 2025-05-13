@@ -29,6 +29,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 90%;
 }
 .introduction-text {
   color: black;
@@ -425,6 +426,7 @@ a:hover .skills-title {
   }
   .content {
     width: 100%;
+    margin: 0;
     margin-bottom: 2rem;
   }
 }
@@ -581,6 +583,7 @@ a:hover .skills-title {
     align-items: center;
   }
   .content {
+    margin: 0;
     margin-bottom: 2rem;
   }
 }

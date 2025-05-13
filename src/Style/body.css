@@ -214,6 +214,7 @@ a:hover .skills-title {
 .mail {
   z-index: 1;
   width: 47.5rem;
+  max-width: 90%;
   position: relative;
   margin-top: 3rem;
   display: flex;
@@ -254,7 +255,7 @@ a:hover .skills-title {
   width: 100%;
 }
 .identity {
-  width: 22.5rem;
+  width: 47.5%;
   margin-bottom: 2rem;
 }
 .identity input {
@@ -557,9 +558,6 @@ a:hover .skills-title {
   }
   .contact-identity {
     flex-direction: column;
-  }
-  .mail {
-    width: 90%;
   }
   .identity {
     width: 100%;

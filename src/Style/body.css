@@ -331,6 +331,7 @@ a:hover .skills-title {
   object-position: center;
   width: 17.5rem;
   height: 17.5rem;
+  aspect-ratio: 1;
 }
 .grid .textarea {
   display: flex;

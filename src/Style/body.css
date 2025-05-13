@@ -574,7 +574,7 @@ a:hover .skills-title {
     width: 90%;
   }
 }
-@media screen and (max-width: 97.5rem) {
+@media screen and (max-width: 100rem) {
   .content .textarea {
     height: auto;
   }

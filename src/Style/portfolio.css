@@ -57,14 +57,14 @@
 }
 .flex {
   position: relative;
+  flex-wrap: wrap;
+  gap: 1rem;
   display: flex;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .flex .portfolio-button {
   margin: 0;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
 }
 .portfolio-button:hover {
   background-color: black;
@@ -195,13 +195,6 @@
   }
 }
 @media screen and (max-width: 42.5rem) {
-  .flex {
-    flex-direction: column;
-  }
-  .flex .portfolio-button {
-    margin: 0;
-    margin-bottom: 1rem;
-  }
   .project-selection {
     flex-direction: column;
   }

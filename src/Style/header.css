@@ -57,9 +57,10 @@ ul {
 }
 .header-content {
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
-  right: 12.5rem;
+  width: 90%;
 }
 .name-text {
   font-family: Cardo;
@@ -163,10 +164,6 @@ ul {
   }
   .background-nav {
     display: block;
-  }
-  .header-content {
-    right: 0;
-    margin: 10%;
   }
   .menu-on {
     transform: translateX(0);

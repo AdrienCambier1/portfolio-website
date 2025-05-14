@@ -272,8 +272,8 @@
           "en": "IT"
         },
         "technologies": {
-          "fr": "React - Tailwindcss - Design - Express.js - PostegreSQL",
-          "en": "React - Tailwindcss - Design - Express.js - PostegreSQL"
+          "fr": "React - Tailwindcss - Design - Express.js - PostgreSQL",
+          "en": "React - Tailwindcss - Design - Express.js - PostgreSQL"
         },
         "title": {
           "fr": "Développement d'un blog de sensibilisation à la cybersécurité",
@@ -292,8 +292,8 @@
           "en": "IT"
         },
         "technologies": {
-          "fr": "Next.js - Tailwindcss - Design - Spring Boot - PostegreSQL",
-          "en": "Next.js - Tailwindcss - Design - Spring Boot - PostegreSQL"
+          "fr": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL",
+          "en": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL"
         },
         "title": {
           "fr": "Développement d'un site web de gestion d'événements",

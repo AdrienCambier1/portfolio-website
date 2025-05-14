@@ -21,7 +21,7 @@ export default function Banner({ image }: BannerProps) {
         <p className="description-text">
           {
             traductions[selectedLanguage as "fr" | "en"][
-              "Développeur informatique (En cours de formation)"
+              "Étudiant en informatique (Data, IA, Développement)"
             ]
           }
         </p>

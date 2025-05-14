@@ -344,8 +344,8 @@
         "en": "In development..."
       },
       "skills": {
-        "fr": "React - Tailwindcss - Design - Express.js - PostegreSQL",
-        "en": "React - Tailwindcss - Design - Express.js - PostegreSQL"
+        "fr": "React - Tailwindcss - Design - Express.js - PostgreSQL",
+        "en": "React - Tailwindcss - Design - Express.js - PostgreSQL"
       },
       "gallery": "BlogImages",
       "buttons": [
@@ -383,8 +383,8 @@
         "en": "In development..."
       },
       "skills": {
-        "fr": "Next.js - Tailwindcss - Design - Spring Boot - PostegreSQL",
-        "en": "Next.js - Tailwindcss - Design - Spring Boot - PostegreSQL"
+        "fr": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL",
+        "en": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL"
       },
       "gallery": "EventImages",
       "buttons": [

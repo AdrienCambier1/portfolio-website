@@ -28,6 +28,7 @@ import * as IntranetImages from "../../Images/Intranet";
 import * as PokemonImages from "../../Images/Pokemon";
 import * as HarryPotterImages from "../../Images/HarryPotter";
 import * as MusicImages from "../../Images/Music";
+import * as NetsafeImages from "../../Images/Netsafe";
 import { useContext } from "react";
 import { LanguageContext } from "../../Contexts";
 import traductions from "../../Data/traductions.json";
@@ -85,6 +86,7 @@ export default function Project() {
     PokemonImages,
     HarryPotterImages,
     MusicImages,
+    NetsafeImages,
   };
 
   if (!projectId || !(projectId in portfolioProjects.projects)) {

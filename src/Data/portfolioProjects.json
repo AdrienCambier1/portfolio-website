@@ -335,10 +335,10 @@
     },
     "2025-4": {
       "title": {
-        "fr": "Développement d'un blog de sensibilisation à la cybersécurité",
-        "en": "Development of a cybersecurity awareness blog"
+        "fr": "Projet Netsafe Center",
+        "en": "Netsafe Center Project"
       },
-      "banner": "Blog",
+      "banner": "Netsafe",
       "description": {
         "fr": "En cours de développement...",
         "en": "In development..."
@@ -347,7 +347,7 @@
         "fr": "React - Tailwindcss - Design - Express.js - PostgreSQL",
         "en": "React - Tailwindcss - Design - Express.js - PostgreSQL"
       },
-      "gallery": "BlogImages",
+      "gallery": "NetsafeImages",
       "buttons": [
         {
           "name": {
@@ -374,10 +374,10 @@
     },
     "2025-5": {
       "title": {
-        "fr": "Développement d'un site web de gestion d'événements",
-        "en": "Development of an event management website"
+        "fr": "Projet Veevent",
+        "en": "Veevent Project"
       },
-      "banner": "Event",
+      "banner": "Veevent",
       "description": {
         "fr": "En cours de développement...",
         "en": "In development..."
@@ -386,7 +386,7 @@
         "fr": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL",
         "en": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL"
       },
-      "gallery": "EventImages",
+      "gallery": "VeeventImages",
       "buttons": [
         {
           "name": {

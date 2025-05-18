@@ -1,19 +1,22 @@
 import { Banner, TitleSection } from "../../Components";
 import Gallery from "../../Images/galerie.jpg";
 import { Link, useParams } from "react-router-dom";
-import Computer from "../../Images/ordinateur.jpg";
-import Wires from "../../Images/câbles.jpg";
-import Satellite from "../../Images/satellite.jpg";
-import Showcase from "../../Images/vitrine.jpg";
-import Restaurant from "../../Images/restaurant.jpg";
-import Android from "../../Images/android.jpg";
-import Cyber from "../../Images/cyber.jpg";
-import Migration from "../../Images/joomla.jpg";
-import Ia from "../../Images/ia.jpg";
-import Wordpress from "../../Images/wordpress.png";
-import Pokemon from "../../Images/pokemon.jpg";
-import HarryPotter from "../../Images/HarryPotter.png";
-import Music from "../../Images/music.jpg";
+import {
+  Android,
+  Computer,
+  Wires,
+  Satellite,
+  Showcase,
+  Restaurant,
+  Cyber,
+  Migration,
+  Ia,
+  Wordpress,
+  Pokemon,
+  HarryPotter,
+  Music,
+  Netsafe,
+} from "../../Images";
 import portfolioProjects from "../../Data/portfolioProjects.json";
 import * as AndroidImages from "../../Images/Android";
 import * as ChatgptImages from "../../Images/Chatgpt";
@@ -73,6 +76,7 @@ export default function Project() {
     Pokemon,
     HarryPotter,
     Music,
+    Netsafe,
     AndroidImages,
     ChatgptImages,
     ExtranetImages,

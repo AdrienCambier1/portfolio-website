@@ -276,12 +276,12 @@
           "en": "React - Tailwindcss - Design - Express.js - PostgreSQL"
         },
         "title": {
-          "fr": "Projet Netsafe Center",
-          "en": "Netsafe Center Project"
+          "fr": "Plateforme de blog sur la cybersécurité",
+          "en": "Cybersecurity Blog Platform"
         },
         "description": {
-          "fr": "En cours de développement...",
-          "en": "In development..."
+          "fr": "J'ai codé un site web de blog sur la cybersécurité avec un système de compte utilisateur.",
+          "en": "I've coded a cybersecurity blog website with a user account system."
         },
         "class": "info"
       },

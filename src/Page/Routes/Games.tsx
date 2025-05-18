@@ -1,8 +1,6 @@
 import { Banner, TitleSection, Separation, WhiteCard } from "../../Components";
-import GameBg from "../../Images/background-jeux.jpg";
+import { GameBg, ThaiTemple, Palais } from "../../Images";
 import minecraftProjects from "../../Data/minecraftProjects.json";
-import ThaiTemple from "../../Images/thai.png";
-import Palais from "../../Images/palais.png";
 import traductions from "../../Data/traductions.json";
 import { useContext } from "react";
 import { LanguageContext } from "../../Contexts";

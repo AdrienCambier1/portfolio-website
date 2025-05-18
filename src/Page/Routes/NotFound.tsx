@@ -1,5 +1,5 @@
 import { Banner, TitleSection } from "../../Components";
-import Bangkok from "../../Images/bangkok.jpg";
+import { Bangkok } from "../../Images";
 import { Link } from "react-router-dom";
 import traductions from "../../Data/traductions.json";
 import { useContext } from "react";

@@ -1,4 +1,3 @@
-import Bayoke from "../../Images/bayoke.jpg";
 import { Link } from "react-router-dom";
 import {
   Banner,
@@ -7,29 +6,23 @@ import {
   TitleSection,
   WhiteCard,
 } from "../../Components";
-import Coding from "../../Images/codage.jpg";
-import Language from "../../Images/langues.jpg";
-import Office from "../../Images/bureau.jpg";
-import Ynov from "../../Images/ynov.jpg";
-import Iut from "../../Images/iut.jpg";
-import Léonard from "../../Images/léonard.jpg";
-import Computer from "../../Images/ordinateur.jpg";
-import Wires from "../../Images/câbles.jpg";
-import Satellite from "../../Images/satellite.jpg";
-import Showcase from "../../Images/vitrine.jpg";
-import Piano from "../../Images/piano.jpg";
-import Temple from "../../Images/temple.jpg";
-import Game from "../../Images/jeu.jpg";
-import Contact from "../../Images/contact.jpg";
-import Restaurant from "../../Images/restaurant.jpg";
-import Android from "../../Images/android.jpg";
-import Cyber from "../../Images/cyber.jpg";
-import Migration from "../../Images/joomla.jpg";
-import Ia from "../../Images/ia.jpg";
-import Wordpress from "../../Images/wordpress.png";
-import Pokemon from "../../Images/pokemon.jpg";
-import HarryPotter from "../../Images/HarryPotter.png";
-import Music from "../../Images/music.jpg";
+import {
+  Bayoke,
+  Coding,
+  Language,
+  Office,
+  Ynov,
+  Iut,
+  Léonard,
+  Piano,
+  Temple,
+  Game,
+  Contact,
+  Pokemon,
+  HarryPotter,
+  Music,
+  Netsafe,
+} from "../../Images";
 import portfolioList from "../../Data/portfolioList.json";
 import { useContext } from "react";
 import { LanguageContext } from "../../Contexts";
@@ -57,27 +50,18 @@ export default function Home() {
   const { selectedLanguage } = useContext(LanguageContext);
 
   const portfolioImages: { [key: string]: string } = {
-    "2023-1": Computer,
-    "2023-2": Wires,
-    "2023-3": Satellite,
-    "2023-4": Showcase,
-    "2024-1": Restaurant,
-    "2024-2": Android,
-    "2024-3": Cyber,
-    "2024-4": Migration,
-    "2024-5": Ia,
-    "2024-6": Wordpress,
     "2025-1": Pokemon,
     "2025-2": HarryPotter,
     "2025-3": Music,
+    "2025-4": Netsafe,
   };
 
   const list: PortfolioList = portfolioList;
   const selectedProjects = [
-    list.projects[2024][0],
     list.projects[2025][0],
     list.projects[2025][1],
     list.projects[2025][2],
+    list.projects[2025][3],
   ];
 
   return (

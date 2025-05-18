@@ -1,4 +1,4 @@
-import Downward from "../Images/vers-le-bas.png";
+import { Downward } from "../Images";
 
 interface ProjectSelectorButtonProps {
   onClick: () => void;

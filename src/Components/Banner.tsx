@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
-import Instagram from "../Images/instagram.png";
-import Linkedin from "../Images/linkedin.png";
-import Cv from "../Images/cv.png";
-import Github from "../Images/github.png";
+import { Instagram, Linkedin, Cv, Github } from "../Images";
 import { LanguageContext } from "../Contexts";
 import { useContext } from "react";
 import traductions from "../Data/traductions.json";

@@ -1,5 +1,5 @@
 import { Banner, TitleSection, Separation, WhiteCard } from "../../Components";
-import PianoBg from "../../Images/background-piano.jpg";
+import { PianoBg } from "../../Images";
 import piano from "../../Data/piano.json";
 import traductions from "../../Data/traductions.json";
 import { useContext } from "react";

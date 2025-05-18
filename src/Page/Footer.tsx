@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom";
-import Cv from "../Images/cv.png";
-import Instagram from "../Images/instagram.png";
-import Linkedin from "../Images/linkedin.png";
-import Planet from "../Images/planète.png";
-import Github from "../Images/github.png";
+import { Cv, Instagram, Linkedin, Planet, Github } from "../Images";
 import { useState, useContext } from "react";
 import { ScrollLink } from "../Functions";
 import { LanguageSelectorButton, LanguageSelectorContent } from "../Components";

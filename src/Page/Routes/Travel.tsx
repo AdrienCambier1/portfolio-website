@@ -4,17 +4,18 @@ import {
   Separation,
   CountryCard,
 } from "../../Components";
-import TravelBg from "../../Images/background-voyages.jpg";
+import { TravelBg, ChiangMai } from "../../Images";
 import { Link } from "react-router-dom";
-import ChiangMai from "../../Images/pagode-repere-dans-parc-national-doi-inthanon-chiang-mai-thailande.jpg";
-import firstPic from "../../Images/Galerie/1.jpg";
-import secondPic from "../../Images/Galerie/2.jpg";
-import thirdPic from "../../Images/Galerie/3.jpg";
-import fourthPic from "../../Images/Galerie/4.jpg";
-import fifthPic from "../../Images/Galerie/5.jpg";
-import sixthPic from "../../Images/Galerie/6.jpg";
-import seventhPic from "../../Images/Galerie/7.jpg";
-import eighthPic from "../../Images/Galerie/8.jpg";
+import {
+  FirstPic,
+  SecondPic,
+  ThirdPic,
+  FourthPic,
+  FifthPic,
+  SixthPic,
+  SeventhPic,
+  EighthPic,
+} from "../../Images/Galerie";
 import traductions from "../../Data/traductions.json";
 import { useContext } from "react";
 import { LanguageContext } from "../../Contexts";
@@ -24,14 +25,14 @@ export default function Travel() {
   const { selectedLanguage } = useContext(LanguageContext);
 
   const images = [
-    firstPic,
-    secondPic,
-    thirdPic,
-    fourthPic,
-    fifthPic,
-    sixthPic,
-    seventhPic,
-    eighthPic,
+    FirstPic,
+    SecondPic,
+    ThirdPic,
+    FourthPic,
+    FifthPic,
+    SixthPic,
+    SeventhPic,
+    EighthPic,
   ];
 
   return (

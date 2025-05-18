@@ -18,8 +18,8 @@
       "buttons": [
         {
           "name": {
-            "fr": "Voir le Code",
-            "en": "View Code"
+            "fr": "Code Github",
+            "en": "Github Code"
           },
           "link": "https://github.com/Adrien-Cambier/Music-Website"
         }
@@ -32,8 +32,8 @@
       },
       "banner": "Wires",
       "description": {
-        "fr": "Le projet consistait à réaliser un réseau local pour une petite entreprise sur le logiciel Packet Tracer. La topologie globale est constituée de 4 sous-parties :\n- Un réseau interne destiné aux employés\n- Un serveur DNS et DHCP accessible uniquement au réseau interne\n- Un serveur DMZ accessible depuis l'extérieur et le réseau interne\n- Un serveur externe permettant de simuler les machines en dehors du LAN\n\nCes 4 sous-parties sont toutes reliées à un firewall qui s'occupe de gérer le trafic des paquets en fonction de la source. Ce projet m'a permis de me familiariser avec Packet Tracer ainsi que les différents protocoles de routage vus. Vous trouverez ci-joint un rapport rédigé expliquant en détail les étapes du projet.",
-        "en": "The project involved creating a local network for a small business using Packet Tracer software. The overall topology consists of 4 parts:\n- An internal network for employees\n- A DNS and DHCP server accessible only to the internal network\n- A DMZ server accessible from both the outside and the internal network\n- An external server simulating machines outside the LAN\n\nAll 4 parts are connected to a firewall that manages packet traffic based on the source. This project allowed me to familiarize myself with Packet Tracer as well as various routing protocols. Attached is a report detailing the steps of the project."
+        "fr": "Le projet consistait à réaliser un réseau local pour une petite entreprise sur le logiciel Packet Tracer.\n\nLa topologie globale est constituée de 4 sous-parties :\n- Un réseau interne destiné aux employés\n- Un serveur DNS et DHCP accessible uniquement au réseau interne\n- Un serveur DMZ accessible depuis l'extérieur et le réseau interne\n- Un serveur externe permettant de simuler les machines en dehors du LAN\n\nCes 4 sous-parties sont toutes reliées à un firewall qui s'occupe de gérer le trafic des paquets en fonction de la source. Ce projet m'a permis de me familiariser avec Packet Tracer ainsi que les différents protocoles de routage vus. Vous trouverez ci-joint un rapport rédigé expliquant en détail les étapes du projet.",
+        "en": "The project involved creating a local network for a small business using Packet Tracer software.\n\nThe overall topology consists of 4 parts:\n- An internal network for employees\n- A DNS and DHCP server accessible only to the internal network\n- A DMZ server accessible from both the outside and the internal network\n- An external server simulating machines outside the LAN\n\nAll 4 parts are connected to a firewall that manages packet traffic based on the source. This project allowed me to familiarize myself with Packet Tracer as well as various routing protocols. Attached is a report detailing the steps of the project."
       },
       "skills": {
         "fr": "Rédaction - Cisco - VLAN - NAT Dynamique - ACL",
@@ -203,7 +203,16 @@
         "fr": "Joomla - Php - Css",
         "en": "Joomla - Php - Css"
       },
-      "gallery": "IntranetImages"
+      "gallery": "IntranetImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Mouans-Sartoux",
+            "en": "Mouans-Sartoux"
+          },
+          "link": "https://www.google.com/search?q=mouans+sartoux&oq=mouans+sartoux&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQLhiABDIMCAIQIxgnGIAEGIoFMhAIAxAuGK8BGMcBGIAEGI4FMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMhAIBxAuGK8BGMcBGIAEGI4FMgcICBAAGIAEMgcICRAAGIAE0gEIMTY4NGowajSoAgCwAgE&sourceid=chrome&ie=UTF-8"
+        }
+      ]
     },
     "2024-5": {
       "title": {
@@ -219,7 +228,16 @@
         "fr": "Html - Css - Javascript - Python - Design",
         "en": "Html - Css - Javascript - Python - Design"
       },
-      "gallery": "ChatgptImages"
+      "gallery": "ChatgptImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Mouans-Sartoux",
+            "en": "Mouans-Sartoux"
+          },
+          "link": "https://www.google.com/search?q=mouans+sartoux&oq=mouans+sartoux&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQLhiABDIMCAIQIxgnGIAEGIoFMhAIAxAuGK8BGMcBGIAEGI4FMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMhAIBxAuGK8BGMcBGIAEGI4FMgcICBAAGIAEMgcICRAAGIAE0gEIMTY4NGowajSoAgCwAgE&sourceid=chrome&ie=UTF-8"
+        }
+      ]
     },
     "2024-6": {
       "title": {
@@ -235,7 +253,16 @@
         "fr": "Wordpress - Css - Design - Rédaction",
         "en": "Wordpress - Css - Design - Writing"
       },
-      "gallery": "ExtranetImages"
+      "gallery": "ExtranetImages",
+      "buttons": [
+        {
+          "name": {
+            "fr": "Mouans-Sartoux",
+            "en": "Mouans-Sartoux"
+          },
+          "link": "https://www.google.com/search?q=mouans+sartoux&oq=mouans+sartoux&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQLhiABDIMCAIQIxgnGIAEGIoFMhAIAxAuGK8BGMcBGIAEGI4FMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMhAIBxAuGK8BGMcBGIAEGI4FMgcICBAAGIAEMgcICRAAGIAE0gEIMTY4NGowajSoAgCwAgE&sourceid=chrome&ie=UTF-8"
+        }
+      ]
     },
     "2025-1": {
       "title": {
@@ -335,13 +362,13 @@
     },
     "2025-4": {
       "title": {
-        "fr": "Projet Netsafe Center",
-        "en": "Netsafe Center Project"
+        "fr": "Plateforme de blog sur la cybersécurité",
+        "en": "Cybersecurity Blog Platform"
       },
       "banner": "Netsafe",
       "description": {
-        "fr": "En cours de développement...",
-        "en": "In development..."
+        "fr": "Dans le cadre d’un projet de groupe réunissant différents profils et compétences, nous avons conçu une plateforme de sensibilisation à la cybersécurité. En charge du développement avec mon binôme, nous avons réalisé une application web en React et TailwindCSS.\n\nLa plateforme propose plusieurs fonctionnalités :\n- Un espace blog, où les utilisateurs peuvent publier des articles, commenter et liker les publications,\n- Une section cours et quiz, pour apprendre les bases de la cybersécurité et tester ses connaissances,\n- Un espace ressources et outils, qui centralise des liens externes utiles aux utilisateurs.\n\nLe backend est développé avec Express.js et repose sur une base de données PostgreSQL. Il gère efficacement un grand volume de données, notamment les publications et les interactions utilisateur. L’authentification est assurée de manière sécurisée grâce à l’utilisation de JSON Web Tokens (JWT).",
+        "en": "As part of a group project bringing together different profiles and skills, we designed a cybersecurity awareness platform. In charge of development with my partner, we created a web application in React and TailwindCSS.\n\nThe platform offers several features:\n- A blog space, where users can publish articles, comment and like posts,\n- A course and quiz section, to learn the basics of cybersecurity and test knowledge,\n- A resources and tools space, which centralizes useful external links for users.\n\nThe backend is developed with Express.js and relies on a PostgreSQL database. It efficiently manages a large volume of data, including posts and user interactions. Authentication is securely handled using JSON Web Tokens (JWT)."
       },
       "skills": {
         "fr": "React - Tailwindcss - Design - Express.js - PostgreSQL",

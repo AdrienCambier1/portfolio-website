@@ -24,7 +24,7 @@ export default function Header() {
       <ScrollLink to="/" id="top" className="name-header">
         ADRIEN CAMBIER
       </ScrollLink>
-      <nav className={`nav-links ${menu && "menu-on"}`}>
+      <nav className={`nav-links scrollbar-hide ${menu && "menu-on"}`}>
         <div className="name-menu">
           <p className="name-menu-text">
             <ScrollLink to="/" id="top" onClick={() => setMenu(!menu)}>

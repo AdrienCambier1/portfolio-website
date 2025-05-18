@@ -19,3 +19,14 @@ ul {
   text-decoration: none;
   color: inherit;
 }
+.scrollbar-hide {
+  /* Firefox */
+  scrollbar-width: none;
+
+  /* IE et Edge */
+  -ms-overflow-style: none;
+}
+/* Chrome, Safari et Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

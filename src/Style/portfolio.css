@@ -35,6 +35,8 @@
   margin-top: 2rem;
 }
 .portfolio-text {
+  color: black;
+  opacity: 75%;
   font-family: Montserrat;
   font-weight: 500;
   font-size: 1rem;

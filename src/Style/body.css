@@ -33,6 +33,7 @@ h1 {
 }
 .introduction-text {
   color: black;
+  opacity: 75%;
   font-size: 1rem;
   font-family: Montserrat;
   text-align: center;
@@ -342,6 +343,8 @@ a:hover .skills-title {
 }
 .grid-date,
 .grid-text {
+  color: black;
+  opacity: 75%;
   font-family: Montserrat;
   font-size: 1rem;
   margin: 0;

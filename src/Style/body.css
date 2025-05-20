@@ -32,8 +32,6 @@ h1 {
   width: 90%;
 }
 .introduction-text {
-  color: black;
-  opacity: 75%;
   font-size: 1rem;
   font-family: Montserrat;
   text-align: center;
@@ -44,6 +42,8 @@ h1 {
   line-height: 1.5rem;
 }
 .text-country {
+  color: black;
+  opacity: 75%;
   line-height: 1.5rem;
 }
 .beige-button {
@@ -76,6 +76,10 @@ h1 {
 }
 .black-section .introduction-text {
   color: white;
+}
+.beige-section .introduction-text {
+  color: black;
+  opacity: 75%;
 }
 .skills-section {
   display: flex;
@@ -401,10 +405,8 @@ a:hover .skills-title {
   background-color: #a8a8a8;
   border-radius: 1rem;
 }
-.beige-section .explanation-text {
-  color: black;
-}
 .title-country {
+  color: black;
   font-family: Cardo;
   font-size: 1.5rem;
   margin: 0;

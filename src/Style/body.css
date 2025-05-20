@@ -473,6 +473,10 @@ a:hover .skills-title {
     grid-template-columns: repeat(1, 1fr);
     width: 90%;
   }
+  .grid {
+    min-width: auto;
+    min-height: auto;
+  }
   .grid-img {
     width: 100%;
     max-width: 100%;

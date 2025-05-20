@@ -63,6 +63,7 @@
   display: flex;
   margin-top: 1rem;
   margin-bottom: 3rem;
+  width: 100%;
 }
 .flex .portfolio-button {
   margin: 0;

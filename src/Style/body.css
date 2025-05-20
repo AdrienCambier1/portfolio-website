@@ -298,6 +298,8 @@ a:hover .skills-title {
   box-sizing: border-box;
   box-shadow: 0 0 1rem rgba(1, 1, 1, 0.2);
   transition: box-shadow 0.25s ease-in-out;
+  min-width: 17.5rem;
+  min-height: 17.5rem;
 }
 .grid:hover {
   box-shadow: 0 0 5rem rgba(1, 1, 1, 0.2);

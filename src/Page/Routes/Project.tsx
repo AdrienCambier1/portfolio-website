@@ -146,7 +146,7 @@ export default function Project() {
               project.buttons.map((button, index) => (
                 <Link
                   key={index}
-                  className="portfolio-button"
+                  className="beige-button"
                   to={button.link}
                   target="_blank"
                 >

@@ -41,3 +41,4 @@ export { default as Planet } from "./planète.png";
 export { default as Github } from "./github.png";
 export { default as Downward } from "./vers-le-bas.png";
 export { default as Verify } from "./verifier.png";
+export { default as Event } from "./event.jpg";

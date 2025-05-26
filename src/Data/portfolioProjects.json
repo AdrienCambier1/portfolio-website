@@ -3,7 +3,7 @@
     "2023-1": {
       "title": {
         "fr": "Création d'une page frontend",
-        "en": "Creation of a Frontend Page"
+        "en": "Creation of a frontend Page"
       },
       "banner": "Computer",
       "description": {
@@ -27,8 +27,8 @@
     },
     "2023-2": {
       "title": {
-        "fr": "Simulation d'un réseau LAN",
-        "en": "LAN Network Simulation"
+        "fr": "Simulation d'un réseau Lan",
+        "en": "LAN network simulation"
       },
       "banner": "Wires",
       "description": {
@@ -109,8 +109,8 @@
     },
     "2024-1": {
       "title": {
-        "fr": "Conception d'un site Restaurant",
-        "en": "Restaurant Website Design"
+        "fr": "Conception d'un site restaurant",
+        "en": "Restaurant website design"
       },
       "banner": "Restaurant",
       "description": {
@@ -141,8 +141,8 @@
     },
     "2024-2": {
       "title": {
-        "fr": "Création d'une application Android",
-        "en": "Android Application Development"
+        "fr": "Création d'une application android",
+        "en": "Android application development"
       },
       "banner": "Android",
       "description": {
@@ -167,7 +167,7 @@
     "2024-3": {
       "title": {
         "fr": "Réaliser un test d'intrusion",
-        "en": "Perform a Penetration Test"
+        "en": "Perform a penetration test"
       },
       "banner": "Cyber",
       "description": {
@@ -192,7 +192,7 @@
     "2024-4": {
       "title": {
         "fr": "Migration d'un site web intranet",
-        "en": "Migration of an Intranet Website"
+        "en": "Migration of an intranet website"
       },
       "banner": "Migration",
       "description": {
@@ -217,7 +217,7 @@
     "2024-5": {
       "title": {
         "fr": "Création d'un assistant alimenté avec l'IA",
-        "en": "Creation of an AI-powered Assistant"
+        "en": "Creation of an AI-powered assistant"
       },
       "banner": "Ia",
       "description": {
@@ -242,7 +242,7 @@
     "2024-6": {
       "title": {
         "fr": "Réalisation d'une charte graphique",
-        "en": "Creation of a Graphic Charter"
+        "en": "Creation of a graphic charter"
       },
       "banner": "Wordpress",
       "description": {
@@ -363,7 +363,7 @@
     "2025-4": {
       "title": {
         "fr": "Plateforme de blog sur la cybersécurité",
-        "en": "Cybersecurity Blog Platform"
+        "en": "Cybersecurity blog platform"
       },
       "banner": "Netsafe",
       "description": {
@@ -401,10 +401,10 @@
     },
     "2025-5": {
       "title": {
-        "fr": "Projet Veevent",
-        "en": "Veevent Project"
+        "fr": "Site web événementiel Veevent",
+        "en": "Event website Veevent"
       },
-      "banner": "Veevent",
+      "banner": "Event",
       "description": {
         "fr": "En cours de développement...",
         "en": "In development..."
@@ -413,14 +413,14 @@
         "fr": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL",
         "en": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL"
       },
-      "gallery": "VeeventImages",
+      "gallery": "EventImages",
       "buttons": [
         {
           "name": {
             "fr": "Code Frontend",
             "en": "Frontend Code"
           },
-          "link": "https://github.com/Cambier-Adrien/veevent"
+          "link": "https://github.com/Cambier-Adrien/event_website"
         },
         {
           "name": {
@@ -434,7 +434,7 @@
             "fr": "Mon site réalisé",
             "en": "My Created Site"
           },
-          "link": "https://veevent.vercel.app/"
+          "link": "https://event-website-veevent.vercel.app/"
         }
       ]
     }

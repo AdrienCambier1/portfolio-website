@@ -13,7 +13,7 @@
         },
         "title": {
           "fr": "Création d'une page frontend",
-          "en": "Creation of a Frontend Page"
+          "en": "Creation of a frontend Page"
         },
         "description": {
           "fr": "J'ai créé un site web sur mes passions avec mon binôme afin d'apprendre le développement web.",
@@ -32,8 +32,8 @@
           "en": "Packet Tracer"
         },
         "title": {
-          "fr": "Simulation d'un Réseau Lan",
-          "en": "LAN Network Simulation"
+          "fr": "Simulation d'un réseau Lan",
+          "en": "LAN network simulation"
         },
         "description": {
           "fr": "J'ai conçu un petit réseau local interconnecté pour une entreprise.",
@@ -94,8 +94,8 @@
           "en": "Html - Css - Javascript"
         },
         "title": {
-          "fr": "Conception d'un site Restaurant",
-          "en": "Restaurant Website Design"
+          "fr": "Conception d'un site restaurant",
+          "en": "Restaurant website design"
         },
         "description": {
           "fr": "J'ai créé un prototype de site web pour un restaurant dans le but de m'entraîner.",
@@ -114,8 +114,8 @@
           "en": "Android Studio - Xml - Java"
         },
         "title": {
-          "fr": "Création d'une application Android",
-          "en": "Android Application Development"
+          "fr": "Création d'une application android",
+          "en": "Android application development"
         },
         "description": {
           "fr": "J'ai créé une application android permettant d'afficher des trames et d'interagir avec.",
@@ -135,7 +135,7 @@
         },
         "title": {
           "fr": "Réaliser un test d'intrusion",
-          "en": "Perform a Penetration Test"
+          "en": "Perform a penetration test"
         },
         "description": {
           "fr": "J'ai créé un réseau virtuel avec docker et effectué une cyberattaque dessus.",
@@ -155,7 +155,7 @@
         },
         "title": {
           "fr": "Migration d'un site web intranet",
-          "en": "Migration of an Intranet Website"
+          "en": "Migration of an intranet website"
         },
         "description": {
           "fr": "J'ai effectué une refonte du site web intranet de la mairie de Mouans-Sartoux.",
@@ -175,7 +175,7 @@
         },
         "title": {
           "fr": "Création d'un assistant alimenté avec l'IA",
-          "en": "Creation of an AI-powered Assistant"
+          "en": "Creation of an AI-powered assistant"
         },
         "description": {
           "fr": "J'ai développé un assistant doté d'une intelligence pour aider les employés dans leurs tâches.",
@@ -195,7 +195,7 @@
         },
         "title": {
           "fr": "Réalisation d'une charte graphique",
-          "en": "Creation of a Graphic Charter"
+          "en": "Creation of a graphic charter"
         },
         "description": {
           "fr": "J'ai créé un nouveau style pour le site web de la mairie de Mouans-Sartoux.",
@@ -277,7 +277,7 @@
         },
         "title": {
           "fr": "Plateforme de blog sur la cybersécurité",
-          "en": "Cybersecurity Blog Platform"
+          "en": "Cybersecurity blog platform"
         },
         "description": {
           "fr": "J'ai codé un site web de blog sur la cybersécurité avec un système de compte utilisateur.",
@@ -296,8 +296,8 @@
           "en": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL"
         },
         "title": {
-          "fr": "Projet Veevent",
-          "en": "Veevent Project"
+          "fr": "Site web événementiel Veevent",
+          "en": "Event website Veevent"
         },
         "description": {
           "fr": "En cours de développement...",

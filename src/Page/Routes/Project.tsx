@@ -16,6 +16,7 @@ import {
   HarryPotter,
   Music,
   Netsafe,
+  Event,
 } from "../../Images";
 import portfolioProjects from "../../Data/portfolioProjects.json";
 import * as AndroidImages from "../../Images/Android";
@@ -77,6 +78,7 @@ export default function Project() {
     HarryPotter,
     Music,
     Netsafe,
+    Event,
     AndroidImages,
     ChatgptImages,
     ExtranetImages,

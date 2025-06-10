@@ -11,6 +11,11 @@ interface BannerProps {
 export default function Banner({ image }: BannerProps) {
   const { selectedLanguage } = useContext(LanguageContext);
 
+  const cvFiles = {
+    fr: "/Adrien Cambier CV alt.pdf",
+    en: "/EN Adrien Cambier CV alt.pdf",
+  };
+
   return (
     <div className="header-container" id="top">
       <img className="header-img" src={image} />
@@ -24,7 +29,10 @@ export default function Banner({ image }: BannerProps) {
         </p>
         <p className="name-text">Adrien Cambier</p>
         <nav className="social-links">
-          <Link to="/Adrien Cambier CV.pdf" target="_blank">
+          <Link
+            to={cvFiles[selectedLanguage as keyof typeof cvFiles] || cvFiles.fr}
+            target="_blank"
+          >
             <img className="social-media" src={Cv} />
           </Link>
           <Link to="https://github.com/Cambier-Adrien/" target="_blank">

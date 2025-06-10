@@ -64,6 +64,11 @@ export default function Home() {
     list.projects[2025][3],
   ];
 
+  const cvFiles = {
+    fr: "/Adrien Cambier CV alt.pdf",
+    en: "/EN Adrien Cambier CV alt.pdf",
+  };
+
   return (
     <>
       <Banner image={Bayoke} />
@@ -82,7 +87,7 @@ export default function Home() {
         </p>
         <Link
           className="beige-button"
-          to="/Adrien Cambier CV.pdf"
+          to={cvFiles[selectedLanguage as keyof typeof cvFiles] || cvFiles.fr}
           target="_blank"
         >
           {traductions[selectedLanguage as "fr" | "en"]["Consultez mon CV"]}

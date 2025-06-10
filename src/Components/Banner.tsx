@@ -12,8 +12,8 @@ export default function Banner({ image }: BannerProps) {
   const { selectedLanguage } = useContext(LanguageContext);
 
   const cvFiles = {
-    fr: "/Adrien Cambier CV alt.pdf",
-    en: "/EN Adrien Cambier CV alt.pdf",
+    fr: "/Adrien Cambier CV Alt.pdf",
+    en: "/EN Adrien Cambier CV Alt.pdf",
   };
 
   return (

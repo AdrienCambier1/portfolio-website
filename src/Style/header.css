@@ -46,12 +46,13 @@ ul {
 }
 .nav-links ul {
   display: flex;
+  padding: 0;
 }
 .nav-links .links {
   font-family: Montserrat;
   color: white;
   text-transform: uppercase;
-  margin-right: 3rem;
+  margin-left: 3rem;
   font-size: 0.9rem;
 }
 .nav-links .links:hover {
@@ -132,7 +133,7 @@ ul {
   display: none;
 }
 /*  Responsive */
-@media screen and (max-width: 82.5rem) {
+@media screen and (max-width: 92.5rem) {
   .nav-links {
     height: 100%;
     position: fixed;
@@ -152,6 +153,9 @@ ul {
     padding: 0;
     height: 17.5rem;
     justify-content: space-between;
+  }
+  .nav-links .links {
+    margin: 0;
   }
   .hamburger-menu {
     display: block;

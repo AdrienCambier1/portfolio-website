@@ -30,24 +30,26 @@ export default function Footer() {
       <div className="name-footer">
         <p className="title-footer">Adrien Cambier</p>
         <nav className="social-links">
-          <Link
-            to={cvFiles[selectedLanguage as keyof typeof cvFiles] || cvFiles.fr}
+          <a
+            href={
+              cvFiles[selectedLanguage as keyof typeof cvFiles] || cvFiles.fr
+            }
             target="_blank"
           >
             <img className="social-media" src={Cv} />
-          </Link>
-          <Link to="https://github.com/Cambier-Adrien/" target="_blank">
+          </a>
+          <a href="https://github.com/Cambier-Adrien/" target="_blank">
             <img className="social-media" src={Github} />
-          </Link>
-          <Link to="https://www.instagram.com/adri1.cr/" target="_blank">
+          </a>
+          <a href="https://www.instagram.com/adri1.cr/" target="_blank">
             <img className="social-media" src={Instagram} />
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/adrien-cambier-0820b127b/"
+          </a>
+          <a
+            href="https://www.linkedin.com/in/adrien-cambier-0820b127b/"
             target="_blank"
           >
             <img className="social-media" src={Linkedin} />
-          </Link>
+          </a>
         </nav>
       </div>
       <div className="name-footer">

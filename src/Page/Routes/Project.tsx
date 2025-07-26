@@ -33,6 +33,7 @@ import * as PokemonImages from "../../Images/Pokemon";
 import * as HarryPotterImages from "../../Images/HarryPotter";
 import * as MusicImages from "../../Images/Music";
 import * as NetsafeImages from "../../Images/Netsafe";
+import * as EventImages from "../../Images/Event";
 import { useContext } from "react";
 import { LanguageContext } from "../../Contexts";
 import traductions from "../../Data/traductions.json";
@@ -93,6 +94,7 @@ export default function Project() {
     HarryPotterImages,
     MusicImages,
     NetsafeImages,
+    EventImages,
   };
 
   if (!projectId || !(projectId in portfolioProjects.projects)) {

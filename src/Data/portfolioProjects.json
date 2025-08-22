@@ -410,20 +410,6 @@
       "buttons": [
         {
           "name": {
-            "fr": "Code Front Office",
-            "en": "Front Office Code"
-          },
-          "link": "https://github.com/Cambier-Adrien/event_website"
-        },
-        {
-          "name": {
-            "fr": "Code Back Office",
-            "en": "Back Office Code"
-          },
-          "link": "https://github.com/jbsaintebeuve/veevent_admin"
-        },
-        {
-          "name": {
             "fr": "Code API",
             "en": "API Code"
           },

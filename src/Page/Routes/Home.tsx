@@ -19,9 +19,9 @@ import {
   Game,
   Contact,
   Pokemon,
-  HarryPotter,
   Music,
   Netsafe,
+  Event,
 } from "../../Images";
 import portfolioList from "../../Data/portfolioList.json";
 import { useContext } from "react";
@@ -51,17 +51,17 @@ export default function Home() {
 
   const portfolioImages: { [key: string]: string } = {
     "2025-1": Pokemon,
-    "2025-2": HarryPotter,
     "2025-3": Music,
     "2025-4": Netsafe,
+    "2025-5": Event,
   };
 
   const list: PortfolioList = portfolioList;
   const selectedProjects = [
     list.projects[2025][0],
-    list.projects[2025][1],
     list.projects[2025][2],
     list.projects[2025][3],
+    list.projects[2025][4],
   ];
 
   const cvFiles = {
@@ -167,7 +167,7 @@ export default function Home() {
           {selectedProjects.map((project, index) => (
             <WhiteCard
               key={index}
-              image={portfolioImages[project.id]}
+              image={portfolioImages[project.id] || Temple}
               details={project.technologies[selectedLanguage]}
               title={project.title[selectedLanguage]}
               content={project.description[selectedLanguage]}

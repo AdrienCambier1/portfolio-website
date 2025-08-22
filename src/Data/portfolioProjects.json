@@ -424,10 +424,17 @@
         },
         {
           "name": {
-            "fr": "Mon site réalisé",
-            "en": "My Created Site"
+            "fr": "Front Office",
+            "en": "Front Office"
           },
           "link": "https://event-website-veevent.vercel.app/"
+        },
+        {
+          "name": {
+            "fr": "Back Office",
+            "en": "Back Office"
+          },
+          "link": "https://veevent-admin.vercel.app/"
         }
       ]
     }

@@ -37,7 +37,7 @@ export default function Banner({ image }: BannerProps) {
           >
             <img className="social-media" src={Cv} />
           </a>
-          <a href="https://github.com/Cambier-Adrien/" target="_blank">
+          <a href="https://github.com/AdrienCambier1/" target="_blank">
             <img className="social-media" src={Github} />
           </a>
           <a href="https://www.instagram.com/adri1.cr/" target="_blank">

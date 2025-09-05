@@ -70,7 +70,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  cursor: pointer;
 }
 .year {
   width: 10rem;

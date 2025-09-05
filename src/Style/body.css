@@ -44,6 +44,7 @@ h1 {
 .text-country {
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.5rem;
+  margin: 1rem 0;
 }
 .beige-button {
   font-family: Montserrat;
@@ -162,6 +163,7 @@ a:hover .skills-title {
   font-family: Cardo;
   color: white;
   font-size: 1.5rem;
+  margin: 1rem 0;
 }
 .content-text {
   color: white;

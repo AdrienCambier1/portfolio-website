@@ -237,6 +237,7 @@ a:hover .skills-title {
   background-color: white;
   color: rgba(0, 0, 0, 0.8);
   border: none;
+  border-radius: 0.25rem;
 }
 .mail textarea {
   width: 100%;
@@ -252,6 +253,7 @@ a:hover .skills-title {
   padding: 0.5rem;
   background-color: white;
   color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.25rem;
 
   line-height: 1.5rem;
   border: none;

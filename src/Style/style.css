@@ -14,9 +14,6 @@ html {
   overflow-x: hidden;
   overflow-y: auto;
 }
-html {
-  scroll-behavior: smooth;
-}
 body {
   background-color: rgb(0, 0, 23);
 }

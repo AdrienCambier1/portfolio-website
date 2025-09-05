@@ -56,11 +56,7 @@ export default function Header() {
                 id="skills"
                 onClick={() => setMenu(false)}
               >
-                {
-                  traductions[selectedLanguage as "fr" | "en"][
-                    "Mes compétences"
-                  ]
-                }
+                {traductions[selectedLanguage as "fr" | "en"]["Compétences"]}
               </ScrollLink>
             </li>
             <li>

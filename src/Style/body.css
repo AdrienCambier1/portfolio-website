@@ -171,7 +171,7 @@ a:hover .skills-title {
 }
 .content .textarea {
   position: relative;
-  height: 17.5rem;
+  height: 18rem;
 }
 .content-button {
   position: relative;
@@ -297,7 +297,7 @@ a:hover .skills-title {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 17.5rem);
+  grid-template-columns: repeat(3, 18rem);
   grid-gap: 2rem;
   margin-top: 3rem;
 }
@@ -308,8 +308,8 @@ a:hover .skills-title {
   box-sizing: border-box;
   box-shadow: 0 0 1rem rgba(1, 1, 1, 0.2);
   transition: box-shadow 0.25s ease-in-out;
-  min-width: 17.5rem;
-  min-height: 17.5rem;
+  min-width: 18rem;
+  min-height: 18rem;
 }
 .grid:hover {
   box-shadow: 0 0 5rem rgba(1, 1, 1, 0.2);
@@ -338,8 +338,8 @@ a:hover .skills-title {
   object-position: center;
   height: 100%;
   width: 100%;
-  max-width: 17.5rem;
-  max-height: 17.5rem;
+  max-width: 18rem;
+  max-height: 18rem;
 }
 .grid .textarea {
   display: flex;
@@ -367,6 +367,8 @@ a:hover .skills-title {
 }
 .grid-button {
   width: fit-content;
+  font-size: 1rem;
+  font-family: Montserrat;
 }
 .grid-button:hover {
   text-decoration: underline;
@@ -445,7 +447,7 @@ a:hover .skills-title {
 }
 @media screen and (max-width: 70rem) {
   .grid-container {
-    grid-template-columns: repeat(2, 17.5rem);
+    grid-template-columns: repeat(2, 18rem);
   }
   .grid:nth-child(1) {
     grid-row: 1;

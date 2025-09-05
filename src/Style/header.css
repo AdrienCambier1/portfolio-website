@@ -53,7 +53,7 @@ ul {
   color: white;
   text-transform: uppercase;
   margin-left: 3rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .nav-links .links:hover {
   text-decoration: underline;
@@ -151,7 +151,7 @@ ul {
   .nav-links ul {
     flex-direction: column;
     padding: 0;
-    height: 17.5rem;
+    height: 18rem;
     justify-content: space-between;
   }
   .nav-links .links {

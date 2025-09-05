@@ -37,35 +37,14 @@ ul {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
 }
+a,
 button,
-.beige-button,
-.content-button,
-.send-button,
-.portfolio-button,
-.grid-button,
-.language-content,
-.language-selector-text,
-.nav-links .links,
-.nav-links-footer li,
-.social-links a,
-.project-text,
-.project-box,
-.hamburger-menu,
-.close,
-.skills a {
+img {
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-input,
-textarea {
-  -webkit-user-select: auto;
-  -khtml-user-select: auto;
-  -moz-user-select: auto;
-  -ms-user-select: auto;
-  user-select: auto;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover,

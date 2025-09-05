@@ -36,6 +36,27 @@ ul {
 * {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
+}
+button,
+.beige-button,
+.content-button,
+.send,
+.portfolio-button,
+.grid-button,
+.project-content,
+.language-content,
+.language-selector-text,
+.nav-links .links,
+.nav-links-footer li,
+.social-links a,
+.project-text,
+.alternate-img,
+.skills-img,
+.hamburger-menu,
+.close,
+.grid,
+.skills a,
+img {
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -49,4 +70,20 @@ textarea {
   -moz-user-select: auto;
   -ms-user-select: auto;
   user-select: auto;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.8) !important;
+  box-shadow: 0 0 0 30px white inset !important;
+  background-color: white !important;
+}
+
+input:-moz-autofill,
+input:-moz-autofill:hover,
+input:-moz-autofill:focus {
+  background-color: white !important;
+  color: rgba(0, 0, 0, 0.8) !important;
 }

@@ -40,7 +40,7 @@ ul {
 button,
 .beige-button,
 .content-button,
-.send,
+.send-button,
 .portfolio-button,
 .grid-button,
 .language-content,
@@ -50,12 +50,9 @@ button,
 .social-links a,
 .project-text,
 .project-box,
-.alternate-img,
-.skills-img,
 .hamburger-menu,
 .close,
-.skills a,
-img {
+.skills a {
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;

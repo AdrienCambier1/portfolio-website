@@ -276,7 +276,7 @@ a:hover .skills-title {
 .identity input {
   width: 100%;
 }
-.send {
+.send-button {
   position: relative;
   border: 1px solid white;
   color: white;
@@ -292,7 +292,7 @@ a:hover .skills-title {
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
-.send:hover {
+.send-button:hover {
   transition: all 0.5s ease-in-out;
   background-color: white;
   color: black;

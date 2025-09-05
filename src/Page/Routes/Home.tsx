@@ -241,7 +241,7 @@ export default function Home() {
           <textarea id="comments" name="coments" />
           <input
             id="submit"
-            className="send"
+            className="send-button"
             type="submit"
             value={traductions[selectedLanguage as "fr" | "en"]["Envoyer"]}
           />

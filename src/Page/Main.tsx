@@ -1,4 +1,4 @@
-import { Route, Routes, ScrollRestoration } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import {
   Home,
   Portfolio,
@@ -21,7 +21,6 @@ export default function Main() {
         <Route path="/projets/:projectId" element={<Project />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <ScrollRestoration />
     </main>
   );
 }

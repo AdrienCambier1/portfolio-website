@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, ScrollRestoration } from "react-router-dom";
 import {
   Home,
   Portfolio,
@@ -16,11 +16,12 @@ export default function Main() {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/piano" element={<Piano />} />
-        <Route path="/travel" element={<Travel />} />
-        <Route path="/games" element={<Games />} />
-        <Route path="/project/:projectId" element={<Project />} />
+        <Route path="/voyages" element={<Travel />} />
+        <Route path="/jeux" element={<Games />} />
+        <Route path="/projets/:projectId" element={<Project />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <ScrollRestoration />
     </main>
   );
 }

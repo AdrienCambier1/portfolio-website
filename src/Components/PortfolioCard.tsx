@@ -18,7 +18,7 @@ export default function PortfolioCard({
   description,
 }: PortfolioCardProps) {
   return (
-    <Link className="project-box" to={`/project/${id}`}>
+    <Link className="project-box" to={`/projets/${id}`}>
       <div className={`theme-box ${customClass}`}>{category}</div>
       <div className="project-description">
         <p className="description-theme">{technologies}</p>

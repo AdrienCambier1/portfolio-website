@@ -109,7 +109,7 @@ export default function Home() {
               "Français - Anglais - Thaï"
             ]
           }
-          link="/travel"
+          link="/voyages"
         />
         <SkillSection
           image={Office}
@@ -172,7 +172,7 @@ export default function Home() {
               details={project.technologies[selectedLanguage]}
               title={project.title[selectedLanguage]}
               content={project.description[selectedLanguage]}
-              link={`/project/${project.id}`}
+              link={`/projets/${project.id}`}
             />
           ))}
         </div>
@@ -198,7 +198,7 @@ export default function Home() {
             } 2010`}
             title={traductions[selectedLanguage as "fr" | "en"]["Les voyages"]}
             content={text.hobbies[2][selectedLanguage as "fr" | "en"]}
-            link="/travel"
+            link="/voyages"
           />
           <BlackCard
             image={Game}
@@ -209,7 +209,7 @@ export default function Home() {
               traductions[selectedLanguage as "fr" | "en"]["Les jeux vidéos"]
             }
             content={text.hobbies[3][selectedLanguage as "fr" | "en"]}
-            link="/games"
+            link="/jeux"
           />
         </div>
       </section>

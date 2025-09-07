@@ -42,3 +42,4 @@ export { default as Github } from "./github.png";
 export { default as Downward } from "./vers-le-bas.png";
 export { default as Verify } from "./verifier.png";
 export { default as Event } from "./event.jpg";
+export { default as Thailand4k } from "./thailand4k.jpg";

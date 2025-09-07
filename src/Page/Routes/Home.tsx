@@ -22,6 +22,7 @@ import {
   Music,
   Netsafe,
   Event,
+  Thailand4k,
 } from "../../Images";
 import portfolioList from "../../Data/portfolioList.json";
 import { useContext } from "react";
@@ -71,7 +72,7 @@ export default function Home() {
 
   return (
     <>
-      <Banner image={Bayoke} />
+      <Banner image={Thailand4k} />
       <section id="propos" className="beige-section">
         <TitleSection
           title={

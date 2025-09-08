@@ -18,7 +18,7 @@ export default function Banner({ image }: BannerProps) {
 
   return (
     <div className="header-container" id="top">
-      <img className="header-img" src={image} loading="eager" />
+      <img className="header-img" src={image} loading="lazy" />
       <div className="header-content">
         <p className="description-text">
           {
@@ -35,19 +35,19 @@ export default function Banner({ image }: BannerProps) {
             }
             target="_blank"
           >
-            <img className="social-media" src={Cv} loading="eager" />
+            <img className="social-media" src={Cv} loading="lazy" />
           </a>
           <a href="https://github.com/AdrienCambier1/" target="_blank">
-            <img className="social-media" src={Github} loading="eager" />
+            <img className="social-media" src={Github} loading="lazy" />
           </a>
           <a href="https://www.instagram.com/adri1.cr/" target="_blank">
-            <img className="social-media" src={Instagram} loading="eager" />
+            <img className="social-media" src={Instagram} loading="lazy" />
           </a>
           <a
             href="https://www.linkedin.com/in/adrien-cambier-0820b127b/"
             target="_blank"
           >
-            <img className="social-media" src={Linkedin} loading="eager" />
+            <img className="social-media" src={Linkedin} loading="lazy" />
           </a>
         </nav>
       </div>

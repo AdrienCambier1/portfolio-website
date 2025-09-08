@@ -214,7 +214,7 @@ export default function Home() {
         </div>
       </section>
       <section id="contact" className="contact-section">
-        <img className="contact-background" src={Contact} loading="eager" />
+        <img className="contact-background" src={Contact} loading="lazy" />
         <TitleSection
           title={traductions[selectedLanguage as "fr" | "en"]["Me contacter"]}
         />

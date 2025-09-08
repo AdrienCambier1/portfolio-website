@@ -16,7 +16,7 @@ export default function LanguageSelectorButton({
       <img
         className={`language-logo ${!isActive && "invisible"}`}
         src={Verify}
-        loading="eager"
+        loading="lazy"
       />
       {content}
     </li>

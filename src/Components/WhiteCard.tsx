@@ -22,7 +22,7 @@ export default function WhiteCard({
 
   return (
     <div className="grid">
-      <img className="grid-img" src={image} loading="eager" />
+      <img className="grid-img" src={image} loading="lazy" />
       <div className="textarea">
         <div>
           <p className="grid-date">{details}</p>

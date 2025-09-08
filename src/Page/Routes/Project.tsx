@@ -137,7 +137,6 @@ export default function Project() {
             className="portfolio-img"
             src={images[project.banner]}
             alt={project.title[selectedLanguage]}
-            loading="lazy"
           />
           <p className="portfolio-text">
             {formatDescription(project.description[selectedLanguage])}
@@ -170,7 +169,6 @@ export default function Project() {
                 key={index}
                 className="portfolio-img alternate-img"
                 src={galleryImages[imageKey]}
-                loading="lazy"
               />
             ))}
         </div>

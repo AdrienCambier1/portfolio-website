@@ -32,12 +32,7 @@ export default function Header() {
                 ADRIEN CAMBIER
               </ScrollLink>
             </p>
-            <img
-              className="close"
-              src={Close}
-              onClick={() => setMenu(!menu)}
-              loading="lazy"
-            />
+            <img className="close" src={Close} onClick={() => setMenu(!menu)} />
           </div>
           <ul>
             <li>
@@ -114,7 +109,6 @@ export default function Header() {
           className="hamburger-menu"
           src={Hamburger}
           onClick={() => setMenu(!menu)}
-          loading="lazy"
         />
       </div>
     </header>

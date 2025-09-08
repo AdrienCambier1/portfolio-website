@@ -16,12 +16,12 @@ export default function SelectorButton({
 }: SelectorButtonProps) {
   return (
     <div className="language-content underline" onClick={onClick}>
-      <img className="language-logo" src={image} loading="lazy" />
+      <img className="language-logo" src={image} loading="eager" />
       <p className="language-text">{content}</p>
       <img
         className={`language-logo rotate90deg ${isActive && "rotate180deg"}`}
         src={Downward}
-        loading="lazy"
+        loading="eager"
       />
     </div>
   );

@@ -11,7 +11,7 @@ export default function CountryCard({
 }: CountryCardProps) {
   return (
     <div className="explanation">
-      <img className="explanation-img" src={image} loading="lazy" />
+      <img className="explanation-img" src={image} loading="eager" />
       <div className="explanation-text">
         <p className="title-country">{title}</p>
         <div className="line-country" />

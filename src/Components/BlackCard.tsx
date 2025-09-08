@@ -22,7 +22,7 @@ export default function CareerCard({
 
   return (
     <div className="content">
-      <img className="content-img" src={image} loading="lazy" />
+      <img className="content-img" src={image} loading="eager" />
       <div className="text-area">
         <p className="content-date">{details}</p>
         <p className="content-title">{title}</p>

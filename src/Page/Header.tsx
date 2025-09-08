@@ -36,7 +36,7 @@ export default function Header() {
               className="close"
               src={Close}
               onClick={() => setMenu(!menu)}
-              loading="lazy"
+              loading="eager"
             />
           </div>
           <ul>
@@ -114,7 +114,7 @@ export default function Header() {
           className="hamburger-menu"
           src={Hamburger}
           onClick={() => setMenu(!menu)}
-          loading="lazy"
+          loading="eager"
         />
       </div>
     </header>

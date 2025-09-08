@@ -36,19 +36,19 @@ export default function Footer() {
             }
             target="_blank"
           >
-            <img className="social-media" src={Cv} />
+            <img className="social-media" src={Cv} loading="lazy" />
           </a>
           <a href="https://github.com/AdrienCambier1/" target="_blank">
-            <img className="social-media" src={Github} />
+            <img className="social-media" src={Github} loading="lazy" />
           </a>
           <a href="https://www.instagram.com/adri1.cr/" target="_blank">
-            <img className="social-media" src={Instagram} />
+            <img className="social-media" src={Instagram} loading="lazy" />
           </a>
           <a
             href="https://www.linkedin.com/in/adrien-cambier-0820b127b/"
             target="_blank"
           >
-            <img className="social-media" src={Linkedin} />
+            <img className="social-media" src={Linkedin} loading="lazy" />
           </a>
         </nav>
       </div>

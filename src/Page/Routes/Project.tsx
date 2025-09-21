@@ -164,13 +164,20 @@ export default function Project() {
             }
           />
           {galleryImages &&
-            Object.keys(galleryImages).map((imageKey, index) => (
-              <img
-                key={index}
-                className="portfolio-img alternate-img"
-                src={galleryImages[imageKey]}
-              />
-            ))}
+            Object.keys(galleryImages)
+              .sort((a, b) => {
+                const numA = parseInt(a.match(/\d+/)?.[0] || "0");
+                const numB = parseInt(b.match(/\d+/)?.[0] || "0");
+                return numA - numB;
+              })
+              .map((imageKey, index) => (
+                <img
+                  key={index}
+                  className="portfolio-img alternate-img"
+                  src={galleryImages[imageKey]}
+                  alt={`Gallery image ${index + 1}`}
+                />
+              ))}
         </div>
       </section>
     </>

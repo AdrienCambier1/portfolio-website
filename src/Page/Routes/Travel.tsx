@@ -4,7 +4,7 @@ import {
   Separation,
   CountryCard,
 } from "../../Components";
-import { TravelBg, ChiangMai } from "../../Images";
+import { TravelBg } from "../../Images";
 import { Link } from "react-router-dom";
 import {
   FirstPic,
@@ -53,7 +53,7 @@ export default function Travel() {
         </p>
         <Separation />
         <CountryCard
-          image={ChiangMai}
+          image="https://plus.unsplash.com/premium_photo-1661929242720-140374d97c94?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpYW5nJTIwbWFpfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
           title={traductions[selectedLanguage as "fr" | "en"]["Thaïlande"]}
           content={text.travels[3][selectedLanguage as "fr" | "en"]}
         />

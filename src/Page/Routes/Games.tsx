@@ -1,5 +1,5 @@
 import { Banner, TitleSection, Separation, WhiteCard } from "../../Components";
-import { GameBg, ThaiTemple, Palais } from "../../Images";
+import { GameBg } from "../../Images";
 import minecraftProjects from "../../Data/minecraftProjects.json";
 import traductions from "../../Data/traductions.json";
 import { useContext } from "react";
@@ -10,8 +10,10 @@ export default function Games() {
   const { selectedLanguage } = useContext(LanguageContext);
 
   const images: { [key: string]: string } = {
-    ThaiTemple: ThaiTemple,
-    Palais: Palais,
+    ThaiTemple:
+      "https://static.planetminecraft.com/files/image/minecraft/project/2023/904/16617944_l.webp",
+    Palais:
+      "https://static.planetminecraft.com/files/image/minecraft/project/2023/385/16610068_l.webp",
     Poste:
       "https://static.planetminecraft.com/files/image/minecraft/project/2021/682/14605794_xl.webp",
     Château:

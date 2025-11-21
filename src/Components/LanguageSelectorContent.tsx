@@ -1,4 +1,4 @@
-import { Verify } from "../Images";
+import { Verify } from "../Images/Icons";
 
 interface LanguageSelectorContentProps {
   isActive?: boolean;

@@ -1,6 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { Hamburger, Close } from "../Images";
+import { Hamburger, Close } from "../Images/Icons";
 import { ScrollLink } from "../Functions";
 import traductions from "../Data/traductions.json";
 import { LanguageContext } from "../Contexts";

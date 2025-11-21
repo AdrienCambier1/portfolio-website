@@ -1,5 +1,5 @@
 import { Banner, TitleSection } from "../../Components";
-import Gallery from "../../Images/galerie.jpg";
+import { Gallery } from "../../Images";
 import { Link, useParams } from "react-router-dom";
 import {
   Android,

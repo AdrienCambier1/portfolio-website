@@ -1,1 +1,1 @@
-export { default as Network1 } from "./Network1.PNG";
+export { default as Network1 } from "./network1.webp";

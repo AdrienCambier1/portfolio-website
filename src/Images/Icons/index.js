@@ -1,0 +1,11 @@
+export { default as Calendar } from "./calendrier.webp";
+export { default as Cv } from "./cv.webp";
+export { default as Close } from "./fermer.webp";
+export { default as Github } from "./github.webp";
+export { default as Hamburger } from "./hamburger.webp";
+export { default as Instagram } from "./instagram.webp";
+export { default as Linkedin } from "./linkedin.webp";
+export { default as Planet } from "./planète.webp";
+export { default as Search } from "./search.webp";
+export { default as Verify } from "./verifier.webp";
+export { default as Downward } from "./vers-le-bas.webp";

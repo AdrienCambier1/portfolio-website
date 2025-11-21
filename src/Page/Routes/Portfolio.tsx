@@ -7,7 +7,8 @@ import {
   PortfolioCard,
 } from "../../Components";
 import { useState, useContext } from "react";
-import { Bangkok, Calendar, Search } from "../../Images";
+import { Calendar, Search } from "../../Images/Icons";
+import { Bangkok } from "../../Images";
 import portfolioList from "../../Data/portfolioList.json";
 import { LanguageContext } from "../../Contexts";
 import traductions from "../../Data/traductions.json";

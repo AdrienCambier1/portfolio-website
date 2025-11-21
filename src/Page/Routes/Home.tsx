@@ -7,7 +7,6 @@ import {
   WhiteCard,
 } from "../../Components";
 import {
-  Bayoke,
   Coding,
   Language,
   Office,
@@ -22,7 +21,7 @@ import {
   Music,
   Netsafe,
   Event,
-  Thailand4k,
+  Thailand,
 } from "../../Images";
 import portfolioList from "../../Data/portfolioList.json";
 import { useContext } from "react";
@@ -72,7 +71,7 @@ export default function Home() {
 
   return (
     <>
-      <Banner image={Thailand4k} />
+      <Banner image={Thailand} />
       <section id="propos" className="beige-section">
         <TitleSection
           title={

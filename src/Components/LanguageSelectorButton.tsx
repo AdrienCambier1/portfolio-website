@@ -1,4 +1,4 @@
-import { Downward } from "../Images";
+import { Downward } from "../Images/Icons";
 
 interface SelectorButtonProps {
   onClick: () => void;

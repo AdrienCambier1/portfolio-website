@@ -15,7 +15,7 @@ import {
   SixthPic,
   SeventhPic,
   EighthPic,
-} from "../../Images/Galerie";
+} from "../../Images/Gallery";
 import traductions from "../../Data/traductions.json";
 import { useContext } from "react";
 import { LanguageContext } from "../../Contexts";

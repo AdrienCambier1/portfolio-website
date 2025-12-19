@@ -13,6 +13,7 @@ export default function Image({ src, alt, className, onClick }: ImageProps) {
       src={src}
       alt={alt}
       className={className}
+      wrapperClassName={className}
       onClick={onClick}
       effect="blur"
     />

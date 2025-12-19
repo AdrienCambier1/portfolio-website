@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import traductions from "../Data/traductions.json";
 import { useContext } from "react";
 import { LanguageContext } from "../Contexts";
+import { Image } from "./";
 
 interface WhiteCardProps {
   image: any;
@@ -22,7 +23,7 @@ export default function WhiteCard({
 
   return (
     <div className="grid">
-      <img className="grid-img" src={image} alt={title} />
+      <Image src={image} alt={title} className="grid-img" />
       <div className="textarea">
         <div>
           <p className="grid-date">{details}</p>

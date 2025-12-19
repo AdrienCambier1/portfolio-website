@@ -6,7 +6,7 @@ interface LanguageSelectorContentProps {
   onClick?: () => void;
 }
 
-export default function LanguageSelectorButton({
+export default function LanguageSelectorContent({
   isActive,
   content,
   onClick,

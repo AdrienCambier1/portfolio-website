@@ -1,6 +1,7 @@
 import { Instagram, Linkedin, Cv, Github } from "../Images/Icons";
 import { LanguageContext } from "../Contexts";
 import { useContext } from "react";
+import { Image } from "./";
 import traductions from "../Data/traductions.json";
 
 interface BannerProps {
@@ -17,7 +18,7 @@ export default function Banner({ image }: BannerProps) {
 
   return (
     <div className="header-container" id="top">
-      <img className="header-img" src={image} alt="Banner" />
+      <Image src={image} alt="Banner" className="header-img" />
       <div className="header-content">
         <p className="description-text">
           {

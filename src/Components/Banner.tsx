@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Instagram, Linkedin, Cv, Github } from "../Images/Icons";
 import { LanguageContext } from "../Contexts";
 import { useContext } from "react";
@@ -18,7 +17,7 @@ export default function Banner({ image }: BannerProps) {
 
   return (
     <div className="header-container" id="top">
-      <img className="header-img" src={image} />
+      <img className="header-img" src={image} alt="Banner" />
       <div className="header-content">
         <p className="description-text">
           {
@@ -34,20 +33,30 @@ export default function Banner({ image }: BannerProps) {
               cvFiles[selectedLanguage as keyof typeof cvFiles] || cvFiles.fr
             }
             target="_blank"
+            rel="noreferrer noopener"
           >
-            <img className="social-media" src={Cv} />
+            <img className="social-media" src={Cv} alt="CV" />
           </a>
-          <a href="https://github.com/AdrienCambier1/" target="_blank">
-            <img className="social-media" src={Github} />
+          <a
+            href="https://github.com/AdrienCambier1/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img className="social-media" src={Github} alt="GitHub" />
           </a>
-          <a href="https://www.instagram.com/adri1.cr/" target="_blank">
-            <img className="social-media" src={Instagram} />
+          <a
+            href="https://www.instagram.com/adri1.cr/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img className="social-media" src={Instagram} alt="Instagram" />
           </a>
           <a
             href="https://www.linkedin.com/in/adrien-cambier-0820b127b/"
             target="_blank"
+            rel="noreferrer noopener"
           >
-            <img className="social-media" src={Linkedin} />
+            <img className="social-media" src={Linkedin} alt="LinkedIn" />
           </a>
         </nav>
       </div>

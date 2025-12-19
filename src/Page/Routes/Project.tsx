@@ -47,7 +47,7 @@ interface ProjectButton {
   link: string;
 }
 
-interface Project {
+interface ProjectData {
   title: TranslatableText;
   description: TranslatableText;
   skills: TranslatableText;
@@ -57,7 +57,7 @@ interface Project {
 }
 
 interface PortfolioProjects {
-  projects: Record<string, Project>;
+  projects: Record<string, ProjectData>;
 }
 
 export default function Project() {
@@ -175,7 +175,7 @@ export default function Project() {
                   key={index}
                   className="portfolio-img alternate-img"
                   src={galleryImages[imageKey]}
-                  alt={`Gallery image ${index + 1}`}
+                  alt={`Project ${index + 1}`}
                 />
               ))}
         </div>

@@ -88,13 +88,13 @@ export default function Travel() {
                   <img
                     className="grid-img galerie-pic"
                     src={img}
-                    alt={`Image ${index + 1}`}
+                    alt={`Travel ${index + 1}`}
                   />
                   {images[index + 1] && (
                     <img
                       className="grid-img galerie-pic"
                       src={images[index + 1]}
-                      alt={`Image ${index + 2}`}
+                      alt={`Travel ${index + 2}`}
                     />
                   )}
                 </div>

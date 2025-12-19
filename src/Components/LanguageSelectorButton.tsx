@@ -1,6 +1,6 @@
 import { Downward } from "../Images/Icons";
 
-interface SelectorButtonProps {
+interface LanguageSelectorButtonProps {
   onClick: () => void;
   isActive?: boolean;
   image: any;
@@ -8,19 +8,20 @@ interface SelectorButtonProps {
   rotate?: string;
 }
 
-export default function SelectorButton({
+export default function LanguageSelectorButton({
   onClick,
   isActive,
   image,
   content,
-}: SelectorButtonProps) {
+}: LanguageSelectorButtonProps) {
   return (
     <div className="language-content underline" onClick={onClick}>
-      <img className="language-logo" src={image} />
+      <img className="language-logo" src={image} alt="Language icon" />
       <p className="language-text">{content}</p>
       <img
         className={`language-logo rotate90deg ${isActive && "rotate180deg"}`}
         src={Downward}
+        alt="Dropdown icon"
       />
     </div>
   );

@@ -213,7 +213,11 @@ export default function Home() {
         </div>
       </section>
       <section id="contact" className="contact-section">
-        <img className="contact-background" src={Contact} />
+        <img
+          className="contact-background"
+          src={Contact}
+          alt="Contact background"
+        />
         <TitleSection
           title={traductions[selectedLanguage as "fr" | "en"]["Me contacter"]}
         />

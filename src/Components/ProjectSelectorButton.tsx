@@ -15,11 +15,12 @@ export default function ProjectSelectorButton({
 }: ProjectSelectorButtonProps) {
   return (
     <div className="project-text" onClick={onClick}>
-      <img className="project-logo" src={image} />
+      <img className="project-logo" src={image} alt="Project icon" />
       <p className="language-text">{content}</p>
       <img
         className={`project-logo ${!isActive && "rotate90deg"}`}
         src={Downward}
+        alt="Dropdown icon"
       />
     </div>
   );

@@ -34,20 +34,30 @@ export default function Footer() {
               cvFiles[selectedLanguage as keyof typeof cvFiles] || cvFiles.fr
             }
             target="_blank"
+            rel="noreferrer noopener"
           >
-            <img className="social-media" src={Cv} />
+            <img className="social-media" src={Cv} alt="CV" />
           </a>
-          <a href="https://github.com/AdrienCambier1/" target="_blank">
-            <img className="social-media" src={Github} />
+          <a
+            href="https://github.com/AdrienCambier1/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img className="social-media" src={Github} alt="GitHub" />
           </a>
-          <a href="https://www.instagram.com/adri1.cr/" target="_blank">
-            <img className="social-media" src={Instagram} />
+          <a
+            href="https://www.instagram.com/adri1.cr/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img className="social-media" src={Instagram} alt="Instagram" />
           </a>
           <a
             href="https://www.linkedin.com/in/adrien-cambier-0820b127b/"
             target="_blank"
+            rel="noreferrer noopener"
           >
-            <img className="social-media" src={Linkedin} />
+            <img className="social-media" src={Linkedin} alt="LinkedIn" />
           </a>
         </nav>
       </div>

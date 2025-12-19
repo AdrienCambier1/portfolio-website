@@ -3,7 +3,7 @@ import traductions from "../Data/traductions.json";
 import { useContext } from "react";
 import { LanguageContext } from "../Contexts";
 
-interface CareerCardProps {
+interface BlackCardProps {
   image: any;
   details: string;
   title: string;
@@ -11,18 +11,18 @@ interface CareerCardProps {
   link: string;
 }
 
-export default function CareerCard({
+export default function BlackCard({
   image,
   details,
   title,
   content,
   link,
-}: CareerCardProps) {
+}: BlackCardProps) {
   const { selectedLanguage } = useContext(LanguageContext);
 
   return (
     <div className="content">
-      <img className="content-img" src={image} />
+      <img className="content-img" src={image} alt={title} />
       <div className="text-area">
         <p className="content-date">{details}</p>
         <p className="content-title">{title}</p>

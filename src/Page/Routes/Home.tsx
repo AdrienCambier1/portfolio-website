@@ -5,6 +5,7 @@ import {
   BlackCard,
   TitleSection,
   WhiteCard,
+  Image,
 } from "../../Components";
 import {
   Coding,
@@ -213,10 +214,10 @@ export default function Home() {
         </div>
       </section>
       <section id="contact" className="contact-section">
-        <img
-          className="contact-background"
+        <Image
           src={Contact}
           alt="Contact background"
+          className="contact-background"
         />
         <TitleSection
           title={traductions[selectedLanguage as "fr" | "en"]["Me contacter"]}

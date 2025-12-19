@@ -3,6 +3,7 @@ import {
   TitleSection,
   Separation,
   CountryCard,
+  Image,
 } from "../../Components";
 import { TravelBg } from "../../Images";
 import { Link } from "react-router-dom";
@@ -85,16 +86,17 @@ export default function Travel() {
             if (index % 2 === 0) {
               return (
                 <div className="grid space-between" key={index}>
-                  <img
-                    className="grid-img galerie-pic"
+                  <Image
                     src={img}
                     alt={`Travel ${index + 1}`}
+                    className="grid-img galerie-pic"
                   />
+
                   {images[index + 1] && (
-                    <img
-                      className="grid-img galerie-pic"
+                    <Image
                       src={images[index + 1]}
                       alt={`Travel ${index + 2}`}
+                      className="grid-img galerie-pic"
                     />
                   )}
                 </div>

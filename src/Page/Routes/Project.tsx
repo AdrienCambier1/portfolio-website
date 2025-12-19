@@ -1,4 +1,4 @@
-import { Banner, TitleSection } from "../../Components";
+import { Banner, TitleSection, Image } from "../../Components";
 import { Gallery } from "../../Images";
 import { Link, useParams } from "react-router-dom";
 import {
@@ -133,10 +133,10 @@ export default function Project() {
       <section className="beige-section">
         <div className="portfolio-container">
           <TitleSection title={project.title[selectedLanguage]} />
-          <img
-            className="portfolio-img"
+          <Image
             src={images[project.banner]}
             alt={project.title[selectedLanguage]}
+            className="portfolio-img"
           />
           <p className="portfolio-text">
             {formatDescription(project.description[selectedLanguage])}
@@ -171,11 +171,11 @@ export default function Project() {
                 return numA - numB;
               })
               .map((imageKey, index) => (
-                <img
+                <Image
                   key={index}
-                  className="portfolio-img alternate-img"
                   src={galleryImages[imageKey]}
                   alt={`Project ${index + 1}`}
+                  className="portfolio-img alternate-img"
                 />
               ))}
         </div>

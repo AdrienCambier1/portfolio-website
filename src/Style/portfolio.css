@@ -17,20 +17,21 @@
   align-items: start;
 }
 .portfolio-img {
+  min-height: 15rem;
+  max-height: 30rem;
   width: 100%;
   position: relative;
   object-fit: cover;
   object-position: center;
-  max-height: 30rem;
-}
-.alternate-img:hover {
-  box-shadow: 0 0 5rem rgba(1, 1, 1, 0.2);
-  transition: box-shadow 0.25s ease-in-out;
 }
 .alternate-img {
   box-shadow: 0 0 1rem rgba(1, 1, 1, 0.2);
   transition: box-shadow 0.25s ease-in-out;
   margin: 0;
+}
+.alternate-img:hover {
+  box-shadow: 0 0 5rem rgba(1, 1, 1, 0.2);
+  transition: box-shadow 0.25s ease-in-out;
 }
 .portfolio-text {
   color: rgba(0, 0, 0, 0.8);

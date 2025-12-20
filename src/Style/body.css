@@ -338,10 +338,8 @@ a:hover .skills-title {
 .grid-img {
   object-fit: cover;
   object-position: center;
-  height: 100%;
-  width: 100%;
-  max-width: 18rem;
-  max-height: 18rem;
+  width: 18rem;
+  height: 18rem;
 }
 .grid .textarea {
   display: flex;
@@ -498,7 +496,6 @@ a:hover .skills-title {
   }
   .grid-img {
     width: 100%;
-    max-width: 100%;
   }
   .grid:nth-child(1) {
     grid-row: 1;

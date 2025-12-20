@@ -17,7 +17,6 @@
   align-items: start;
 }
 .portfolio-img {
-  min-height: 15rem;
   max-height: 30rem;
   width: 100%;
   position: relative;

@@ -7,13 +7,14 @@ interface ImageProps {
   className?: string;
   onClick?: () => void;
 }
+
 export default function Image({ src, alt, className, onClick }: ImageProps) {
   return (
     <LazyLoadImage
       src={src}
       alt={alt}
       className={className}
-      wrapperClassName={className}
+      wrapperProps={{ style: { display: "contents" } }}
       onClick={onClick}
       effect="blur"
     />

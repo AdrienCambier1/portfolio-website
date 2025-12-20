@@ -95,6 +95,7 @@ footer {
   display: flex;
   height: 2rem;
   align-items: center;
+  transition: all 0.25s ease-in-out;
 }
 .language-selector-text .language-logo {
   margin-right: 0.5rem;
@@ -102,7 +103,6 @@ footer {
 }
 .language-selector-text:hover {
   background-color: #ffecc2;
-  transition: all 0.5s ease-in-out;
 }
 /* Responsive */
 @media screen and (max-width: 70rem) {

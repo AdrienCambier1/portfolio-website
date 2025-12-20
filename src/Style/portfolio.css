@@ -26,12 +26,11 @@
 }
 .alternate-img {
   box-shadow: 0 0 1rem rgba(1, 1, 1, 0.2);
-  transition: box-shadow 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, opacity 0.3s !important;
   margin: 0;
 }
 .alternate-img:hover {
   box-shadow: 0 0 5rem rgba(1, 1, 1, 0.2);
-  transition: box-shadow 0.25s ease-in-out;
 }
 .portfolio-text {
   color: rgba(0, 0, 0, 0.8);
@@ -49,14 +48,6 @@
   display: flex;
   width: 100%;
   margin-bottom: 1rem;
-}
-.flex .portfolio-button {
-  margin: 0;
-}
-.portfolio-button:hover {
-  background-color: black;
-  color: white;
-  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .project-selection {
   position: relative;

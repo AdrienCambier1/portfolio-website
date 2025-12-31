@@ -1,23 +1,6 @@
 import { Banner, TitleSection, Image } from "../../Components";
 import { Gallery } from "../../Images";
 import { Link, useParams } from "react-router-dom";
-import {
-  Android,
-  Computer,
-  Wires,
-  Satellite,
-  Showcase,
-  Restaurant,
-  Cyber,
-  Migration,
-  Ia,
-  Wordpress,
-  Pokemon,
-  HarryPotter,
-  Music,
-  Netsafe,
-  Event,
-} from "../../Images";
 import portfolioProjects from "../../Data/portfolioProjects.json";
 import * as AndroidImages from "../../Images/Android";
 import * as ChatgptImages from "../../Images/Chatgpt";
@@ -52,7 +35,6 @@ interface ProjectData {
   description: TranslatableText;
   skills: TranslatableText;
   buttons?: ProjectButton[];
-  banner: string;
   gallery: string;
 }
 
@@ -65,21 +47,6 @@ export default function Project() {
   const { projectId } = useParams<{ projectId: string }>();
 
   const images: Record<string, any> = {
-    Computer,
-    Wires,
-    Satellite,
-    Showcase,
-    Restaurant,
-    Android,
-    Cyber,
-    Migration,
-    Ia,
-    Wordpress,
-    Pokemon,
-    HarryPotter,
-    Music,
-    Netsafe,
-    Event,
     AndroidImages,
     ChatgptImages,
     ExtranetImages,
@@ -133,17 +100,13 @@ export default function Project() {
       <section className="beige-section">
         <div className="portfolio-container">
           <TitleSection title={project.title[selectedLanguage]} />
-          <Image
-            src={images[project.banner]}
-            alt={project.title[selectedLanguage]}
-            className="portfolio-img"
-          />
           <p className="portfolio-text">
             {formatDescription(project.description[selectedLanguage])}
-          </p>
-          <p className="portfolio-text">
-            {traductions[selectedLanguage as "fr" | "en"]["Compétences"]} :{" "}
-            {project.skills[selectedLanguage]}
+            <br />
+            <span>
+              {traductions[selectedLanguage as "fr" | "en"]["Compétences"]} :{" "}
+              {project.skills[selectedLanguage]}
+            </span>
           </p>
           <div className="flex">
             {project.buttons &&
@@ -175,7 +138,7 @@ export default function Project() {
                   key={index}
                   src={galleryImages[imageKey]}
                   alt={`Project ${index + 1}`}
-                  className="portfolio-img alternate-img"
+                  className="portfolio-img"
                 />
               ))}
         </div>

@@ -384,8 +384,8 @@
         "en": "Event website Veevent"
       },
       "description": {
-        "fr": "En cours de développement...",
-        "en": "In development..."
+        "fr": "Nous avons entrepris en groupe le développement d'une plateforme web événementielle nommée Veevent. Ce projet vise à offrir aux utilisateurs une expérience complète pour la gestion et la participation à des événements en ligne.\n\nLe site web permet aux utilisateurs de créer des comptes, de s'inscrire à des événements, et de gérer leurs participations. Les organisateurs d'événements disposent d'outils pour créer, modifier et suivre les inscriptions à leurs événements. L'interface utilisateur est conçue pour être intuitive et responsive, assurant une expérience fluide sur tous les appareils.\n\nLe backend de la plateforme est développé avec Spring Boot et utilise une base de données PostgreSQL pour stocker les informations relatives aux utilisateurs et aux événements. Nous avons mis en place des mesures de sécurité robustes pour protéger les données des utilisateurs et garantir la confidentialité des informations.",
+        "en": "We undertook the development of an event web platform called Veevent as a group. This project aims to provide users with a comprehensive experience for managing and participating in online events.\n\nThe website allows users to create accounts, register for events, and manage their participation. Event organizers have tools to create, modify, and track registrations for their events. The user interface is designed to be intuitive and responsive, ensuring a smooth experience across all devices.\n\nThe platform's backend is developed with Spring Boot and uses a PostgreSQL database to store user and event information. We have implemented robust security measures to protect user data and ensure the confidentiality of information."
       },
       "skills": {
         "fr": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL",

@@ -300,8 +300,8 @@
           "en": "Event website Veevent"
         },
         "description": {
-          "fr": "En cours de développement...",
-          "en": "In development..."
+          "fr": "J'ai codé un site web de plateforme événementielle avec gestion des utilisateurs et des événements.",
+          "en": "I've coded an event platform website with user and event management."
         },
         "class": "info"
       }

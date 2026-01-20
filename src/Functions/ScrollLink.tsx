@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useCallback } from "react";
 import { Link, LinkProps, useLocation } from "react-router-dom";
 
 type ScrollLinkProps = LinkProps & {
@@ -17,15 +17,16 @@ export default function ScrollLink({
 }: ScrollLinkProps) {
   const location = useLocation();
 
-  const scrollToTarget = (targetId: string) => {
-    const element = document.getElementById(targetId);
-    if (!element) {
-      return;
-    }
+  const scrollToTarget = useCallback(
+    (targetId: string) => {
+      const element = document.getElementById(targetId);
+      if (!element) return;
 
-    const offset = element.getBoundingClientRect().top + window.scrollY - top;
-    window.scrollTo({ top: offset, behavior: "smooth" });
-  };
+      const offset = element.getBoundingClientRect().top + window.scrollY - top;
+      window.scrollTo({ top: offset, behavior: "smooth" });
+    },
+    [top],
+  );
 
   const handleClick = () => {
     localStorage.setItem("scrollToId", id);
@@ -44,7 +45,7 @@ export default function ScrollLink({
       scrollToTarget(savedId);
       localStorage.removeItem("scrollToId");
     }
-  }, [location.pathname, to, top]);
+  }, [location.pathname, to, scrollToTarget]);
 
   return (
     <Link to={to} {...props} onClick={handleClick}>

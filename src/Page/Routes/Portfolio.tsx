@@ -121,6 +121,7 @@ export default function Porfolio() {
               <ul>
                 {Object.entries(yearOptions).map(([option, value]) => (
                   <LanguageSelectorContent
+                    key={option}
                     content={value[selectedLanguage as "fr" | "en"]}
                     onClick={() => handleYear(option)}
                     isActive={year === option}
@@ -140,6 +141,7 @@ export default function Porfolio() {
               <ul>
                 {Object.entries(searchOptions).map(([option, value]) => (
                   <LanguageSelectorContent
+                    key={option}
                     content={value[selectedLanguage as "fr" | "en"]}
                     onClick={() => handleSearch(option)}
                     isActive={search === option}
@@ -149,35 +151,32 @@ export default function Porfolio() {
             </div>
           </div>
         </div>
-        {Object.keys(portfolioList.projects).map((thisYear, index) => {
-          if (year === "all" || thisYear === year) {
-            return (
-              <div key={index} className="project-container">
-                <div className="project-content year">
-                  <p className="name-header">{thisYear}</p>
-                </div>
-                <div className="project-content theme">
-                  {list.projects[
-                    thisYear as keyof typeof portfolioList.projects
-                  ].map((project, index) => {
-                    if (search === "all" || project.class === search) {
-                      return (
-                        <PortfolioCard
-                          id={project.id}
-                          customClass={project.class}
-                          category={project.category[selectedLanguage]}
-                          technologies={project.technologies[selectedLanguage]}
-                          title={project.title[selectedLanguage]}
-                          description={project.description[selectedLanguage]}
-                        />
-                      );
-                    }
-                  })}
-                </div>
+        {Object.keys(portfolioList.projects)
+          .filter((thisYear) => year === "all" || thisYear === year)
+          .map((thisYear) => (
+            <div key={thisYear} className="project-container">
+              <div className="project-content year">
+                <p className="name-header">{thisYear}</p>
               </div>
-            );
-          }
-        })}
+              <div className="project-content theme">
+                {list.projects[thisYear as keyof typeof portfolioList.projects]
+                  .filter(
+                    (project) => search === "all" || project.class === search,
+                  )
+                  .map((project) => (
+                    <PortfolioCard
+                      key={project.id}
+                      id={project.id}
+                      customClass={project.class}
+                      category={project.category[selectedLanguage]}
+                      technologies={project.technologies[selectedLanguage]}
+                      title={project.title[selectedLanguage]}
+                      description={project.description[selectedLanguage]}
+                    />
+                  ))}
+              </div>
+            </div>
+          ))}
       </section>
     </>
   );

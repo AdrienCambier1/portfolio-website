@@ -7,39 +7,48 @@ type ScrollLinkProps = LinkProps & {
   onClick?: () => void;
 };
 
-const ScrollLink: React.FC<ScrollLinkProps> = ({
+export default function ScrollLink({
   to,
   id,
   onClick,
   top = 0,
   children,
   ...props
-}) => {
+}: ScrollLinkProps) {
   const location = useLocation();
+
+  const scrollToTarget = (targetId: string) => {
+    const element = document.getElementById(targetId);
+    if (!element) {
+      return;
+    }
+
+    const offset = element.getBoundingClientRect().top + window.scrollY - top;
+    window.scrollTo({ top: offset, behavior: "smooth" });
+  };
 
   const handleClick = () => {
     localStorage.setItem("scrollToId", id);
+
+    if (location.pathname === to) {
+      scrollToTarget(id);
+      localStorage.removeItem("scrollToId");
+    }
+
     onClick && onClick();
   };
 
   useEffect(() => {
     const savedId = localStorage.getItem("scrollToId");
     if (savedId && location.pathname === to) {
-      const element = document.getElementById(savedId);
-      if (element) {
-        const offset =
-          element.getBoundingClientRect().top + window.scrollY - top;
-        window.scrollTo({ top: offset, behavior: "smooth" });
-      }
+      scrollToTarget(savedId);
       localStorage.removeItem("scrollToId");
     }
-  }, [location]);
+  }, [location.pathname, to, top]);
 
   return (
     <Link to={to} {...props} onClick={handleClick}>
       {children}
     </Link>
   );
-};
-
-export default ScrollLink;
+}

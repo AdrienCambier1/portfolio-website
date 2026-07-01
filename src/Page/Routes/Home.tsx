@@ -86,13 +86,14 @@ export default function Home() {
           <br />
           {text.about[3][selectedLanguage as "fr" | "en"]}
         </p>
-        <Link
+        <a
           className="beige-button"
-          to={cvFiles[selectedLanguage as keyof typeof cvFiles] || cvFiles.fr}
+          href={cvFiles[selectedLanguage as keyof typeof cvFiles] || cvFiles.fr}
           target="_blank"
+          rel="noopener noreferrer"
         >
           {traductions[selectedLanguage as "fr" | "en"]["Consultez mon CV"]}
-        </Link>
+        </a>
       </section>
       <section id="skills" className="skills-section">
         <SkillSection

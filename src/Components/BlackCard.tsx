@@ -20,6 +20,7 @@ export default function BlackCard({
   link,
 }: BlackCardProps) {
   const { selectedLanguage } = useContext(LanguageContext);
+  const isExternalLink = /^https?:\/\//.test(link);
 
   return (
     <div className="content">
@@ -29,9 +30,20 @@ export default function BlackCard({
         <p className="content-title">{title}</p>
         <p className="content-text">{content}</p>
       </div>
-      <Link className="content-button" to={link}>
-        {traductions[selectedLanguage as "fr" | "en"]["EN SAVOIR PLUS"]}
-      </Link>
+      {isExternalLink ? (
+        <a
+          className="content-button"
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {traductions[selectedLanguage as "fr" | "en"]["EN SAVOIR PLUS"]}
+        </a>
+      ) : (
+        <Link className="content-button" to={link}>
+          {traductions[selectedLanguage as "fr" | "en"]["EN SAVOIR PLUS"]}
+        </Link>
+      )}
     </div>
   );
 }

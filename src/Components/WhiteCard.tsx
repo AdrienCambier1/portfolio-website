@@ -10,6 +10,7 @@ interface WhiteCardProps {
   details: string;
   content: string;
   link: string;
+  blank?: boolean;
 }
 
 export default function WhiteCard({
@@ -18,6 +19,7 @@ export default function WhiteCard({
   details,
   content,
   link,
+  blank = false,
 }: WhiteCardProps) {
   const { selectedLanguage } = useContext(LanguageContext);
 
@@ -30,9 +32,20 @@ export default function WhiteCard({
           <p className="grid-title">{title}</p>
           <p className="grid-text">{content}</p>
         </div>
-        <Link className="grid-button" to={link}>
-          {traductions[selectedLanguage as "fr" | "en"]["EN SAVOIR PLUS"]}
-        </Link>
+        {blank ? (
+          <a
+            className="grid-button"
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {traductions[selectedLanguage as "fr" | "en"]["EN SAVOIR PLUS"]}
+          </a>
+        ) : (
+          <Link className="grid-button" to={link}>
+            {traductions[selectedLanguage as "fr" | "en"]["EN SAVOIR PLUS"]}
+          </Link>
+        )}
       </div>
     </div>
   );

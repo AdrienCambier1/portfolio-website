@@ -6,7 +6,6 @@ import {
   Image,
 } from "../../Components";
 import { TravelBg } from "../../Images";
-import { Link } from "react-router-dom";
 import {
   FirstPic,
   SecondPic,
@@ -46,9 +45,14 @@ export default function Travel() {
         <p className="introduction-text">
           {text.travels[1][selectedLanguage as "fr" | "en"]}
         </p>
-        <Link className="beige-button" to="https://www.instagram.com/adri1.cr/">
+        <a
+          className="beige-button"
+          href="https://www.instagram.com/adri1.cr/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {traductions[selectedLanguage as "fr" | "en"]["Mon Instagram"]}
-        </Link>
+        </a>
         <p className="introduction-text">
           {text.travels[2][selectedLanguage as "fr" | "en"]}
         </p>

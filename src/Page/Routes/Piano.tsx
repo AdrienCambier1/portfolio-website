@@ -51,6 +51,7 @@ export default function Piano() {
               title={song.title}
               content={song.artist}
               link={song.links}
+              blank
             />
           ))}
         </div>

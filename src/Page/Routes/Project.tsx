@@ -111,14 +111,15 @@ export default function Project() {
           <div className="flex">
             {project.buttons &&
               project.buttons.map((button, index) => (
-                <Link
+                <a
                   key={index}
                   className="beige-button"
-                  to={button.link}
+                  href={button.link}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {button.name[selectedLanguage]}
-                </Link>
+                </a>
               ))}
           </div>
           <TitleSection

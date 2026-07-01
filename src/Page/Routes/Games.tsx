@@ -53,6 +53,7 @@ export default function Games() {
               title={project.project}
               content={project.source}
               link={project.links}
+              blank
             />
           ))}
         </div>

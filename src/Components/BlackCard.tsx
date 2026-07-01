@@ -10,6 +10,7 @@ interface BlackCardProps {
   title: string;
   content: string;
   link: string;
+  blank?: boolean;
 }
 
 export default function BlackCard({
@@ -18,9 +19,9 @@ export default function BlackCard({
   title,
   content,
   link,
+  blank = false,
 }: BlackCardProps) {
   const { selectedLanguage } = useContext(LanguageContext);
-  const isExternalLink = /^https?:\/\//.test(link);
 
   return (
     <div className="content">
@@ -30,7 +31,7 @@ export default function BlackCard({
         <p className="content-title">{title}</p>
         <p className="content-text">{content}</p>
       </div>
-      {isExternalLink ? (
+      {blank ? (
         <a
           className="content-button"
           href={link}

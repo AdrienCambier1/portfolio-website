@@ -134,6 +134,7 @@ export default function Home() {
             }
             content={text.background[1][selectedLanguage as "fr" | "en" | "zh"]}
             link="https://www.ynov.com/campus/sophia"
+            blank
           />
           <BlackCard
             image={Iut}
@@ -141,6 +142,7 @@ export default function Home() {
             title="DUT R&T Sophia Antipolis"
             content={text.background[2][selectedLanguage as "fr" | "en" | "zh"]}
             link="https://univ-cotedazur.fr/formation/offre-de-formation/but-reseaux-telecommunications"
+            blank
           />
           <BlackCard
             image={Léonard}
@@ -152,6 +154,7 @@ export default function Home() {
             }
             content={text.background[3][selectedLanguage as "fr" | "en" | "zh"]}
             link="https://www.leonarddevinci.net/"
+            blank
           />
         </div>
       </section>

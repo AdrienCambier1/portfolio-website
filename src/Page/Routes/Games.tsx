@@ -26,7 +26,7 @@ export default function Games() {
         <TitleSection
           title={
             traductions[selectedLanguage as "fr" | "en" | "zh"][
-              "À propos des jeux vidéos"
+              "games.about.title"
             ]
           }
         />
@@ -40,7 +40,7 @@ export default function Games() {
         <TitleSection
           title={
             traductions[selectedLanguage as "fr" | "en" | "zh"][
-              "Mes projets minecraft"
+              "games.projects.title"
             ]
           }
         />

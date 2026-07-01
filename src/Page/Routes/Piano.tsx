@@ -15,7 +15,7 @@ export default function Piano() {
       <section className="black-section">
         <TitleSection
           title={
-            traductions[selectedLanguage as "fr" | "en" | "zh"]["À propos du piano"]
+            traductions[selectedLanguage as "fr" | "en" | "zh"]["piano.about.title"]
           }
         />
         <p className="introduction-text">
@@ -27,7 +27,7 @@ export default function Piano() {
         </p>
         <TitleSection
           title={
-            traductions[selectedLanguage as "fr" | "en" | "zh"]["Comment j'apprends"]
+            traductions[selectedLanguage as "fr" | "en" | "zh"]["piano.learning.title"]
           }
         />
         <p className="introduction-text">
@@ -36,7 +36,7 @@ export default function Piano() {
         <TitleSection
           title={
             traductions[selectedLanguage as "fr" | "en" | "zh"][
-              "Quelques pièces apprises"
+              "piano.pieces.title"
             ]
           }
         />
@@ -46,7 +46,7 @@ export default function Piano() {
               key={index}
               image={song.image}
               details={`${
-                traductions[selectedLanguage as "fr" | "en" | "zh"]["Difficulté"]
+                traductions[selectedLanguage as "fr" | "en" | "zh"]["common.difficulty"]
               } | ${song.difficulty[selectedLanguage as "fr" | "en" | "zh"]}`}
               title={song.title}
               content={song.artist}

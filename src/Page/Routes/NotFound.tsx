@@ -14,18 +14,18 @@ export default function NotFound() {
       <div className="black-section">
         <TitleSection
           title={
-            traductions[selectedLanguage as "fr" | "en" | "zh"]["404 Non trouvé"]
+            traductions[selectedLanguage as "fr" | "en" | "zh"]["errors.notFound.title"]
           }
         />
         <p className="introduction-text">
           {
             traductions[selectedLanguage as "fr" | "en" | "zh"][
-              "La page que vous recherchez n'existe pas pour le moment."
+              "errors.pageNotFound.description"
             ]
           }
         </p>
         <Link className="content-button" to="/">
-          {traductions[selectedLanguage as "fr" | "en" | "zh"]["Retour à l'accueil"]}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["actions.backHome"]}
         </Link>
       </div>
     </>

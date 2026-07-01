@@ -48,7 +48,7 @@ export default function Header() {
               >
                 {
                   traductions[selectedLanguage as "fr" | "en" | "zh"][
-                    "À propos de moi"
+                    "sections.about.title"
                   ]
                 }
               </ScrollLink>
@@ -60,7 +60,7 @@ export default function Header() {
                 id="skills"
                 onClick={() => setMenu(false)}
               >
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Compétences"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["common.skills"]}
               </ScrollLink>
             </li>
             <li>
@@ -70,7 +70,7 @@ export default function Header() {
                 id="parcours"
                 onClick={() => setMenu(false)}
               >
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Mon parcours"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["sections.background.title"]}
               </ScrollLink>
             </li>
             <li>
@@ -80,7 +80,7 @@ export default function Header() {
                 id="portfolio"
                 onClick={() => setMenu(false)}
               >
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Mon portfolio"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["sections.portfolio.title"]}
               </ScrollLink>
             </li>
             <li>
@@ -90,7 +90,7 @@ export default function Header() {
                 id="loisirs"
                 onClick={() => setMenu(false)}
               >
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Mes loisirs"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["sections.hobbies.title"]}
               </ScrollLink>
             </li>
             <li>
@@ -100,7 +100,7 @@ export default function Header() {
                 id="contact"
                 onClick={() => setMenu(false)}
               >
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Me contacter"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["sections.contact.title"]}
               </ScrollLink>
             </li>
           </ul>

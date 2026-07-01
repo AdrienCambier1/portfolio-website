@@ -111,7 +111,7 @@ export default function Porfolio() {
       <Banner image={Bangkok} />
       <section className="black-section">
         <TitleSection
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Mes projets"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["projects.title"]}
         />
         <p className="introduction-text">
           {text.portfolio[2][selectedLanguage as "fr" | "en" | "zh"]}

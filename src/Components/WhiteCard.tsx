@@ -39,11 +39,11 @@ export default function WhiteCard({
             target="_blank"
             rel="noopener noreferrer"
           >
-            {traductions[selectedLanguage as "fr" | "en" | "zh"]["EN SAVOIR PLUS"]}
+            {traductions[selectedLanguage as "fr" | "en" | "zh"]["actions.learnMore"]}
           </a>
         ) : (
           <Link className="grid-button" to={link}>
-            {traductions[selectedLanguage as "fr" | "en" | "zh"]["EN SAVOIR PLUS"]}
+            {traductions[selectedLanguage as "fr" | "en" | "zh"]["actions.learnMore"]}
           </Link>
         )}
       </div>

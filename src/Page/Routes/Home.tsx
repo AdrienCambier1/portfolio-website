@@ -76,7 +76,7 @@ export default function Home() {
       <section id="propos" className="beige-section">
         <TitleSection
           title={
-            traductions[selectedLanguage as "fr" | "en" | "zh"]["À propos de moi"]
+            traductions[selectedLanguage as "fr" | "en" | "zh"]["sections.about.title"]
           }
         />
         <p className="introduction-text">
@@ -92,36 +92,36 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {traductions[selectedLanguage as "fr" | "en" | "zh"]["Consultez mon CV"]}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["actions.viewCv"]}
         </a>
       </section>
       <section id="skills" className="skills-section">
         <SkillSection
           image={Coding}
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Codage"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["skills.coding"]}
           content="HTML - CSS - Javascript - Typscript - PHP - Python - Java - C#"
           link="/portfolio"
         />
         <SkillSection
           image={Language}
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Langues"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["skills.languages"]}
           content={
             traductions[selectedLanguage as "fr" | "en" | "zh"][
-              "Français - Anglais - Thaï"
+              "skills.spokenLanguages"
             ]
           }
           link="/voyages"
         />
         <SkillSection
           image={Office}
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Bureautique"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["skills.officeTools"]}
           content="Excel - Canva - GoogleDocs - Linux - Windows - Figma"
           link="/portfolio"
         />
       </section>
       <section id="parcours" className="black-section">
         <TitleSection
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Mon parcours"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["sections.background.title"]}
         />
         <div className="content-container">
           <BlackCard
@@ -129,7 +129,7 @@ export default function Home() {
             details="2024-2025"
             title={
               traductions[selectedLanguage as "fr" | "en" | "zh"][
-                "Bachelor Informatique Ynov Campus"
+                "education.ynov.title"
               ]
             }
             content={text.background[1][selectedLanguage as "fr" | "en" | "zh"]}
@@ -149,7 +149,7 @@ export default function Home() {
             details="2019-2022"
             title={
               traductions[selectedLanguage as "fr" | "en" | "zh"][
-                "Lycée Léonard de Vinci"
+                "education.highSchool.title"
               ]
             }
             content={text.background[3][selectedLanguage as "fr" | "en" | "zh"]}
@@ -160,13 +160,13 @@ export default function Home() {
       </section>
       <section id="portfolio" className="beige-section">
         <TitleSection
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Mon portfolio"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["sections.portfolio.title"]}
         />
         <p className="introduction-text">
           {text.portfolio[1][selectedLanguage as "fr" | "en" | "zh"]}
         </p>
         <Link className="beige-button" to="/portfolio">
-          {traductions[selectedLanguage as "fr" | "en" | "zh"]["Mes projets"]}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["projects.title"]}
         </Link>
         <div className="grid-container">
           {selectedProjects.map((project, index) => (
@@ -183,34 +183,34 @@ export default function Home() {
       </section>
       <section id="loisirs" className="black-section">
         <TitleSection
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Mes loisirs"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["sections.hobbies.title"]}
         />
         <div className="content-container">
           <BlackCard
             image={Piano}
             details={`${
-              traductions[selectedLanguage as "fr" | "en" | "zh"]["Depuis"]
+              traductions[selectedLanguage as "fr" | "en" | "zh"]["common.since"]
             } 2019`}
-            title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Le Piano"]}
+            title={traductions[selectedLanguage as "fr" | "en" | "zh"]["hobbies.piano.title"]}
             content={text.hobbies[1][selectedLanguage as "fr" | "en" | "zh"]}
             link="/piano"
           />
           <BlackCard
             image={Temple}
             details={`${
-              traductions[selectedLanguage as "fr" | "en" | "zh"]["Depuis"]
+              traductions[selectedLanguage as "fr" | "en" | "zh"]["common.since"]
             } 2010`}
-            title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Les voyages"]}
+            title={traductions[selectedLanguage as "fr" | "en" | "zh"]["hobbies.travel.title"]}
             content={text.hobbies[2][selectedLanguage as "fr" | "en" | "zh"]}
             link="/voyages"
           />
           <BlackCard
             image={Game}
             details={`${
-              traductions[selectedLanguage as "fr" | "en" | "zh"]["Depuis"]
+              traductions[selectedLanguage as "fr" | "en" | "zh"]["common.since"]
             } 2010`}
             title={
-              traductions[selectedLanguage as "fr" | "en" | "zh"]["Les jeux vidéos"]
+              traductions[selectedLanguage as "fr" | "en" | "zh"]["hobbies.games.title"]
             }
             content={text.hobbies[3][selectedLanguage as "fr" | "en" | "zh"]}
             link="/jeux"
@@ -224,7 +224,7 @@ export default function Home() {
           className="contact-background"
         />
         <TitleSection
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Me contacter"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["sections.contact.title"]}
         />
         <form
           className="mail"
@@ -232,31 +232,31 @@ export default function Home() {
           action="https://formsubmit.co/adriencambier2004@gmail.com"
         >
           <p className="contact-text">
-            {traductions[selectedLanguage as "fr" | "en" | "zh"]["Identité"]}*
+            {traductions[selectedLanguage as "fr" | "en" | "zh"]["contact.identity"]}*
           </p>
           <div className="contact-identity">
             <div className="identity">
               <input type="text" name="name" />
               <p className="contact-text">
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Nom"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["contact.name"]}
               </p>
             </div>
             <div className="identity">
               <input type="text" name="email" />
               <p className="contact-text">
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Email"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["contact.email"]}
               </p>
             </div>
           </div>
           <p className="contact-text">
-            {traductions[selectedLanguage as "fr" | "en" | "zh"]["Message"]}*
+            {traductions[selectedLanguage as "fr" | "en" | "zh"]["contact.message"]}*
           </p>
           <textarea id="comments" name="coments" />
           <input
             id="submit"
             className="send-button"
             type="submit"
-            value={traductions[selectedLanguage as "fr" | "en" | "zh"]["Envoyer"]}
+            value={traductions[selectedLanguage as "fr" | "en" | "zh"]["actions.send"]}
           />
         </form>
       </section>

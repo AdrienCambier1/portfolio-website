@@ -65,33 +65,33 @@ export default function Footer() {
       </div>
       <div className="name-footer">
         <p className="title-footer">
-          {traductions[selectedLanguage as "fr" | "en" | "zh"]["Ressources"]}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["footer.resources"]}
         </p>
         <nav className="nav-links-footer">
           <ul>
             <li>
               <ScrollLink to="/" id="propos">
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Qui suis-je"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["footer.links.about"]}
               </ScrollLink>
             </li>
             <li>
               <ScrollLink to="/" id="skills">
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Compétences"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["common.skills"]}
               </ScrollLink>
             </li>
             <li>
               <ScrollLink to="/" id="parcours">
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Parcours"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["footer.links.background"]}
               </ScrollLink>
             </li>
             <li>
               <ScrollLink to="/" id="portfolio">
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Portfolio"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["footer.links.portfolio"]}
               </ScrollLink>
             </li>
             <li>
               <ScrollLink to="/" id="loisirs">
-                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Loisirs"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["footer.links.hobbies"]}
               </ScrollLink>
             </li>
           </ul>
@@ -99,7 +99,7 @@ export default function Footer() {
       </div>
       <div className="name-footer">
         <p className="title-footer">
-          {traductions[selectedLanguage as "fr" | "en" | "zh"]["Contact"]}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["footer.contact"]}
         </p>
         <nav className="nav-links-footer">
           <ul>
@@ -138,7 +138,7 @@ export default function Footer() {
         <p className="crédit">
           {
             traductions[selectedLanguage as "fr" | "en" | "zh"][
-              "©2023 Adrien Cambier, Tous Droits Réservés."
+              "footer.copyright"
             ]
           }
         </p>

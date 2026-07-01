@@ -40,7 +40,7 @@ export default function Travel() {
       <Banner image={TravelBg} />
       <div className="beige-section">
         <TitleSection
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Mes voyages"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["travel.title"]}
         />
         <p className="introduction-text">
           {text.travels[1][selectedLanguage as "fr" | "en" | "zh"]}
@@ -51,7 +51,7 @@ export default function Travel() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {traductions[selectedLanguage as "fr" | "en" | "zh"]["Mon Instagram"]}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["travel.instagram"]}
         </a>
         <p className="introduction-text">
           {text.travels[2][selectedLanguage as "fr" | "en" | "zh"]}
@@ -59,31 +59,31 @@ export default function Travel() {
         <Separation />
         <CountryCard
           image="https://plus.unsplash.com/premium_photo-1661929242720-140374d97c94?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpYW5nJTIwbWFpfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Thaïlande"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["countries.thailand"]}
           content={text.travels[3][selectedLanguage as "fr" | "en" | "zh"]}
         />
         <Separation />
         <CountryCard
           image="https://static.independent.co.uk/2023/07/04/09/iStock-1193239486.jpg"
           title={
-            traductions[selectedLanguage as "fr" | "en" | "zh"]["Émirats Arabes Unis"]
+            traductions[selectedLanguage as "fr" | "en" | "zh"]["countries.uae"]
           }
           content={text.travels[4][selectedLanguage as "fr" | "en" | "zh"]}
         />
         <Separation />
         <CountryCard
           image="https://media.istockphoto.com/id/1248448159/fr/photo/villefranche-sur-mer-village-in-france.jpg?s=612x612&w=0&k=20&c=1efCuW9JAlQm11CthKCArfFJtCycCm33vzzqWpCx2nI="
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["France"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["countries.france"]}
           content={text.travels[5][selectedLanguage as "fr" | "en" | "zh"]}
         />
         <Separation />
         <CountryCard
           image="https://media.routard.com/image/81/3/venise-grand-canal.1479813.142.jpg"
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Italie"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["countries.italy"]}
           content={text.travels[6][selectedLanguage as "fr" | "en" | "zh"]}
         />
         <TitleSection
-          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Galerie photo"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["travel.gallery.title"]}
         />
         <div className="grid-container">
           {images.map((img, index) => {

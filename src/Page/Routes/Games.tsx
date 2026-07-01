@@ -13,11 +13,11 @@ export default function Games() {
     ThaiTemple:
       "https://static.planetminecraft.com/files/image/minecraft/project/2023/904/16617944_l.webp",
     Palais:
-      "https://static.planetminecraft.com/files/image/minecraft/project/2023/385/16610068_l.webp",
+      "https://static.planetminecraft.com/files/image/minecraft/project/2026/385/19729836-capturedcran_l.webp",
     Poste:
-      "https://static.planetminecraft.com/files/image/minecraft/project/2021/682/14605794_xl.webp",
+      "https://static.planetminecraft.com/files/image/minecraft/project/2026/682/19711562-capturedcran_xl.webp",
     Château:
-      "https://static.planetminecraft.com/files/image/minecraft/project/2021/970/14569589_xl.webp",
+      "https://static.planetminecraft.com/files/image/minecraft/project/2026/970/19711538-capturedcran_l.webp",
   };
   return (
     <>

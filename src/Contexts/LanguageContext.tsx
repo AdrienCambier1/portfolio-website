@@ -11,13 +11,22 @@ interface LanguageProviderProps {
 
 export const LanguageContext = createContext({} as LanguageContextProps);
 
+const getBrowserLanguage = () => {
+  const browserLanguage = navigator.language.toLowerCase();
+
+  if (browserLanguage.startsWith("fr")) return "fr";
+  if (browserLanguage.startsWith("zh")) return "zh";
+
+  return "en";
+};
+
 export const LanguageProvider = ({ children }: LanguageProviderProps) => {
   const supportedLanguages = ["fr", "en", "zh"];
   const storedLanguage = localStorage.getItem("language");
   const initialLanguage =
     storedLanguage && supportedLanguages.includes(storedLanguage)
       ? storedLanguage
-      : "fr";
+      : getBrowserLanguage();
   const [selectedLanguage, setSelectedLanguage] = useState(initialLanguage);
 
   useEffect(() => {

@@ -25,21 +25,21 @@ export default function Games() {
       <section className="black-section">
         <TitleSection
           title={
-            traductions[selectedLanguage as "fr" | "en"][
+            traductions[selectedLanguage as "fr" | "en" | "zh"][
               "À propos des jeux vidéos"
             ]
           }
         />
         <p className="introduction-text">
-          {text.videogames[1][selectedLanguage as "fr" | "en"]}
+          {text.videogames[1][selectedLanguage as "fr" | "en" | "zh"]}
         </p>
         <Separation />
         <p className="introduction-text">
-          {text.videogames[2][selectedLanguage as "fr" | "en"]}
+          {text.videogames[2][selectedLanguage as "fr" | "en" | "zh"]}
         </p>
         <TitleSection
           title={
-            traductions[selectedLanguage as "fr" | "en"][
+            traductions[selectedLanguage as "fr" | "en" | "zh"][
               "Mes projets minecraft"
             ]
           }
@@ -49,7 +49,9 @@ export default function Games() {
             <WhiteCard
               key={index}
               image={images[project.image]}
-              details={project.details}
+              details={
+                project.details[selectedLanguage as "fr" | "en" | "zh"]
+              }
               title={project.project}
               content={project.source}
               link={project.links}

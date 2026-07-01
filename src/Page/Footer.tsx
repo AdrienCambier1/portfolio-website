@@ -17,11 +17,13 @@ export default function Footer() {
   const language = {
     fr: "Français (FR)",
     en: "English (UK)",
+    zh: "简体中文 (ZH)",
   };
 
   const cvFiles = {
     fr: "/Adrien Cambier CV Alt.pdf",
     en: "/EN Adrien Cambier CV Alt.pdf",
+    zh: "/EN Adrien Cambier CV Alt.pdf",
   };
 
   return (
@@ -63,40 +65,42 @@ export default function Footer() {
       </div>
       <div className="name-footer">
         <p className="title-footer">
-          {traductions[selectedLanguage as "fr" | "en"]["Ressources"]}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["Ressources"]}
         </p>
         <nav className="nav-links-footer">
           <ul>
             <li>
               <ScrollLink to="/" id="propos">
-                {traductions[selectedLanguage as "fr" | "en"]["Qui suis-je"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Qui suis-je"]}
               </ScrollLink>
             </li>
             <li>
               <ScrollLink to="/" id="skills">
-                {traductions[selectedLanguage as "fr" | "en"]["Compétences"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Compétences"]}
               </ScrollLink>
             </li>
             <li>
               <ScrollLink to="/" id="parcours">
-                {traductions[selectedLanguage as "fr" | "en"]["Parcours"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Parcours"]}
               </ScrollLink>
             </li>
             <li>
               <ScrollLink to="/" id="portfolio">
-                {traductions[selectedLanguage as "fr" | "en"]["Portfolio"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Portfolio"]}
               </ScrollLink>
             </li>
             <li>
               <ScrollLink to="/" id="loisirs">
-                {traductions[selectedLanguage as "fr" | "en"]["Loisirs"]}
+                {traductions[selectedLanguage as "fr" | "en" | "zh"]["Loisirs"]}
               </ScrollLink>
             </li>
           </ul>
         </nav>
       </div>
       <div className="name-footer">
-        <p className="title-footer">Contact</p>
+        <p className="title-footer">
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["Contact"]}
+        </p>
         <nav className="nav-links-footer">
           <ul>
             <li>adriencambier2004@gmail.com</li>
@@ -117,18 +121,23 @@ export default function Footer() {
               isActive={selectedLanguage === "en"}
               onClick={() => handleLanguageSelector("en")}
             />
+            <LanguageSelectorContent
+              content="简体中文 (ZH)"
+              isActive={selectedLanguage === "zh"}
+              onClick={() => handleLanguageSelector("zh")}
+            />
           </ul>
         </div>
         <LanguageSelectorButton
           onClick={() => setLanguageSelector(!languageSelector)}
           image={Planet}
-          content={language[selectedLanguage as "fr" | "en"]}
+          content={language[selectedLanguage as "fr" | "en" | "zh"]}
           rotate="180"
           isActive={languageSelector}
         />
         <p className="crédit">
           {
-            traductions[selectedLanguage as "fr" | "en"][
+            traductions[selectedLanguage as "fr" | "en" | "zh"][
               "©2023 Adrien Cambier, Tous Droits Réservés."
             ]
           }

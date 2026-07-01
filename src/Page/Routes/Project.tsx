@@ -69,12 +69,20 @@ export default function Project() {
       <>
         <Banner image={Gallery} />
         <section className="beige-section">
-          <TitleSection title="404 Non trouvé" />
+          <TitleSection
+            title={
+              traductions[selectedLanguage as "fr" | "en" | "zh"]["404 Non trouvé"]
+            }
+          />
           <p className="introduction-text">
-            Le projet que vous recherchez n'existe pas pour le moment.
+            {
+              traductions[selectedLanguage as "fr" | "en" | "zh"][
+                "Le projet que vous recherchez n'existe pas pour le moment."
+              ]
+            }
           </p>
           <Link className="beige-button" to="/">
-            {traductions[selectedLanguage as "fr" | "en"]["Retour à l'accueil"]}
+            {traductions[selectedLanguage as "fr" | "en" | "zh"]["Retour à l'accueil"]}
           </Link>
         </section>
       </>
@@ -104,7 +112,7 @@ export default function Project() {
             {formatDescription(project.description[selectedLanguage])}
             <br />
             <span>
-              {traductions[selectedLanguage as "fr" | "en"]["Compétences"]} :{" "}
+              {traductions[selectedLanguage as "fr" | "en" | "zh"]["Compétences"]} :{" "}
               {project.skills[selectedLanguage]}
             </span>
           </p>
@@ -124,7 +132,7 @@ export default function Project() {
           </div>
           <TitleSection
             title={
-              traductions[selectedLanguage as "fr" | "en"]["Galerie d'images"]
+              traductions[selectedLanguage as "fr" | "en" | "zh"]["Galerie d'images"]
             }
           />
           {galleryImages &&

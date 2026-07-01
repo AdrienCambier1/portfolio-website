@@ -3,28 +3,44 @@
     {
       "source": "Planet Minecraft",
       "project": "Postal Company - Violet Evergarden",
-      "details": "Architecture Européenne",
+      "details": {
+        "fr": "Architecture Européenne",
+        "en": "European Architecture",
+        "zh": "欧洲建筑"
+      },
       "image": "Poste",
       "links": "https://www.planetminecraft.com/project/violet-evergardeen-ch-postal-company-minecraft/"
     },
     {
       "source": "Planet Minecraft",
       "project": "Palais Longchamp - Marseille, France",
-      "details": "Architecture Française",
+      "details": {
+        "fr": "Architecture Française",
+        "en": "French Architecture",
+        "zh": "法式建筑"
+      },
       "image": "Palais",
       "links": "https://www.planetminecraft.com/project/xenetix-lobby-inspired-from-palais-longchamp-marseille-france/"
     },
     {
       "source": "Planet Minecraft",
       "project": "Temple Thai - Improvisation",
-      "details": "Architecture Thaïlandaise",
+      "details": {
+        "fr": "Architecture Thaïlandaise",
+        "en": "Thai Architecture",
+        "zh": "泰式建筑"
+      },
       "image": "ThaiTemple",
       "links": "https://www.planetminecraft.com/project/xenetix-waiting-spawn-thai-temple/"
     },
     {
       "source": "Planet Minecraft",
       "project": "Roswaal's Mansion - Re Zero",
-      "details": "Architecture Européenne",
+      "details": {
+        "fr": "Architecture Européenne",
+        "en": "European Architecture",
+        "zh": "欧洲建筑"
+      },
       "image": "Château",
       "links": "https://www.planetminecraft.com/project/re-zero-roswaal-mansion-minecraft/"
     }

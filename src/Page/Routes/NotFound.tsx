@@ -12,12 +12,20 @@ export default function NotFound() {
     <>
       <Banner image={Bangkok} />
       <div className="black-section">
-        <TitleSection title="404 Non trouvé" />
+        <TitleSection
+          title={
+            traductions[selectedLanguage as "fr" | "en" | "zh"]["404 Non trouvé"]
+          }
+        />
         <p className="introduction-text">
-          La page que vous recherchez n'existe pas pour le moment.
+          {
+            traductions[selectedLanguage as "fr" | "en" | "zh"][
+              "La page que vous recherchez n'existe pas pour le moment."
+            ]
+          }
         </p>
         <Link className="content-button" to="/">
-          {traductions[selectedLanguage as "fr" | "en"]["Retour à l'accueil"]}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["Retour à l'accueil"]}
         </Link>
       </div>
     </>

@@ -15,27 +15,27 @@ export default function Piano() {
       <section className="black-section">
         <TitleSection
           title={
-            traductions[selectedLanguage as "fr" | "en"]["À propos du piano"]
+            traductions[selectedLanguage as "fr" | "en" | "zh"]["À propos du piano"]
           }
         />
         <p className="introduction-text">
-          {text.piano[1][selectedLanguage as "fr" | "en"]}
+          {text.piano[1][selectedLanguage as "fr" | "en" | "zh"]}
         </p>
         <Separation />
         <p className="introduction-text">
-          {text.piano[2][selectedLanguage as "fr" | "en"]}
+          {text.piano[2][selectedLanguage as "fr" | "en" | "zh"]}
         </p>
         <TitleSection
           title={
-            traductions[selectedLanguage as "fr" | "en"]["Comment j'apprends"]
+            traductions[selectedLanguage as "fr" | "en" | "zh"]["Comment j'apprends"]
           }
         />
         <p className="introduction-text">
-          {text.piano[3][selectedLanguage as "fr" | "en"]}
+          {text.piano[3][selectedLanguage as "fr" | "en" | "zh"]}
         </p>
         <TitleSection
           title={
-            traductions[selectedLanguage as "fr" | "en"][
+            traductions[selectedLanguage as "fr" | "en" | "zh"][
               "Quelques pièces apprises"
             ]
           }
@@ -46,8 +46,8 @@ export default function Piano() {
               key={index}
               image={song.image}
               details={`${
-                traductions[selectedLanguage as "fr" | "en"]["Difficulté"]
-              } | ${song.difficulty[selectedLanguage as "fr" | "en"]}`}
+                traductions[selectedLanguage as "fr" | "en" | "zh"]["Difficulté"]
+              } | ${song.difficulty[selectedLanguage as "fr" | "en" | "zh"]}`}
               title={song.title}
               content={song.artist}
               link={song.links}

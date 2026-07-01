@@ -12,11 +12,18 @@ interface LanguageProviderProps {
 export const LanguageContext = createContext({} as LanguageContextProps);
 
 export const LanguageProvider = ({ children }: LanguageProviderProps) => {
-  const initialLanguage = localStorage.getItem("language") || "fr";
+  const supportedLanguages = ["fr", "en", "zh"];
+  const storedLanguage = localStorage.getItem("language");
+  const initialLanguage =
+    storedLanguage && supportedLanguages.includes(storedLanguage)
+      ? storedLanguage
+      : "fr";
   const [selectedLanguage, setSelectedLanguage] = useState(initialLanguage);
 
   useEffect(() => {
     localStorage.setItem("language", selectedLanguage);
+    document.documentElement.lang =
+      selectedLanguage === "zh" ? "zh-CN" : selectedLanguage;
   }, [selectedLanguage]);
 
   return (

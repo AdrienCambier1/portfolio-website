@@ -14,6 +14,7 @@ export default function Banner({ image }: BannerProps) {
   const cvFiles = {
     fr: "/Adrien Cambier CV Alt.pdf",
     en: "/EN Adrien Cambier CV Alt.pdf",
+    zh: "/EN Adrien Cambier CV Alt.pdf",
   };
 
   return (
@@ -22,7 +23,7 @@ export default function Banner({ image }: BannerProps) {
       <div className="header-content">
         <p className="description-text">
           {
-            traductions[selectedLanguage as "fr" | "en"][
+            traductions[selectedLanguage as "fr" | "en" | "zh"][
               "Développeur Fullstack | Data & IA (En cours de formation)"
             ]
           }

@@ -37,11 +37,11 @@ export default function BlackCard({
           target="_blank"
           rel="noopener noreferrer"
         >
-          {traductions[selectedLanguage as "fr" | "en"]["EN SAVOIR PLUS"]}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["EN SAVOIR PLUS"]}
         </a>
       ) : (
         <Link className="content-button" to={link}>
-          {traductions[selectedLanguage as "fr" | "en"]["EN SAVOIR PLUS"]}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["EN SAVOIR PLUS"]}
         </Link>
       )}
     </div>

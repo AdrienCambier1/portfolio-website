@@ -5,19 +5,23 @@
         "id": "2023-1",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Html - Css",
-          "en": "Html - Css"
+          "en": "Html - Css",
+          "zh": "Html - Css"
         },
         "title": {
           "fr": "Création d'une page frontend",
-          "en": "Creation of a frontend Page"
+          "en": "Creation of a frontend Page",
+          "zh": "创建前端页面"
         },
         "description": {
           "fr": "J'ai créé un site web sur mes passions avec mon binôme afin d'apprendre le développement web.",
-          "en": "I created a website about my passions with my partner to learn web development."
+          "en": "I created a website about my passions with my partner to learn web development.",
+          "zh": "我与搭档共同制作了一个介绍个人爱好的网站，以学习网页开发。"
         },
         "class": "info"
       },
@@ -25,19 +29,23 @@
         "id": "2023-2",
         "category": {
           "fr": "Réseaux",
-          "en": "Net"
+          "en": "Net",
+          "zh": "网络"
         },
         "technologies": {
           "fr": "Packet Tracer",
-          "en": "Packet Tracer"
+          "en": "Packet Tracer",
+          "zh": "Packet Tracer"
         },
         "title": {
           "fr": "Simulation d'un réseau Lan",
-          "en": "LAN network simulation"
+          "en": "LAN network simulation",
+          "zh": "局域网模拟"
         },
         "description": {
           "fr": "J'ai conçu un petit réseau local interconnecté pour une entreprise.",
-          "en": "I designed a small interconnected local network for a company."
+          "en": "I designed a small interconnected local network for a company.",
+          "zh": "我为一家企业设计了一个小型互联局域网。"
         },
         "class": "network"
       },
@@ -45,19 +53,23 @@
         "id": "2023-3",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Python - Web",
-          "en": "Python - Web"
+          "en": "Python - Web",
+          "zh": "Python - Web"
         },
         "title": {
           "fr": "Projet Sniffer Ethernet avec Thales",
-          "en": "Ethernet Sniffer Project with Thales"
+          "en": "Ethernet Sniffer Project with Thales",
+          "zh": "与 Thales 合作的以太网嗅探器项目"
         },
         "description": {
           "fr": "J'ai réalisé un extracteur de trames ainsi qu'une page Web.",
-          "en": "I created a frame extractor and a web page."
+          "en": "I created a frame extractor and a web page.",
+          "zh": "我开发了一个网络帧提取器及其配套网页。"
         },
         "class": "info"
       },
@@ -65,19 +77,23 @@
         "id": "2023-4",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Html - Css - Javascript",
-          "en": "Html - Css - Javascript"
+          "en": "Html - Css - Javascript",
+          "zh": "Html - Css - Javascript"
         },
         "title": {
           "fr": "Réalisation d'un Portfolio",
-          "en": "Creation of a Portfolio"
+          "en": "Creation of a Portfolio",
+          "zh": "制作个人作品集"
         },
         "description": {
           "fr": "J'ai créé un site web permettant d'afficher mes compétences en ligne.",
-          "en": "I created a website to display my skills online."
+          "en": "I created a website to display my skills online.",
+          "zh": "我创建了一个在线展示个人技能的网站。"
         },
         "class": "info"
       }
@@ -87,19 +103,23 @@
         "id": "2024-1",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Html - Css - Javascript",
-          "en": "Html - Css - Javascript"
+          "en": "Html - Css - Javascript",
+          "zh": "Html - Css - Javascript"
         },
         "title": {
           "fr": "Conception d'un site restaurant",
-          "en": "Restaurant website design"
+          "en": "Restaurant website design",
+          "zh": "餐厅网站设计"
         },
         "description": {
           "fr": "J'ai créé un prototype de site web pour un restaurant dans le but de m'entraîner.",
-          "en": "I created a website prototype for a restaurant to practice."
+          "en": "I created a website prototype for a restaurant to practice.",
+          "zh": "我制作了一个餐厅网站原型，用于练习网页开发。"
         },
         "class": "info"
       },
@@ -107,19 +127,23 @@
         "id": "2024-2",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Android Studio - Xml - Java",
-          "en": "Android Studio - Xml - Java"
+          "en": "Android Studio - Xml - Java",
+          "zh": "Android Studio - Xml - Java"
         },
         "title": {
           "fr": "Création d'une application android",
-          "en": "Android application development"
+          "en": "Android application development",
+          "zh": "开发 Android 应用"
         },
         "description": {
           "fr": "J'ai créé une application android permettant d'afficher des trames et d'interagir avec.",
-          "en": "I created an Android app that displays frames and allows interaction."
+          "en": "I created an Android app that displays frames and allows interaction.",
+          "zh": "我开发了一款能够显示网络帧并与之交互的 Android 应用。"
         },
         "class": "info"
       },
@@ -127,19 +151,23 @@
         "id": "2024-3",
         "category": {
           "fr": "Cyber",
-          "en": "Cyber"
+          "en": "Cyber",
+          "zh": "网络安全"
         },
         "technologies": {
           "fr": "Linux - Réseau - Docker",
-          "en": "Linux - Network - Docker"
+          "en": "Linux - Network - Docker",
+          "zh": "Linux - Network - Docker"
         },
         "title": {
           "fr": "Réaliser un test d'intrusion",
-          "en": "Perform a penetration test"
+          "en": "Perform a penetration test",
+          "zh": "执行渗透测试"
         },
         "description": {
           "fr": "J'ai créé un réseau virtuel avec docker et effectué une cyberattaque dessus.",
-          "en": "I created a virtual network with Docker and carried out a cyberattack on it."
+          "en": "I created a virtual network with Docker and carried out a cyberattack on it.",
+          "zh": "我使用 Docker 搭建了一个虚拟网络，并在其中进行网络攻击测试。"
         },
         "class": "cyber"
       },
@@ -147,19 +175,23 @@
         "id": "2024-4",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Joomla - Php - Css",
-          "en": "Joomla - Php - Css"
+          "en": "Joomla - Php - Css",
+          "zh": "Joomla - Php - Css"
         },
         "title": {
           "fr": "Migration d'un site web intranet",
-          "en": "Migration of an intranet website"
+          "en": "Migration of an intranet website",
+          "zh": "迁移内部网站"
         },
         "description": {
           "fr": "J'ai effectué une refonte du site web intranet de la mairie de Mouans-Sartoux.",
-          "en": "I performed a redesign of the Mouans-Sartoux municipality's intranet website."
+          "en": "I performed a redesign of the Mouans-Sartoux municipality's intranet website.",
+          "zh": "我重新设计了穆昂-萨尔图市政府的内部网站。"
         },
         "class": "info"
       },
@@ -167,19 +199,23 @@
         "id": "2024-5",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Html - Css - Javascript - Python",
-          "en": "Html - Css - Javascript - Python"
+          "en": "Html - Css - Javascript - Python",
+          "zh": "Html - Css - Javascript - Python"
         },
         "title": {
           "fr": "Création d'un assistant alimenté avec l'IA",
-          "en": "Creation of an AI-powered assistant"
+          "en": "Creation of an AI-powered assistant",
+          "zh": "开发人工智能助手"
         },
         "description": {
           "fr": "J'ai développé un assistant doté d'une intelligence pour aider les employés dans leurs tâches.",
-          "en": "I developed an AI-powered assistant to help employees with their tasks."
+          "en": "I developed an AI-powered assistant to help employees with their tasks.",
+          "zh": "我开发了一款人工智能助手，帮助员工完成日常任务。"
         },
         "class": "info"
       },
@@ -187,19 +223,23 @@
         "id": "2024-6",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Wordpress - Css",
-          "en": "Wordpress - Css"
+          "en": "Wordpress - Css",
+          "zh": "Wordpress - Css"
         },
         "title": {
           "fr": "Réalisation d'une charte graphique",
-          "en": "Creation of a graphic charter"
+          "en": "Creation of a graphic charter",
+          "zh": "设计视觉规范"
         },
         "description": {
           "fr": "J'ai créé un nouveau style pour le site web de la mairie de Mouans-Sartoux.",
-          "en": "I created a new style for the Mouans-Sartoux municipality's website."
+          "en": "I created a new style for the Mouans-Sartoux municipality's website.",
+          "zh": "我为穆昂-萨尔图市政府网站设计了新的视觉风格。"
         },
         "class": "info"
       }
@@ -209,19 +249,23 @@
         "id": "2025-1",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "React - Javascript - Tailwindcss",
-          "en": "React - Javascript - Tailwindcss"
+          "en": "React - Javascript - Tailwindcss",
+          "zh": "React - Javascript - Tailwindcss"
         },
         "title": {
           "fr": "Développement d'un pokedex en ligne",
-          "en": "Development of an online pokedex"
+          "en": "Development of an online pokedex",
+          "zh": "开发在线宝可梦图鉴"
         },
         "description": {
           "fr": "J'ai créé un site web permettant de consulter les informations sur les pokemons.",
-          "en": "I've created a website where you can consult information about pokemons."
+          "en": "I've created a website where you can consult information about pokemons.",
+          "zh": "我创建了一个可以查询宝可梦信息的网站。"
         },
         "class": "info"
       },
@@ -229,19 +273,23 @@
         "id": "2025-2",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Angular - Typescript - Tailwindcss - Design",
-          "en": "Angular - Typescript - Tailwindcss - Design"
+          "en": "Angular - Typescript - Tailwindcss - Design",
+          "zh": "Angular - Typescript - Tailwindcss - Design"
         },
         "title": {
           "fr": "Développement d'un site de cartes Harry Potter",
-          "en": "Development of a Harry Potter cards site"
+          "en": "Development of a Harry Potter cards site",
+          "zh": "开发哈利·波特卡牌网站"
         },
         "description": {
           "fr": "J'ai créé un site web de cartes permettant d'afficher les personnages de Harry Potter.",
-          "en": "I've created a website of cards displaying Harry Potter characters."
+          "en": "I've created a website of cards displaying Harry Potter characters.",
+          "zh": "我创建了一个展示哈利·波特角色卡牌的网站。"
         },
         "class": "info"
       },
@@ -249,19 +297,23 @@
         "id": "2025-3",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Angular - Typescript - Tailwindcss - Design",
-          "en": "Angular - Typescript - Tailwindcss - Design"
+          "en": "Angular - Typescript - Tailwindcss - Design",
+          "zh": "Angular - Typescript - Tailwindcss - Design"
         },
         "title": {
           "fr": "Développement d'un site d'albums de musique",
-          "en": "Development of a music album website"
+          "en": "Development of a music album website",
+          "zh": "开发音乐专辑网站"
         },
         "description": {
           "fr": "J'ai créé un site web d'albums de musique avec un système de favoris et de panier d'achat.",
-          "en": "I've created a music album website with a favourites and shopping cart system."
+          "en": "I've created a music album website with a favourites and shopping cart system.",
+          "zh": "我开发了一个音乐专辑网站，并加入收藏夹和购物车功能。"
         },
         "class": "info"
       },
@@ -269,19 +321,23 @@
         "id": "2025-4",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "React - Tailwindcss - Design - Express.js - PostgreSQL",
-          "en": "React - Tailwindcss - Design - Express.js - PostgreSQL"
+          "en": "React - Tailwindcss - Design - Express.js - PostgreSQL",
+          "zh": "React - Tailwindcss - Design - Express.js - PostgreSQL"
         },
         "title": {
           "fr": "Plateforme de blog sur la cybersécurité",
-          "en": "Cybersecurity blog platform"
+          "en": "Cybersecurity blog platform",
+          "zh": "网络安全博客平台"
         },
         "description": {
           "fr": "J'ai codé un site web de blog sur la cybersécurité avec un système de compte utilisateur.",
-          "en": "I've coded a cybersecurity blog website with a user account system."
+          "en": "I've coded a cybersecurity blog website with a user account system.",
+          "zh": "我开发了一个带有用户账户系统的网络安全博客平台。"
         },
         "class": "info"
       },
@@ -289,19 +345,23 @@
         "id": "2025-5",
         "category": {
           "fr": "Info",
-          "en": "IT"
+          "en": "IT",
+          "zh": "信息技术"
         },
         "technologies": {
           "fr": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL",
-          "en": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL"
+          "en": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL",
+          "zh": "Next.js - Tailwindcss - Design - Spring Boot - PostgreSQL"
         },
         "title": {
           "fr": "Site web événementiel Veevent",
-          "en": "Event website Veevent"
+          "en": "Event website Veevent",
+          "zh": "Veevent 活动平台"
         },
         "description": {
           "fr": "J'ai codé un site web de plateforme événementielle avec gestion des utilisateurs et des événements.",
-          "en": "I've coded an event platform website with user and event management."
+          "en": "I've coded an event platform website with user and event management.",
+          "zh": "我开发了一个用于管理用户和活动的在线活动平台。"
         },
         "class": "info"
       }

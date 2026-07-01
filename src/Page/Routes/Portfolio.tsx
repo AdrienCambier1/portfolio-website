@@ -38,41 +38,49 @@ export default function Porfolio() {
   const [search, setSearch] = useState<string>("all");
   const { selectedLanguage } = useContext(LanguageContext);
 
-  const yearOptions: Record<string, { fr: string; en: string }> = {
+  const yearOptions: Record<string, { fr: string; en: string; zh: string }> = {
     2025: {
       fr: "2025",
       en: "2025",
+      zh: "2025",
     },
     2024: {
       fr: "2024",
       en: "2024",
+      zh: "2024",
     },
     2023: {
       fr: "2023",
       en: "2023",
+      zh: "2023",
     },
     all: {
       fr: "Tout",
       en: "All",
+      zh: "全部",
     },
   };
 
-  const searchOptions: Record<string, { fr: string; en: string }> = {
+  const searchOptions: Record<string, { fr: string; en: string; zh: string }> = {
     info: {
       fr: "Informatique",
       en: "Computer Science",
+      zh: "计算机科学",
     },
     network: {
       fr: "Réseaux",
       en: "Networks",
+      zh: "网络",
     },
     cyber: {
       fr: "Cybersécurité",
       en: "Cybersecurity",
+      zh: "网络安全",
     },
     all: {
       fr: "Tout",
       en: "All",
+      zh: "全部",
     },
   };
 
@@ -103,17 +111,17 @@ export default function Porfolio() {
       <Banner image={Bangkok} />
       <section className="black-section">
         <TitleSection
-          title={traductions[selectedLanguage as "fr" | "en"]["Mes projets"]}
+          title={traductions[selectedLanguage as "fr" | "en" | "zh"]["Mes projets"]}
         />
         <p className="introduction-text">
-          {text.portfolio[2][selectedLanguage as "fr" | "en"]}
+          {text.portfolio[2][selectedLanguage as "fr" | "en" | "zh"]}
         </p>
         <Separation />
         <div className="project-selection">
           <div className="project-content underline year">
             <ProjectSelectorButton
               image={Calendar}
-              content={yearOptions[year][selectedLanguage as "fr" | "en"]}
+              content={yearOptions[year][selectedLanguage as "fr" | "en" | "zh"]}
               isActive={yearSelector}
               onClick={() => handleYearSelector()}
             />
@@ -122,7 +130,7 @@ export default function Porfolio() {
                 {Object.entries(yearOptions).map(([option, value]) => (
                   <LanguageSelectorContent
                     key={option}
-                    content={value[selectedLanguage as "fr" | "en"]}
+                    content={value[selectedLanguage as "fr" | "en" | "zh"]}
                     onClick={() => handleYear(option)}
                     isActive={year === option}
                   />
@@ -133,7 +141,7 @@ export default function Porfolio() {
           <div className="project-content underline theme">
             <ProjectSelectorButton
               image={Search}
-              content={searchOptions[search][selectedLanguage as "fr" | "en"]}
+              content={searchOptions[search][selectedLanguage as "fr" | "en" | "zh"]}
               isActive={searchSelector}
               onClick={() => handleSearchSelector()}
             />
@@ -142,7 +150,7 @@ export default function Porfolio() {
                 {Object.entries(searchOptions).map(([option, value]) => (
                   <LanguageSelectorContent
                     key={option}
-                    content={value[selectedLanguage as "fr" | "en"]}
+                    content={value[selectedLanguage as "fr" | "en" | "zh"]}
                     onClick={() => handleSearch(option)}
                     isActive={search === option}
                   />

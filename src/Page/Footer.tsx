@@ -25,6 +25,7 @@ export default function Footer() {
     en: "/EN Adrien Cambier CV Alt.pdf",
     zh: "/EN Adrien Cambier CV Alt.pdf",
   };
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer>
@@ -136,11 +137,8 @@ export default function Footer() {
           isActive={languageSelector}
         />
         <p className="crédit">
-          {
-            traductions[selectedLanguage as "fr" | "en" | "zh"][
-              "footer.copyright"
-            ]
-          }
+          ©{currentYear} Adrien Cambier,{" "}
+          {traductions[selectedLanguage as "fr" | "en" | "zh"]["footer.rights"]}
         </p>
       </div>
     </footer>

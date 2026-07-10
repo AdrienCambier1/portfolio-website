@@ -3,7 +3,6 @@ import {
   TitleSection,
   Separation,
   CountryCard,
-  Image,
 } from "../../Components";
 import { TravelBg } from "../../Images";
 import {
@@ -90,17 +89,21 @@ export default function Travel() {
             if (index % 2 === 0) {
               return (
                 <div className="grid space-between" key={index}>
-                  <Image
+                  <img
                     src={img}
                     alt={`Travel ${index + 1}`}
                     className="grid-img galerie-pic"
+                    loading="lazy"
+                    decoding="async"
                   />
 
                   {images[index + 1] && (
-                    <Image
+                    <img
                       src={images[index + 1]}
                       alt={`Travel ${index + 2}`}
                       className="grid-img galerie-pic"
+                      loading="lazy"
+                      decoding="async"
                     />
                   )}
                 </div>

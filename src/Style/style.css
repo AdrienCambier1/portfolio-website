@@ -2,10 +2,12 @@
 @font-face {
   font-family: Cardo;
   src: url("./font/CrimsonText-Regular.ttf") format("opentype");
+  font-display: swap;
 }
 @font-face {
   font-family: Montserrat;
   src: url("./font/Montserrat-VariableFont_wght.ttf") format("opentype");
+  font-display: swap;
 }
 body,
 html {

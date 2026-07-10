@@ -1,23 +1,8 @@
-import { Banner, TitleSection, Image } from "../../Components";
+import { Banner, TitleSection } from "../../Components";
 import { Gallery } from "../../Images";
 import { Link, useParams } from "react-router-dom";
 import portfolioProjects from "../../Data/portfolioProjects.json";
-import * as AndroidImages from "../../Images/Android";
-import * as ChatgptImages from "../../Images/Chatgpt";
-import * as ExtranetImages from "../../Images/Extranet";
-import * as NetworkImages from "../../Images/Network";
-import * as PentestImages from "../../Images/Pentest";
-import * as PortfolioImages from "../../Images/Portfolio";
-import * as RestaurantImages from "../../Images/Restaurant";
-import * as SnifferImages from "../../Images/Sniffer";
-import * as WebsiteImages from "../../Images/Website";
-import * as IntranetImages from "../../Images/Intranet";
-import * as PokemonImages from "../../Images/Pokemon";
-import * as HarryPotterImages from "../../Images/HarryPotter";
-import * as MusicImages from "../../Images/Music";
-import * as NetsafeImages from "../../Images/Netsafe";
-import * as EventImages from "../../Images/Event";
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { LanguageContext } from "../../Contexts";
 import traductions from "../../Data/traductions.json";
 
@@ -42,29 +27,106 @@ interface PortfolioProjects {
   projects: Record<string, ProjectData>;
 }
 
+type GalleryModule = Record<string, string>;
+
+const galleryLoaders: Record<string, () => Promise<GalleryModule>> = {
+  AndroidImages: () =>
+    import("../../Images/Android").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  ChatgptImages: () =>
+    import("../../Images/Chatgpt").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  ExtranetImages: () =>
+    import("../../Images/Extranet").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  NetworkImages: () =>
+    import("../../Images/Network").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  PentestImages: () =>
+    import("../../Images/Pentest").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  IntranetImages: () =>
+    import("../../Images/Intranet").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  PortfolioImages: () =>
+    import("../../Images/Portfolio").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  RestaurantImages: () =>
+    import("../../Images/Restaurant").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  SnifferImages: () =>
+    import("../../Images/Sniffer").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  WebsiteImages: () =>
+    import("../../Images/Website").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  PokemonImages: () =>
+    import("../../Images/Pokemon").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  HarryPotterImages: () =>
+    import("../../Images/HarryPotter").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  MusicImages: () =>
+    import("../../Images/Music").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  NetsafeImages: () =>
+    import("../../Images/Netsafe").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+  EventImages: () =>
+    import("../../Images/Event").then(
+      (module) => module as unknown as GalleryModule,
+    ),
+};
+
 export default function Project() {
   const { selectedLanguage } = useContext(LanguageContext);
   const { projectId } = useParams<{ projectId: string }>();
+  const projects: PortfolioProjects = portfolioProjects;
+  const project = projectId ? projects.projects[projectId] : undefined;
+  const [galleryImages, setGalleryImages] = useState<GalleryModule>({});
 
-  const images: Record<string, any> = {
-    AndroidImages,
-    ChatgptImages,
-    ExtranetImages,
-    NetworkImages,
-    PentestImages,
-    IntranetImages,
-    PortfolioImages,
-    RestaurantImages,
-    SnifferImages,
-    WebsiteImages,
-    PokemonImages,
-    HarryPotterImages,
-    MusicImages,
-    NetsafeImages,
-    EventImages,
-  };
+  useEffect(() => {
+    if (!project) {
+      setGalleryImages({});
+      return;
+    }
 
-  if (!projectId || !(projectId in portfolioProjects.projects)) {
+    const loadGallery = galleryLoaders[project.gallery];
+
+    if (!loadGallery) {
+      setGalleryImages({});
+      return;
+    }
+
+    let isMounted = true;
+    setGalleryImages({});
+
+    loadGallery().then((loadedImages) => {
+      if (isMounted) {
+        setGalleryImages(loadedImages);
+      }
+    });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [project]);
+
+  if (!project) {
     return (
       <>
         <Banner image={Gallery} />
@@ -88,10 +150,6 @@ export default function Project() {
       </>
     );
   }
-
-  const projects: PortfolioProjects = portfolioProjects;
-  const project = projects.projects[projectId];
-  const galleryImages = images[project.gallery as keyof typeof images];
 
   const formatDescription = (text: string) => {
     return text.split("\n").map((line, index) => (
@@ -143,11 +201,13 @@ export default function Project() {
                 return numA - numB;
               })
               .map((imageKey, index) => (
-                <Image
+                <img
                   key={index}
                   src={galleryImages[imageKey]}
                   alt={`Project ${index + 1}`}
                   className="portfolio-img"
+                  loading="lazy"
+                  decoding="async"
                 />
               ))}
         </div>

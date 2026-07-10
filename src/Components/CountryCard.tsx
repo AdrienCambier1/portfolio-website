@@ -1,5 +1,3 @@
-import { Image } from "./";
-
 interface CountryCardProps {
   image: any;
   title: string;
@@ -13,7 +11,13 @@ export default function CountryCard({
 }: CountryCardProps) {
   return (
     <div className="explanation">
-      <Image src={image} alt={title} className="explanation-img" />
+      <img
+        src={image}
+        alt={title}
+        className="explanation-img"
+        loading="lazy"
+        decoding="async"
+      />
       <div className="explanation-text">
         <p className="title-country">{title}</p>
         <div className="line-country" />

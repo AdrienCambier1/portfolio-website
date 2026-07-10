@@ -39,28 +39,43 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="social-media" src={Cv} alt="CV" />
+            <img className="social-media" src={Cv} alt="CV" decoding="async" />
           </a>
           <a
             href="https://github.com/AdrienCambier1/"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="social-media" src={Github} alt="GitHub" />
+            <img
+              className="social-media"
+              src={Github}
+              alt="GitHub"
+              decoding="async"
+            />
           </a>
           <a
             href="https://www.instagram.com/adri1.cr/"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="social-media" src={Instagram} alt="Instagram" />
+            <img
+              className="social-media"
+              src={Instagram}
+              alt="Instagram"
+              decoding="async"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/adrien-cambier-0820b127b/"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="social-media" src={Linkedin} alt="LinkedIn" />
+            <img
+              className="social-media"
+              src={Linkedin}
+              alt="LinkedIn"
+              decoding="async"
+            />
           </a>
         </nav>
       </div>

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import traductions from "../Data/traductions.json";
 import { useContext } from "react";
 import { LanguageContext } from "../Contexts";
-import { Image } from "./";
 
 interface BlackCardProps {
   image: any;
@@ -25,7 +24,13 @@ export default function BlackCard({
 
   return (
     <div className="content">
-      <Image src={image} alt={title} className="content-img" />
+      <img
+        src={image}
+        alt={title}
+        className="content-img"
+        loading="lazy"
+        decoding="async"
+      />
       <div className="text-area">
         <p className="content-date">{details}</p>
         <p className="content-title">{title}</p>

@@ -1,7 +1,6 @@
 import { Instagram, Linkedin, Cv, Github } from "../Images/Icons";
 import { LanguageContext } from "../Contexts";
 import { useContext } from "react";
-import { Image } from "./";
 import traductions from "../Data/traductions.json";
 
 interface BannerProps {
@@ -19,7 +18,14 @@ export default function Banner({ image }: BannerProps) {
 
   return (
     <div className="header-container" id="top">
-      <Image src={image} alt="Banner" className="header-img" />
+      <img
+        src={image}
+        alt="Banner"
+        className="header-img"
+        loading="eager"
+        decoding="async"
+        fetchPriority="high"
+      />
       <div className="header-content">
         <p className="description-text">
           {
@@ -37,28 +43,43 @@ export default function Banner({ image }: BannerProps) {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="social-media" src={Cv} alt="CV" />
+            <img className="social-media" src={Cv} alt="CV" decoding="async" />
           </a>
           <a
             href="https://github.com/AdrienCambier1/"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="social-media" src={Github} alt="GitHub" />
+            <img
+              className="social-media"
+              src={Github}
+              alt="GitHub"
+              decoding="async"
+            />
           </a>
           <a
             href="https://www.instagram.com/adri1.cr/"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="social-media" src={Instagram} alt="Instagram" />
+            <img
+              className="social-media"
+              src={Instagram}
+              alt="Instagram"
+              decoding="async"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/adrien-cambier-0820b127b/"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="social-media" src={Linkedin} alt="LinkedIn" />
+            <img
+              className="social-media"
+              src={Linkedin}
+              alt="LinkedIn"
+              decoding="async"
+            />
           </a>
         </nav>
       </div>

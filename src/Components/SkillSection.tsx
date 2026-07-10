@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Image } from "./";
 
 interface SkillSectionProps {
   image: any;
@@ -16,7 +15,13 @@ export default function SkillSection({
 }: SkillSectionProps) {
   return (
     <div className="skills">
-      <Image src={image} alt={title} className="skills-img" />
+      <img
+        src={image}
+        alt={title}
+        className="skills-img"
+        loading="lazy"
+        decoding="async"
+      />
       <Link id="codage" to={link}>
         <p className="skills-title">{title}</p>
         <p className="skills-text">{content}</p>

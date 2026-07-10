@@ -9,4 +9,3 @@ export { default as LanguageSelectorContent } from "./LanguageSelectorContent";
 export { default as ProjectSelectorButton } from "./ProjectSelectorButton";
 export { default as CountryCard } from "./CountryCard";
 export { default as PortfolioCard } from "./PortfolioCard";
-export { default as Image } from "./Image";

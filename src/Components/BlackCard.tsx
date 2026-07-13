@@ -28,8 +28,6 @@ export default function BlackCard({
         src={image}
         alt={title}
         className="content-img"
-        loading="lazy"
-        decoding="async"
       />
       <div className="text-area">
         <p className="content-date">{details}</p>

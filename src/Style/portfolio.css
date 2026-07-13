@@ -21,7 +21,7 @@
   object-fit: cover;
   object-position: center;
   box-shadow: 0 0 1rem rgba(1, 1, 1, 0.2);
-  transition: box-shadow 0.25s ease-in-out, opacity 0.3s !important;
+  transition: box-shadow 0.25s ease-in-out;
   margin: 2rem 0 0 0;
 }
 .portfolio-img:hover {

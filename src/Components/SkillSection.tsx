@@ -19,8 +19,6 @@ export default function SkillSection({
         src={image}
         alt={title}
         className="skills-img"
-        loading="lazy"
-        decoding="async"
       />
       <Link id="codage" to={link}>
         <p className="skills-title">{title}</p>

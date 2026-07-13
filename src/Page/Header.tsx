@@ -36,7 +36,6 @@ export default function Header() {
               src={Close}
               onClick={() => setMenu(!menu)}
               alt="Close menu"
-              decoding="async"
             />
           </div>
           <ul>
@@ -115,7 +114,6 @@ export default function Header() {
           src={Hamburger}
           onClick={() => setMenu(!menu)}
           alt="Menu"
-          decoding="async"
         />
       </div>
     </header>

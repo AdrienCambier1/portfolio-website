@@ -22,8 +22,6 @@ export default function Banner({ image }: BannerProps) {
         src={image}
         alt="Banner"
         className="header-img"
-        loading="eager"
-        decoding="async"
         fetchPriority="high"
       />
       <div className="header-content">
@@ -43,7 +41,7 @@ export default function Banner({ image }: BannerProps) {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="social-media" src={Cv} alt="CV" decoding="async" />
+            <img className="social-media" src={Cv} alt="CV" />
           </a>
           <a
             href="https://github.com/AdrienCambier1/"
@@ -54,7 +52,6 @@ export default function Banner({ image }: BannerProps) {
               className="social-media"
               src={Github}
               alt="GitHub"
-              decoding="async"
             />
           </a>
           <a
@@ -66,7 +63,6 @@ export default function Banner({ image }: BannerProps) {
               className="social-media"
               src={Instagram}
               alt="Instagram"
-              decoding="async"
             />
           </a>
           <a
@@ -78,7 +74,6 @@ export default function Banner({ image }: BannerProps) {
               className="social-media"
               src={Linkedin}
               alt="LinkedIn"
-              decoding="async"
             />
           </a>
         </nav>

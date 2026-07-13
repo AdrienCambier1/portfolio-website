@@ -15,8 +15,6 @@ export default function CountryCard({
         src={image}
         alt={title}
         className="explanation-img"
-        loading="lazy"
-        decoding="async"
       />
       <div className="explanation-text">
         <p className="title-country">{title}</p>

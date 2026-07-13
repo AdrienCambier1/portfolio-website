@@ -93,8 +93,6 @@ export default function Travel() {
                     src={img}
                     alt={`Travel ${index + 1}`}
                     className="grid-img galerie-pic"
-                    loading="lazy"
-                    decoding="async"
                   />
 
                   {images[index + 1] && (
@@ -102,8 +100,6 @@ export default function Travel() {
                       src={images[index + 1]}
                       alt={`Travel ${index + 2}`}
                       className="grid-img galerie-pic"
-                      loading="lazy"
-                      decoding="async"
                     />
                   )}
                 </div>

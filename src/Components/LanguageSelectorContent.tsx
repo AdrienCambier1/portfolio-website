@@ -17,7 +17,6 @@ export default function LanguageSelectorContent({
         className={`language-logo ${!isActive && "invisible"}`}
         src={Verify}
         alt="Selected icon"
-        decoding="async"
       />
       {content}
     </li>

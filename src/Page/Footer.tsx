@@ -39,7 +39,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="social-media" src={Cv} alt="CV" decoding="async" />
+            <img className="social-media" src={Cv} alt="CV" />
           </a>
           <a
             href="https://github.com/AdrienCambier1/"
@@ -50,7 +50,6 @@ export default function Footer() {
               className="social-media"
               src={Github}
               alt="GitHub"
-              decoding="async"
             />
           </a>
           <a
@@ -62,7 +61,6 @@ export default function Footer() {
               className="social-media"
               src={Instagram}
               alt="Instagram"
-              decoding="async"
             />
           </a>
           <a
@@ -74,7 +72,6 @@ export default function Footer() {
               className="social-media"
               src={Linkedin}
               alt="LinkedIn"
-              decoding="async"
             />
           </a>
         </nav>

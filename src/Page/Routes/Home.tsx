@@ -221,8 +221,6 @@ export default function Home() {
           src={Contact}
           alt="Contact background"
           className="contact-background"
-          loading="lazy"
-          decoding="async"
         />
         <TitleSection
           title={traductions[selectedLanguage as "fr" | "en" | "zh"]["sections.contact.title"]}

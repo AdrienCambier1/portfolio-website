@@ -20,14 +20,12 @@ export default function LanguageSelectorButton({
         className="language-logo"
         src={image}
         alt="Language icon"
-        decoding="async"
       />
       <p className="language-text">{content}</p>
       <img
         className={`language-logo rotate90deg ${isActive && "rotate180deg"}`}
         src={Downward}
         alt="Dropdown icon"
-        decoding="async"
       />
     </div>
   );

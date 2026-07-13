@@ -206,8 +206,6 @@ export default function Project() {
                   src={galleryImages[imageKey]}
                   alt={`Project ${index + 1}`}
                   className="portfolio-img"
-                  loading="lazy"
-                  decoding="async"
                 />
               ))}
         </div>

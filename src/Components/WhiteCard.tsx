@@ -28,8 +28,6 @@ export default function WhiteCard({
         src={image}
         alt={title}
         className="grid-img"
-        loading="lazy"
-        decoding="async"
       />
       <div className="textarea">
         <div>
